@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TFC_Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{74ACDB0C-9719-456B-83A7-7829C50F2784}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TFC_Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TFC_ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D486AF90-3610-468F-8E71-6956162082B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TFC_Project">
+      <UniqueIdentifier>{2E33AA8E-615C-42A9-BFDB-732D7B4A416E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TFC_Project\TFC_Project.Build.cs">
+      <Filter>Source\TFC_Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TFC_Project\TFC_Project.cpp">
+      <Filter>Source\TFC_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TFC_Project\TFC_Project.h">
+      <Filter>Source\TFC_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TFC_Project\TFC_ProjectGameModeBase.cpp">
+      <Filter>Source\TFC_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TFC_Project\TFC_ProjectGameModeBase.h">
+      <Filter>Source\TFC_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
