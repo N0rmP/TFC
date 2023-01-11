@@ -644,3 +644,38 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.01.11-02.31.33:057][  1]LogAssetRegistry: Asset discovery search completed in 5.1517 seconds
 [2023.01.11-02.31.33:060][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
 [2023.01.11-02.31.58:211][ 99]LogSlate: Took 0.000479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.11-02.49.06:425][710]LogSlate: Took 0.001288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.11-02.49.21:090][710]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.11-02.49.30:326][490]LogSlate: Window 'Save Level As' being destroyed
+[2023.01.11-02.49.40:791][366]LogSlate: Window 'Save Level As' being destroyed
+[2023.01.11-02.49.40:845][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.01.11-02.49.40:858][366]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/NewMap18F624B14C11BFC2C4F8E2ACC7E3BFA0.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/NewMap.umap'
+[2023.01.11-02.49.40:870][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Map/NewMap_BuiltData" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/NewMap_BuiltData.uasset" SILENT=true
+[2023.01.11-02.49.40:881][366]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/NewMap_BuiltData6E14E8B440297313C72E7D959B00C56B.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/NewMap_BuiltData.uasset'
+[2023.01.11-02.49.40:893][366]LogFileHelpers: Saving map 'NewMap' took 0.097
+[2023.01.11-02.49.40:903][366]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-02.49.40:904][366]LogContentValidation: Display: Validating World /Game/resouerce/Map/NewMap.NewMap
+[2023.01.11-02.49.40:904][366]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/resouerce/Map/NewMap_BuiltData.NewMap_BuiltData
+[2023.01.11-02.50.33:585][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Map/testing_BuiltData" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing_BuiltData.uasset" SILENT=true
+[2023.01.11-02.50.33:593][870]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/testing_BuiltDataB3A5EED242257A4C65B4809B1A85291B.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing_BuiltData.uasset'
+[2023.01.11-02.50.33:623][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.11-02.50.33:640][870]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/testing50C4C2394EF39F46D85DB3B26320A29A.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing.umap'
+[2023.01.11-02.50.33:651][870]LogFileHelpers: Saving map 'testing' took 0.056
+[2023.01.11-02.50.33:780][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.01.11-02.50.33:805][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.01.11-02.50.33:834][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.11-02.50.33:858][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.01.11-02.50.33:880][870]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-02.50.33:880][870]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/resouerce/Map/testing_BuiltData.testing_BuiltData
+[2023.01.11-02.50.33:880][870]LogContentValidation: Display: Validating World /Game/resouerce/Map/testing.testing
+[2023.01.11-02.50.43:329][864]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/testing_Map_BuiltDataB0EB6BA74693AA3B008A868A67FD95C3.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing_Map_BuiltData.uasset'
+[2023.01.11-02.50.43:358][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.01.11-02.50.43:375][864]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/testing_Map603301234C8928A36B32D383E05BCC18.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing_Map.umap'
+[2023.01.11-02.50.43:385][864]LogFileHelpers: Saving map 'testing_Map' took 0.054
+[2023.01.11-02.50.43:524][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.01.11-02.50.43:550][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.01.11-02.50.43:580][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.01.11-02.50.43:603][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.01.11-02.50.43:625][864]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-02.50.43:625][864]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/resouerce/Map/testing_Map_BuiltData.testing_Map_BuiltData
+[2023.01.11-02.50.43:625][864]LogContentValidation: Display: Validating World /Game/resouerce/Map/testing_Map.testing_Map
