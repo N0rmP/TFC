@@ -679,3 +679,254 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.01.11-02.50.43:625][864]AssetCheck: New page: Asset Save: multiple assets
 [2023.01.11-02.50.43:625][864]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/resouerce/Map/testing_Map_BuiltData.testing_Map_BuiltData
 [2023.01.11-02.50.43:625][864]LogContentValidation: Display: Validating World /Game/resouerce/Map/testing_Map.testing_Map
+[2023.01.11-02.57.44:683][489]LogAssetEditorSubsystem: Opening Asset editor for World /Game/resouerce/Map/testing_Map.testing_Map
+[2023.01.11-02.57.44:705][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.01.11-02.57.46:835][489]LogSlate: Window 'Save Content' being destroyed
+[2023.01.11-02.57.46:868][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.01.11-02.57.46:872][489]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/mainmenu_MapE996EDBE4B9F23810D0AC9A4C907290B.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap'
+[2023.01.11-02.57.46:874][489]LogFileHelpers: Saving map 'mainmenu_Map' took 0.031
+[2023.01.11-02.57.46:875][489]Cmd: MAP LOAD FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.11-02.57.46:875][489]LightingResults: New page: Lighting Build
+[2023.01.11-02.57.46:875][489]LoadErrors: New page: Loading map: testing_Map.umap
+[2023.01.11-02.57.46:876][489]LogWorld: UWorld::CleanupWorld for testing_Map, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-02.57.46:876][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-02.57.46:876][489]MapCheck: New page: Map Check
+[2023.01.11-02.57.46:876][489]LightingResults: New page: Lighting Build
+[2023.01.11-02.57.46:901][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.01.11-02.57.46:924][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.01.11-02.57.46:948][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.01.11-02.57.46:958][489]LogAIModule: Creating AISystem for world testing_Map
+[2023.01.11-02.57.47:008][489]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.11-02.57.47:032][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.11-02.57.47:040][489]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.11-02.57.47:047][489]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.303ms to complete.
+[2023.01.11-02.57.47:047][489]LogFileHelpers: Loading map 'testing_Map' took 0.173
+[2023.01.11-02.57.47:059][489]AssetCheck: New page: Asset Save: mainmenu_Map
+[2023.01.11-02.57.47:059][489]LogContentValidation: Display: Validating World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.11-02.57.47:061][489]LogAIModule: Creating AISystem for world mainmenu_Map
+[2023.01.11-02.57.51:514][  8]LogAssetEditorSubsystem: Opening Asset editor for World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.11-02.57.51:534][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.01.11-02.57.51:535][  8]Cmd: MAP LOAD FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.11-02.57.51:535][  8]LightingResults: New page: Lighting Build
+[2023.01.11-02.57.51:536][  8]LoadErrors: New page: Loading map: mainmenu_Map.umap
+[2023.01.11-02.57.51:536][  8]LogWorld: UWorld::CleanupWorld for testing_Map, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-02.57.51:536][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-02.57.51:536][  8]MapCheck: New page: Map Check
+[2023.01.11-02.57.51:536][  8]LightingResults: New page: Lighting Build
+[2023.01.11-02.57.51:562][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.11-02.57.51:600][  8]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.11-02.57.51:624][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.01.11-02.57.51:631][  8]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.11-02.57.51:632][  8]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
+[2023.01.11-02.57.51:632][  8]LogFileHelpers: Loading map 'mainmenu_Map' took 0.097
+[2023.01.11-02.57.52:639][124]LogAssetEditorSubsystem: Opening Asset editor for World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.11-02.57.52:661][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.01.11-02.57.52:662][124]Cmd: MAP LOAD FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.11-02.57.52:662][124]LightingResults: New page: Lighting Build
+[2023.01.11-02.57.52:663][124]LoadErrors: New page: Loading map: mainmenu_Map.umap
+[2023.01.11-02.57.52:663][124]LogWorld: UWorld::CleanupWorld for mainmenu_Map, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-02.57.52:663][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-02.57.52:663][124]MapCheck: New page: Map Check
+[2023.01.11-02.57.52:663][124]LightingResults: New page: Lighting Build
+[2023.01.11-02.57.52:688][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.01.11-02.57.52:689][124]LogAIModule: Creating AISystem for world mainmenu_Map
+[2023.01.11-02.57.52:728][124]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.11-02.57.52:753][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.01.11-02.57.52:761][124]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.11-02.57.52:761][124]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.15ms to complete.
+[2023.01.11-02.57.52:761][124]LogFileHelpers: Loading map 'mainmenu_Map' took 0.099
+[2023.01.11-03.00.04:085][870]LogAssetEditorSubsystem: Opening Asset editor for World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.11-03.00.04:107][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.01.11-03.00.04:108][870]Cmd: MAP LOAD FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.11-03.00.04:109][870]LightingResults: New page: Lighting Build
+[2023.01.11-03.00.04:109][870]LoadErrors: New page: Loading map: mainmenu_Map.umap
+[2023.01.11-03.00.04:109][870]LogWorld: UWorld::CleanupWorld for mainmenu_Map, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-03.00.04:109][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.00.04:109][870]MapCheck: New page: Map Check
+[2023.01.11-03.00.04:109][870]LightingResults: New page: Lighting Build
+[2023.01.11-03.00.04:134][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.01.11-03.00.04:136][870]LogAIModule: Creating AISystem for world mainmenu_Map
+[2023.01.11-03.00.04:175][870]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.11-03.00.04:202][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.01.11-03.00.04:210][870]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.11-03.00.04:210][870]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.164ms to complete.
+[2023.01.11-03.00.04:210][870]LogFileHelpers: Loading map 'mainmenu_Map' took 0.102
+[2023.01.11-03.00.41:329][802]LogTemp: Resetting audio stream to device id 
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: Is Default: Yes
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: Sample Rate: 48000
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: Channel Count Used: 2
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: Device Channel Count: 2
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: Channel Order:
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.11-03.00.41:372][802]LogAudioMixer: Display: 1: FrontRight
+[2023.01.11-03.24.24:818][811]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20ADEF0F-4383-EA8D-95CE-0EA72794E9BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=765d15e546e551cbe0cc66a9a86ea7d3%7Cc9bf1f71242a40479f12412fccce3902%7C43f9f1e1-7919-4419-9677-84c7ade23d1e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d4219c3f70 [can pipeline])
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.205.103.113) port 443 (#8))
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: 000001D4493F0F40: libcurl info message cache 7 (Closing connection 8)
+[2023.01.11-03.24.48:210][880]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20ADEF0F-4383-EA8D-95CE-0EA72794E9BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=765d15e546e551cbe0cc66a9a86ea7d3%7Cc9bf1f71242a40479f12412fccce3902%7C43f9f1e1-7919-4419-9677-84c7ade23d1e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.01.11-03.28.07:421][ 21]LogEditorViewport: Clicking Background
+[2023.01.11-03.29.24:988][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.01.11-03.29.24:989][401]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.026
+[2023.01.11-03.29.24:990][401]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprint/UI/Mainmenu] ([1] browsable assets)...
+[2023.01.11-03.29.24:990][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprint/UI/Mainmenu]
+[2023.01.11-03.29.25:012][401]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Mainmenu_Auto162A5EA0F4E5ED401C3F83DB0F085EA8C.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprint/UI/Mainmenu_Auto1.uasset'
+[2023.01.11-03.29.25:013][401]LogFileHelpers: Auto-saving content packages took 0.024
+[2023.01.11-03.37.11:842][ 26]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/blueprint/UI/Mainmenu.Mainmenu
+[2023.01.11-03.37.11:981][ 26]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2023.01.11-03.37.12:823][ 26]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.11-03.37.43:999][326]LogEditorTransaction: Undo Move Widget
+[2023.01.11-03.37.52:021][ 17]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.11-03.40.59:795][ 86]BlueprintLog: New page: Compile Mainmenu
+[2023.01.11-03.40.59:847][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2023.01.11-03.43.52:397][686]LogEditorTransaction: Undo Move Widget
+[2023.01.11-03.43.52:711][701]LogEditorTransaction: Undo Move Widget
+[2023.01.11-03.43.53:892][819]LogEditorTransaction: Redo Move Widget
+[2023.01.11-03.43.54:135][844]LogEditorTransaction: Redo Move Widget
+[2023.01.11-03.43.58:666][277]LogEditorTransaction: Undo Paste clipboard contents
+[2023.01.11-03.44.58:670][209]LogEditorTransaction: Undo Rename Widget
+[2023.01.11-03.47.48:203][543]LogSlate: Took 0.002183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.01.11-03.48.49:709][609]LogEditorTransaction: Undo Set Vector Property
+[2023.01.11-03.50.21:550][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2023.01.11-03.50.21:552][ 15]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.036
+[2023.01.11-03.50.21:553][ 15]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprint/UI/Mainmenu] ([1] browsable assets)...
+[2023.01.11-03.50.21:553][ 15]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprint/UI/Mainmenu]
+[2023.01.11-03.50.21:563][ 15]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Mainmenu_Auto23AA1111941758A8407E86697A14F1435.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprint/UI/Mainmenu_Auto2.uasset'
+[2023.01.11-03.50.21:564][ 15]LogFileHelpers: Auto-saving content packages took 0.012
+[2023.01.11-03.50.41:001][914]BlueprintLog: New page: Compile Mainmenu
+[2023.01.11-03.50.41:038][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2023.01.11-03.51.17:645][595]LogEditorTransaction: Undo Remove Widget
+[2023.01.11-03.52.07:483][541]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.11-03.52.18:092][549]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.11-03.52.31:618][825]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.11-03.52.40:270][740]BlueprintLog: New page: Compile Mainmenu
+[2023.01.11-03.52.40:310][740]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2023.01.11-03.53.34:291][684]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map
+[2023.01.11-03.53.43:515][639]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.11-03.54.12:989][783]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.11-03.54.14:204][913]LogEditorTransaction: Undo Add Node
+[2023.01.11-03.55.12:246][ 29]BlueprintLog: New page: Compile mainmenu_Map
+[2023.01.11-03.55.12:248][ 29]LogBlueprint: Error: [Compiler PersistentLevel.mainmenu_Map] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2023.01.11-03.55.12:249][ 29]LogBlueprint: Error: [Compiler PersistentLevel.mainmenu_Map] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.01.11-03.55.12:293][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.01.11-03.55.16:245][461]BlueprintLog: New page: Compile mainmenu_Map
+[2023.01.11-03.55.16:432][461]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2023.01.11-03.55.21:787][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.01.11-03.55.21:946][ 67]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/mainmenu_Map1A0F01C74FD2987764DF2E81A5D604B6.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap'
+[2023.01.11-03.55.21:959][ 67]LogFileHelpers: Saving map 'mainmenu_Map' took 0.206
+[2023.01.11-03.55.21:975][ 67]AssetCheck: New page: Asset Save: mainmenu_Map
+[2023.01.11-03.55.21:975][ 67]LogContentValidation: Display: Validating World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.11-03.55.24:843][386]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.11-03.55.24:859][386]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.11-03.55.24:859][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-03.55.24:859][386]PIE: New page: PIE session: mainmenu_Map (Jan 11, 2023, 9:55:24 PM)
+[2023.01.11-03.55.24:860][386]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.01.11-03.55.24:861][386]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.01.11-03.55.24:861][386]LogPlayLevel: Creating play world package: /Game/resouerce/Map/UEDPIE_0_mainmenu_Map
+[2023.01.11-03.55.24:864][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002111s)
+[2023.01.11-03.55.24:864][386]LogAIModule: Creating AISystem for world mainmenu_Map
+[2023.01.11-03.55.24:864][386]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2023.01.11-03.55.24:865][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/resouerce/Map/mainmenu_Map.mainmenu_Map to /Game/resouerce/Map/UEDPIE_0_mainmenu_Map.mainmenu_Map (0.003064s)
+[2023.01.11-03.55.24:898][386]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2023.01.11-03.55.24:899][386]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-03.55.24:899][386]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-03.55.24:899][386]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-03.55.24:899][386]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-03.55.24:899][386]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.11-03.55.24:899][386]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.11-03.55.24:899][386]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.11-03.55.24:899][386]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-03.55.24:900][386]LogAudio: Display: Using built-in audio occlusion.
+[2023.01.11-03.55.24:900][386]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: Is Default: Yes
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: Sample Rate: 48000
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: Channel Count Used: 2
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: Device Channel Count: 2
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: Channel Order:
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.11-03.55.24:932][386]LogAudioMixer: Display: 1: FrontRight
+[2023.01.11-03.55.24:961][386]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.01.11-03.55.24:963][386]LogInit: FAudioDevice initialized.
+[2023.01.11-03.55.24:970][386]LogLoad: Game class is 'GameModeBase'
+[2023.01.11-03.55.24:971][386]LogWorld: Bringing World /Game/resouerce/Map/UEDPIE_0_mainmenu_Map.mainmenu_Map up for play (max tick rate 0) at 2023.01.11-12.55.24
+[2023.01.11-03.55.24:971][386]LogWorld: Bringing up level for play took: 0.000279
+[2023.01.11-03.55.24:971][386]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2023.01.11-03.55.24:977][386]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.01.11-03.55.24:985][386]PIE: Play in editor start time for /Game/resouerce/Map/UEDPIE_0_mainmenu_Map 1.122
+[2023.01.11-03.55.24:986][386]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.11-03.55.32:248][226]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.11-03.55.32:248][226]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.11-03.55.32:248][226]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.11-03.55.32:250][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.55.32:251][226]LogWorld: BeginTearingDown for /Game/resouerce/Map/UEDPIE_0_mainmenu_Map
+[2023.01.11-03.55.32:251][226]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.11-03.55.32:251][226]LogWorld: UWorld::CleanupWorld for mainmenu_Map, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-03.55.32:251][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.55.32:262][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-03.55.32:262][226]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.11-03.55.32:267][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-03.55.32:305][226]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.11-03.55.32:308][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-03.55.32:326][226]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2023.01.11-03.55.32:349][228]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.01.11-04.00.57:832][419]BlueprintLog: New page: Compile Mainmenu
+[2023.01.11-04.00.57:885][419]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2023.01.11-04.01.59:551][351]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2023.01.11-04.01.59:551][351]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2023.01.11-04.02.01:289][546]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.01.11-04.02.25:550][395]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.01.11-04.02.49:358][449]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.11-04.02.56:939][170]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2023.01.11-04.02.57:135][170]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/mainmenu_MapD72C6901446096FD28C53E91D95E5330.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap'
+[2023.01.11-04.02.57:160][170]AssetCheck: New page: Asset Save: mainmenu_Map
+[2023.01.11-04.02.57:160][170]LogContentValidation: Display: Validating World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.11-04.03.09:718][586]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.11-04.03.21:151][898]LogSlate: Window 'Project Settings' being destroyed
+[2023.01.11-04.03.21:154][898]LogSlate: Window 'Project Settings' being destroyed
+[2023.01.11-04.12.57:222][734]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2023.01.11-04.12.57:225][734]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.059
+[2023.01.11-04.12.57:226][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprint/UI/Mainmenu] ([1] browsable assets)...
+[2023.01.11-04.12.57:226][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprint/UI/Mainmenu]
+[2023.01.11-04.12.57:240][734]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Mainmenu_Auto30C04546F450DA9EF319DB88C6A1E0261.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprint/UI/Mainmenu_Auto3.uasset'
+[2023.01.11-04.12.57:242][734]LogFileHelpers: Auto-saving content packages took 0.017
+[2023.01.11-04.21.10:615][147]LogSlate: Window 'mainmenu_Map' being destroyed
+[2023.01.11-04.21.10:619][147]LogSlate: Window 'mainmenu_Map' being destroyed
+[2023.01.11-04.21.10:622][147]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.21.10:622][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.21.10:635][147]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.21.10:635][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.21.10:670][147]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.21.10:670][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.32.28:640][727]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.01.11-04.32.32:433][172]Cmd: TRANSACTION UNDO
+[2023.01.11-04.32.32:433][172]LogEditorTransaction: Undo Brush Add
+[2023.01.11-04.33.08:370][526]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map
+[2023.01.11-04.33.13:541][ 79]LogSlate: Window 'mainmenu_Map' being destroyed
+[2023.01.11-04.33.13:550][ 79]LogSlate: Window 'mainmenu_Map' being destroyed
+[2023.01.11-04.33.13:550][ 79]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.33.13:550][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.33.16:554][431]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/blueprint/UI/Mainmenu.Mainmenu
+[2023.01.11-04.33.25:897][448]BlueprintLog: New page: Compile Mainmenu
+[2023.01.11-04.33.26:178][448]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2023.01.11-04.33.27:207][568]LogSlate: Window 'Mainmenu' being destroyed
+[2023.01.11-04.33.27:213][568]LogSlate: Window 'Mainmenu' being destroyed
+[2023.01.11-04.33.27:215][568]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.33.27:215][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.33.27:226][568]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-04.33.27:226][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-04.33.53:591][813]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2023.01.11-04.33.53:592][813]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.067
+[2023.01.11-04.33.53:592][813]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprint/UI/Mainmenu] ([1] browsable assets)...
+[2023.01.11-04.33.53:592][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprint/UI/Mainmenu]
+[2023.01.11-04.33.53:607][813]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Mainmenu_Auto46490913F41E38FB87506A1B6A04692B2.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprint/UI/Mainmenu_Auto4.uasset'
+[2023.01.11-04.33.53:608][813]LogFileHelpers: Auto-saving content packages took 0.016
