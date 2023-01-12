@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TFC_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{73523718-492B-433A-BE4D-5738A0CFDF55}</UniqueIdentifier>
+      <UniqueIdentifier>{879C7C90-FF1E-4CAE-8B60-1789867D5035}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TFC_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4EC03BB2-0B45-4F96-84A6-DDD3A9D786D2}</UniqueIdentifier>
+      <UniqueIdentifier>{B9B97973-EAE0-4D52-A665-0E106D84118A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TFC_Project">
-      <UniqueIdentifier>{16A7131F-AE95-4E6C-A739-CB9EC2B640B4}</UniqueIdentifier>
+      <UniqueIdentifier>{F2EA50A2-C459-4A69-8E11-FA528E051CFC}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TFC_Project\StageWidget.cpp">
+      <Filter>Source\TFC_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TFC_Project\StageWidget.h">
+      <Filter>Source\TFC_Project</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TFC_Project\TFC_Project.Build.cs">
       <Filter>Source\TFC_Project</Filter>
     </None>
@@ -41,5 +47,15 @@
     <ClInclude Include="..\..\Source\TFC_Project\TFC_ProjectGameModeBase.h">
       <Filter>Source\TFC_Project</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TFC_Project\StageInfoWidget.h">
+      <Filter>Source\TFC_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TFC_Project\StageInfoWidget.cpp">
+      <Filter>Source\TFC_Project</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
