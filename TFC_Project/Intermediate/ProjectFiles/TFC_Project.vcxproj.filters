@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TFC_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{879C7C90-FF1E-4CAE-8B60-1789867D5035}</UniqueIdentifier>
+      <UniqueIdentifier>{C87E5DDB-520A-4D56-AF03-D0B66DA7352C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TFC_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B9B97973-EAE0-4D52-A665-0E106D84118A}</UniqueIdentifier>
+      <UniqueIdentifier>{6AD02DF3-94D7-4BAE-849C-A8570A43C89F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,28 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TFC_Project">
-      <UniqueIdentifier>{F2EA50A2-C459-4A69-8E11-FA528E051CFC}</UniqueIdentifier>
+      <UniqueIdentifier>{62749519-CC56-427D-B7A9-3961FF7DF029}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TFC_Project\StageInfoWidget.cpp">
+      <Filter>Source\TFC_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TFC_Project\StageInfoWidget.h">
+      <Filter>Source\TFC_Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TFC_Project\StageWidget.cpp">
       <Filter>Source\TFC_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TFC_Project\StageWidget.h">
+      <Filter>Source\TFC_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TFC_Project\TFCHUD.cpp">
+      <Filter>Source\TFC_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TFC_Project\TFCHUD.h">
       <Filter>Source\TFC_Project</Filter>
     </ClInclude>
     <None Include="..\..\Source\TFC_Project\TFC_Project.Build.cs">
@@ -47,15 +62,5 @@
     <ClInclude Include="..\..\Source\TFC_Project\TFC_ProjectGameModeBase.h">
       <Filter>Source\TFC_Project</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\TFC_Project\StageInfoWidget.h">
-      <Filter>Source\TFC_Project</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\TFC_Project\StageInfoWidget.cpp">
-      <Filter>Source\TFC_Project</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
