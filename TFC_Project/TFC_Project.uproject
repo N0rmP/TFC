@@ -7,11 +7,7 @@
 		{
 			"Name": "TFC_Project",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"UMG",
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	]
 }
