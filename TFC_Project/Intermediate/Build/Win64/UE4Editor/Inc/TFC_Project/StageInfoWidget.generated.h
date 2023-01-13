@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TFC_PROJECT_StageInfoWidget_generated_h
 
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_SPARSE_DATA
-#define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_RPC_WRAPPERS
-#define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execopenStage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->openStage(); \
+		P_NATIVE_END; \
+	}
+
+
+#define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execopenStage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->openStage(); \
+		P_NATIVE_END; \
+	}
+
+
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUStageInfoWidget(); \
@@ -60,7 +80,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UStageInfoWidget); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UStageInfoWidget)
 
 
-#define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_PRIVATE_PROPERTY_OFFSET
+#define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__button_stgStart() { return STRUCT_OFFSET(UStageInfoWidget, button_stgStart); } \
+	FORCEINLINE static uint32 __PPO__targetlevelName() { return STRUCT_OFFSET(UStageInfoWidget, targetlevelName); }
+
+
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_12_PROLOG
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

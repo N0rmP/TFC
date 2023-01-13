@@ -15,10 +15,13 @@ class TFC_PROJECT_API UStageWidget : public UUserWidget
 	GENERATED_BODY()
 	
 protected:
-	virtual void NativeOnInitialized() override;
+	virtual void NativeConstruct() override;
 	// 
 	UPROPERTY(BlueprintReadWrite)
 	class UButton* button_Stage;
+
+	UPROPERTY(BlueprintReadWrite)
+	class UUserWidget* InfoWidget;
 
 private:
 	UFUNCTION()

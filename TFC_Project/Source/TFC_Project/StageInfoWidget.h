@@ -14,4 +14,21 @@ class TFC_PROJECT_API UStageInfoWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
+
+protected:
+	virtual void NativeConstruct() override;
+
+	UPROPERTY()
+	class UButton* button_stgStart;
+
+public:
+	UPROPERTY()
+	FName targetlevelName;
+
+
+private:
+	
+	UFUNCTION()
+	void openStage();
+
 };
