@@ -679,3 +679,862 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.01.13-05.12.22:906][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.01.13-05.12.22:921][981]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
 [2023.01.13-05.12.22:921][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.13.01:075][304]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.13.33:099][552]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.13.33:136][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.01.13-05.13.58:140][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-05.13.58:164][390]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu7F749C5A4604D43447F0B48A81423477.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-05.13.58:179][390]AssetCheck: New page: Asset Save: wdg_stagemenu
+[2023.01.13-05.13.58:179][390]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.14.19:348][750]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.14.19:383][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.01.13-05.14.23:024][151]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/TFC_Project.StageInfoWidget
+[2023.01.13-05.14.24:157][213]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/TFC_Project.StageWidget
+[2023.01.13-05.14.41:027][364]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.01.13-05.14.41:027][364]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.035
+[2023.01.13-05.14.41:028][364]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/UI/wdg_stagemenu] ([1] browsable assets)...
+[2023.01.13-05.14.41:028][364]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/UI/wdg_stagemenu]
+[2023.01.13-05.14.41:065][364]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu_Auto171B0AC0C4E7C3AB58BC03293FA570580.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stagemenu_Auto1.uasset'
+[2023.01.13-05.14.41:067][364]LogFileHelpers: Auto-saving content packages took 0.039
+[2023.01.13-05.37.34:602][799]LogEditorTransaction: Undo Add Widget
+[2023.01.13-05.37.44:585][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-05.37.44:625][787]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu5731DBBB47DFBA85BA3F74B5AD08472E.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-05.37.44:650][787]AssetCheck: New page: Asset Save: wdg_stagemenu
+[2023.01.13-05.37.44:650][787]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.37.45:352][853]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.37.45:386][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.01.13-05.37.45:881][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-05.37.45:905][888]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenuFBA5DDCC4E3DBF83977F66A947CFD1FB.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-05.37.45:920][888]AssetCheck: New page: Asset Save: wdg_stagemenu
+[2023.01.13-05.37.45:920][888]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.38.26:109][238]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.38.26:138][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.01.13-05.38.28:883][505]LogEditorTransaction: Undo Move Anchor
+[2023.01.13-05.38.36:179][ 39]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.38.36:210][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2023.01.13-05.38.40:270][395]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu from UserWidget to StageWidget...
+[2023.01.13-05.38.40:296][395]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.38.40:331][395]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.01.13-05.38.41:576][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-05.38.41:602][511]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu2D4BD56F4D8C38293D4DA7BEDB483491.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-05.38.41:617][511]AssetCheck: New page: Asset Save: wdg_stagemenu
+[2023.01.13-05.38.41:617][511]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.38.42:493][604]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.38.42:659][604]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.01.13-05.38.43:098][654]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.38.43:260][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.01.13-05.38.49:804][330]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.38.49:966][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2023.01.13-05.38.56:619][ 20]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.38.56:782][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.01.13-05.38.58:938][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-05.38.58:963][248]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu688A4A3742353D7D7C27B0BECEC33279.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-05.38.58:978][248]AssetCheck: New page: Asset Save: wdg_stagemenu
+[2023.01.13-05.38.58:978][248]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.39.03:084][715]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.13-05.39.03:101][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.39.03:101][715]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.13-05.39.03:101][715]LogPlayLevel: [PlayLevel] Compiling mainmenu_Map before play...
+[2023.01.13-05.39.03:102][715]LogBlueprint: Error: [Compiler PersistentLevel.mainmenu_Map] Spawn node  Create Widget  must have a class specified.
+[2023.01.13-05.39.03:265][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.01.13-05.39.03:266][715]LogPlayLevel: PlayLevel: Blueprint regeneration took 165 ms (1 blueprints)
+[2023.01.13-05.39.03:266][715]BlueprintLog: Warning: Blueprint failed to compile:  mainmenu_Map
+[2023.01.13-05.39.03:273][715]LogCustomDialog: Dialog displayed:
+[2023.01.13-05.39.14:978][715]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.01.13-05.39.18:082][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.01.13-05.39.18:119][ 64]LogBlueprint: Error: [Compiler PersistentLevel.mainmenu_Map] Spawn node  Create Widget  must have a class specified.
+[2023.01.13-05.39.18:279][ 64]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/mainmenu_Map_Auto275838A1F4031CDB89E145B8F0140EAAC.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/resouerce/Map/mainmenu_Map_Auto2.umap'
+[2023.01.13-05.39.18:281][ 64]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.225
+[2023.01.13-05.39.18:281][ 64]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.225
+[2023.01.13-05.39.19:195][173]LogSlate: Window 'Message Log' being destroyed
+[2023.01.13-05.39.19:198][173]LogSlate: Window 'Message Log' being destroyed
+[2023.01.13-05.39.21:310][412]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map
+[2023.01.13-05.39.21:618][413]LogSlate: Took 0.008160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.13-05.39.23:201][574]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.13-05.39.27:994][964]BlueprintLog: New page: Compile mainmenu_Map
+[2023.01.13-05.39.28:160][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.01.13-05.39.31:163][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.01.13-05.39.31:323][276]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/mainmenu_Map066054AC4233E2A0F5CCAE99A3ABD11B.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap'
+[2023.01.13-05.39.31:343][276]LogFileHelpers: Saving map 'mainmenu_Map' took 0.210
+[2023.01.13-05.39.31:358][276]AssetCheck: New page: Asset Save: mainmenu_Map
+[2023.01.13-05.39.31:358][276]LogContentValidation: Display: Validating World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.13-05.39.44:455][710]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.39.44:455][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.39.47:652][ 73]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/blueprints/UI/wdg_mainmanu.wdg_mainmanu
+[2023.01.13-05.40.25:231][818]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.40.25:274][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.01.13-05.40.38:733][213]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.13-05.40.45:724][982]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.40.45:762][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2023.01.13-05.40.47:876][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_mainmanu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uasset" SILENT=true
+[2023.01.13-05.40.47:904][214]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_mainmanuD951DA904F8288503D7E67AEA35B4DF3.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uasset'
+[2023.01.13-05.40.47:919][214]AssetCheck: New page: Asset Save: wdg_mainmanu
+[2023.01.13-05.40.47:919][214]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_mainmanu.wdg_mainmanu
+[2023.01.13-05.40.56:247][182]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map
+[2023.01.13-05.41.24:089][104]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.13-05.41.34:335][191]BlueprintLog: New page: Compile mainmenu_Map
+[2023.01.13-05.41.34:517][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2023.01.13-05.41.59:531][819]BlueprintLog: New page: Compile mainmenu_Map
+[2023.01.13-05.41.59:701][819]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.01.13-05.42.27:414][853]BlueprintLog: New page: Compile mainmenu_Map
+[2023.01.13-05.42.27:586][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.01.13-05.42.29:085][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.01.13-05.42.29:251][ 15]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/mainmenu_MapD4E6D2D44DD3EFB73A87BAB32A99CDA1.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap'
+[2023.01.13-05.42.29:268][ 15]LogFileHelpers: Saving map 'mainmenu_Map' took 0.220
+[2023.01.13-05.42.29:282][ 15]AssetCheck: New page: Asset Save: mainmenu_Map
+[2023.01.13-05.42.29:282][ 15]LogContentValidation: Display: Validating World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.13-05.42.39:994][159]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.13-05.42.54:757][670]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.42.54:798][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.01.13-05.43.58:675][  3]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.43.58:713][  3]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2023.01.13-05.44.12:538][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_mainmanu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uasset" SILENT=true
+[2023.01.13-05.44.12:567][491]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_mainmanu167EF5294CA2DD35D2422C817294EFDB.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uasset'
+[2023.01.13-05.44.12:582][491]AssetCheck: New page: Asset Save: wdg_mainmanu
+[2023.01.13-05.44.12:582][491]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_mainmanu.wdg_mainmanu
+[2023.01.13-05.44.36:892][836]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.44.36:936][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.01.13-05.45.31:404][303]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.45.31:446][303]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2023.01.13-05.45.48:533][ 57]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.45.48:575][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2023.01.13-05.45.55:696][811]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.45.55:736][811]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2023.01.13-05.46.19:352][294]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.13-05.47.30:005][490]BlueprintLog: New page: Compile wdg_mainmanu
+[2023.01.13-05.47.30:049][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2023.01.13-05.47.32:728][769]LogSlate: Window 'mainmenu_Map' being destroyed
+[2023.01.13-05.47.32:734][769]LogSlate: Window 'mainmenu_Map' being destroyed
+[2023.01.13-05.47.32:738][769]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.47.32:738][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.47.32:750][769]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.47.32:750][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.47.32:794][769]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.47.32:794][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.47.32:797][769]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.47.32:797][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.47.32:831][769]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.47.32:832][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.47.34:950][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.13-05.47.34:958][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.47.34:958][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.13-05.47.34:963][ 15]PIE: New page: PIE session: mainmenu_Map (Jan 13, 2023, 11:47:34 PM)
+[2023.01.13-05.47.34:978][ 15]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.01.13-05.47.34:979][ 15]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.01.13-05.47.34:981][ 15]LogPlayLevel: Creating play world package: /Game/resouerce/Map/UEDPIE_0_mainmenu_Map
+[2023.01.13-05.47.34:987][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005032s)
+[2023.01.13-05.47.34:990][ 15]LogAIModule: Creating AISystem for world mainmenu_Map
+[2023.01.13-05.47.34:992][ 15]LogPlayLevel: PIE: World Init took: (0.005861s)
+[2023.01.13-05.47.34:992][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/resouerce/Map/mainmenu_Map.mainmenu_Map to /Game/resouerce/Map/UEDPIE_0_mainmenu_Map.mainmenu_Map (0.011309s)
+[2023.01.13-05.47.35:023][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.13-05.47.35:031][ 15]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.13-05.47.35:031][ 15]LogAudio: Display: Using built-in audio occlusion.
+[2023.01.13-05.47.35:031][ 15]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: Is Default: Yes
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: Sample Rate: 48000
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: Channel Count Used: 2
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: Device Channel Count: 2
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: Channel Order:
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.13-05.47.35:064][ 15]LogAudioMixer: Display: 1: FrontRight
+[2023.01.13-05.47.35:093][ 15]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.01.13-05.47.35:096][ 15]LogInit: FAudioDevice initialized.
+[2023.01.13-05.47.35:135][ 15]LogLoad: Game class is 'basic_gamemode_C'
+[2023.01.13-05.47.35:137][ 15]LogWorld: Bringing World /Game/resouerce/Map/UEDPIE_0_mainmenu_Map.mainmenu_Map up for play (max tick rate 0) at 2023.01.13-14.47.35
+[2023.01.13-05.47.35:144][ 15]LogWorld: Bringing up level for play took: 0.008337
+[2023.01.13-05.47.35:149][ 15]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.01.13-05.47.35:205][ 15]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 20 classes and 0 folders.
+[2023.01.13-05.47.35:231][ 15]PIE: Play in editor start time for /Game/resouerce/Map/UEDPIE_0_mainmenu_Map 0.927
+[2023.01.13-05.47.35:231][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.47.52:048][906]LogSlate: Took 0.000921 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.01.13-05.48.32:850][694]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.13-05.48.32:870][694]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.01.13-05.48.32:890][694]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.01.13-05.48.32:892][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.48.32:892][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.13-05.48.32:892][694]LogWorld: BeginTearingDown for /Game/resouerce/Map/UEDPIE_0_mainmenu_Map
+[2023.01.13-05.48.32:893][694]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.13-05.48.32:893][694]LogWorld: UWorld::CleanupWorld for mainmenu_Map, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.48.32:893][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.48.32:898][694]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.13-05.48.32:898][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.48.32:906][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.48.32:938][694]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.13-05.48.32:945][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.13-05.48.32:987][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2023.01.13-05.48.33:001][695]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.01.13-05.48.58:161][ 75]Candidate modules for hot reload:
+[2023.01.13-05.48.58:161][ 75]  TFC_Project
+[2023.01.13-05.48.58:162][ 75]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TFC_Project,9390 Win64 Development -TargetType=Editor -Project="C:/Users/chash/Documents/GitHub/TFC/TFC_Project/TFC_Project.uproject" "C:/Users/chash/Documents/GitHub/TFC/TFC_Project/TFC_Project.uproject"  -IgnoreJunk]
+[2023.01.13-05.48.58:167][ 75]Warning: Starting HotReload took  0.0s.
+[2023.01.13-05.49.34:858][146]CompilerResultsLog: New page: Compilation - Jan 13, 2023, 11:49:34 PM
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chash\Documents\GitHub\TFC).
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Creating makefile for TFC_ProjectEditor (.uproject file is newer)
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Parsing headers for TFC_ProjectEditor
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\chash\Documents\GitHub\TFC\TFC_Project\TFC_Project.uproject" "C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\TFC_ProjectEditor\Development\TFC_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Reflection code generated for TFC_ProjectEditor in 7.6967755 seconds
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Building TFC_ProjectEditor...
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Building 14 actions with 12 processes...
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [1/14] SharedPCH.Engine.ShadowErrors.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [2/14] TFC_Project.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [3/14] TFC_Project.init.gen.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [4/14] TFC_ProjectGameModeBase.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [5/14] TFCHUD.gen.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [6/14] TFCHUD.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [7/14] TFC_ProjectGameModeBase.gen.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [8/14] StageInfoWidget.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [9/14] StageWidget.gen.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [10/14] StageInfoWidget.gen.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [11/14] StageWidget.cpp
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [12/14] UE4Editor-TFC_Project-9390.lib
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:      C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-9390.lib ???̺귯?? ?? C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-9390.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [13/14] UE4Editor-TFC_Project-9390.dll
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:      C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-9390.suppressed.lib ???̺귯?? ?? C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-9390.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.01.13-05.49.34:859][146]CompilerResultsLog:   [14/14] TFC_ProjectEditor.target
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Total time in Parallel executor: 26.45 seconds
+[2023.01.13-05.49.34:859][146]CompilerResultsLog: Total execution time: 36.56 seconds
+[2023.01.13-05.49.34:859][146]LogMainFrame: MainFrame: Module compiling took 36.705 seconds
+[2023.01.13-05.49.34:915][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.01.13-05.49.35:204][146]LogClass: Could not find existing class StageWidget in package /Script/TFC_Project for HotReload, assuming new class
+[2023.01.13-05.49.35:205][146]LogClass: Function openStageinfo is new.
+[2023.01.13-05.49.35:217][146]LogHotReload: Re-instancing StageWidget after hot-reload.
+[2023.01.13-05.49.35:218][146]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.49.35:218][146]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.49.35:491][146]LogContentBrowser: Native class hierarchy updated for 'TFC_Project' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2023.01.13-05.49.35:498][146]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.01.13-05.49.35:572][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.01.13-05.49.35:603][146]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 3021 classes and 722 folders.
+[2023.01.13-05.49.35:604][146]Display: HotReload took 37.5s.
+[2023.01.13-05.49.49:728][722]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2023.01.13-05.49.49:799][722]LogSlate: Took 0.069241 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.01.13-05.51.03:065][428]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.51.58:781][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-05.51.58:807][819]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenuD4BF59D2467E7EEDBD7502A4324B6AFB.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-05.51.58:823][819]AssetCheck: New page: Asset Save: wdg_stagemenu
+[2023.01.13-05.51.58:823][819]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-05.51.59:572][904]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.51.59:574][904]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.51.59:575][904]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.51.59:829][904]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2023.01.13-05.52.00:520][984]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.52.00:521][984]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.52.00:522][984]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.52.00:728][984]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2023.01.13-05.52.28:555][857]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.52.29:773][974]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.52.29:774][974]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.52.29:775][974]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.52.29:935][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.01.13-05.53.27:468][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.01.13-05.53.27:470][131]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.030
+[2023.01.13-05.53.27:471][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/UI/wdg_stagemenu] ([1] browsable assets)...
+[2023.01.13-05.53.27:471][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/UI/wdg_stagemenu]
+[2023.01.13-05.53.27:494][131]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu_Auto398E920B9421A4FBE3C237F821D2027DC.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stagemenu_Auto3.uasset'
+[2023.01.13-05.53.27:495][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/UI/wdg_mainmanu] ([1] browsable assets)...
+[2023.01.13-05.53.27:495][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/UI/wdg_mainmanu]
+[2023.01.13-05.53.27:527][131]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_mainmanu_Auto3ECCD4E5F41315C6662785D8A70A7BB88.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_mainmanu_Auto3.uasset'
+[2023.01.13-05.53.27:529][131]LogFileHelpers: Auto-saving content packages took 0.059
+[2023.01.13-05.54.24:053][833]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.54.24:054][833]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.54.24:054][833]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.54.24:215][833]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.01.13-05.55.00:874][735]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-05.55.01:036][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.01.13-05.55.16:824][441]Candidate modules for hot reload:
+[2023.01.13-05.55.16:825][441]  TFC_Project
+[2023.01.13-05.55.16:825][441]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TFC_Project,3798 Win64 Development -TargetType=Editor -Project="C:/Users/chash/Documents/GitHub/TFC/TFC_Project/TFC_Project.uproject" "C:/Users/chash/Documents/GitHub/TFC/TFC_Project/TFC_Project.uproject"  -IgnoreJunk]
+[2023.01.13-05.55.16:830][441]Warning: Starting HotReload took  0.0s.
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog: New page: Compilation - Jan 13, 2023, 11:55:22 PM
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chash\Documents\GitHub\TFC).
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog: Building TFC_ProjectEditor...
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog: Building 4 actions with 12 processes...
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog:   [1/4] StageWidget.cpp
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog:   [2/4] UE4Editor-TFC_Project-3798.lib
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog:      C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-3798.lib ???̺귯?? ?? C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-3798.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog:   [3/4] UE4Editor-TFC_Project-3798.dll
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog:      C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-3798.suppressed.lib ???̺귯?? ?? C:\Users\chash\Documents\GitHub\TFC\TFC_Project\Intermediate\Build\Win64\UE4Editor\Development\TFC_Project\UE4Editor-TFC_Project-3798.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog:   [4/4] TFC_ProjectEditor.target
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog: Total time in Parallel executor: 4.48 seconds
+[2023.01.13-05.55.22:609][ 86]CompilerResultsLog: Total execution time: 5.69 seconds
+[2023.01.13-05.55.22:609][ 86]LogMainFrame: MainFrame: Module compiling took 5.789 seconds
+[2023.01.13-05.55.22:641][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.01.13-05.55.22:681][ 86]LogContentBrowser: Native class hierarchy updated for 'TFC_Project' in 0.0011 seconds. Added 4 classes and 2 folders.
+[2023.01.13-05.55.22:690][ 86]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.01.13-05.55.22:770][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.01.13-05.55.22:784][ 86]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3021 classes and 722 folders.
+[2023.01.13-05.55.22:784][ 86]Display: HotReload took  6.0s.
+[2023.01.13-05.55.28:512][713]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.13-05.55.28:542][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.55.28:542][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.13-05.55.28:542][713]PIE: New page: PIE session: mainmenu_Map (Jan 13, 2023, 11:55:28 PM)
+[2023.01.13-05.55.28:542][713]LogPlayLevel: Creating play world package: /Game/resouerce/Map/UEDPIE_0_mainmenu_Map
+[2023.01.13-05.55.28:543][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001073s)
+[2023.01.13-05.55.28:544][713]LogAIModule: Creating AISystem for world mainmenu_Map
+[2023.01.13-05.55.28:544][713]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2023.01.13-05.55.28:544][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/resouerce/Map/mainmenu_Map.mainmenu_Map to /Game/resouerce/Map/UEDPIE_0_mainmenu_Map.mainmenu_Map (0.001947s)
+[2023.01.13-05.55.28:595][713]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2023.01.13-05.55.28:596][713]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.13-05.55.28:596][713]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.13-05.55.28:596][713]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.13-05.55.28:596][713]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.13-05.55.28:596][713]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.13-05.55.28:596][713]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.13-05.55.28:596][713]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.13-05.55.28:596][713]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.13-05.55.28:597][713]LogAudio: Display: Using built-in audio occlusion.
+[2023.01.13-05.55.28:597][713]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: Name: 스피커(Realtek(R) Audio)
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: Is Default: Yes
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: Sample Rate: 48000
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: Channel Count Used: 2
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: Device Channel Count: 2
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: Channel Order:
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.13-05.55.28:632][713]LogAudioMixer: Display: 1: FrontRight
+[2023.01.13-05.55.28:668][713]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.01.13-05.55.28:670][713]LogInit: FAudioDevice initialized.
+[2023.01.13-05.55.28:677][713]LogLoad: Game class is 'basic_gamemode_C'
+[2023.01.13-05.55.28:678][713]LogWorld: Bringing World /Game/resouerce/Map/UEDPIE_0_mainmenu_Map.mainmenu_Map up for play (max tick rate 0) at 2023.01.13-14.55.28
+[2023.01.13-05.55.28:678][713]LogWorld: Bringing up level for play took: 0.000230
+[2023.01.13-05.55.28:678][713]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.01.13-05.55.28:681][713]LogTemp: btn ready
+[2023.01.13-05.55.28:681][713]PIE: Play in editor start time for /Game/resouerce/Map/UEDPIE_0_mainmenu_Map 0.378
+[2023.01.13-05.55.28:681][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.55.32:389][149]LogTemp: btn ready
+[2023.01.13-05.55.38:886][920]LogTemp: btn pressed
+[2023.01.13-05.55.40:208][ 75]LogTemp: btn pressed
+[2023.01.13-05.55.40:693][129]LogTemp: btn pressed
+[2023.01.13-05.55.40:884][152]LogTemp: btn pressed
+[2023.01.13-05.55.41:134][182]LogTemp: btn pressed
+[2023.01.13-05.55.42:297][317]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.13-05.55.42:310][317]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2023.01.13-05.55.42:329][317]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2023.01.13-05.55.42:329][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.55.42:329][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.13-05.55.42:329][317]LogWorld: BeginTearingDown for /Game/resouerce/Map/UEDPIE_0_mainmenu_Map
+[2023.01.13-05.55.42:330][317]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.13-05.55.42:330][317]LogWorld: UWorld::CleanupWorld for mainmenu_Map, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.55.42:330][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.55.42:337][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.13-05.55.42:337][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map' with GeneratedClass '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map_C' with ClassGeneratedBy '/Game/resouerce/Map/mainmenu_Map.mainmenu_Map:PersistentLevel.mainmenu_Map'
+[2023.01.13-05.55.42:343][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.55.42:378][317]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.13-05.55.42:381][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.13-05.55.42:385][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.01.13-05.55.42:397][318]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.01.13-05.56.04:222][575]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/blueprints/UI/wdg_optionmenu.wdg_optionmenu
+[2023.01.13-05.56.19:441][198]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.56.19:441][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.56.19:453][198]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-05.56.19:453][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-05.56.24:244][725]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/blueprints/UI/wdg_stageInfo.wdg_stageInfo
+[2023.01.13-05.56.48:582][351]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-05.56.48:619][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.01.13-05.57.39:477][359]LogEditorTransaction: Undo Edit Left
+[2023.01.13-05.57.39:813][374]LogEditorTransaction: Undo Edit Left
+[2023.01.13-05.57.40:141][395]LogEditorTransaction: Undo Edit Top
+[2023.01.13-05.57.40:440][420]LogEditorTransaction: Undo Edit Left
+[2023.01.13-05.57.40:666][439]LogEditorTransaction: Undo Edit Bottom
+[2023.01.13-05.57.40:933][461]LogEditorTransaction: Undo Edit Right
+[2023.01.13-05.57.41:195][480]LogEditorTransaction: Undo Changed Anchors
+[2023.01.13-05.57.41:498][506]LogEditorTransaction: Undo Add Widget
+[2023.01.13-05.57.41:841][546]LogEditorTransaction: Undo Rename Widget
+[2023.01.13-05.57.41:843][546]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.57.42:158][577]LogEditorTransaction: Undo Edit Override Accessible Defaults
+[2023.01.13-05.57.42:160][577]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.57.42:488][608]LogEditorTransaction: Undo Edit Override Accessible Defaults
+[2023.01.13-05.57.42:489][608]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.57.42:781][638]LogEditorTransaction: Undo Variable Toggle
+[2023.01.13-05.57.43:122][673]LogEditorTransaction: Undo Variable Toggle
+[2023.01.13-05.57.43:123][673]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-05.57.43:440][703]LogEditorTransaction: Undo Move Node
+[2023.01.13-05.57.43:764][737]LogEditorTransaction: Undo Add Node
+[2023.01.13-05.57.44:058][766]LogEditorTransaction: Undo Create Pin Link
+[2023.01.13-05.57.44:357][797]LogEditorTransaction: Undo Move Node
+[2023.01.13-05.57.44:658][825]LogEditorTransaction: Undo Add Node
+[2023.01.13-05.58.30:042][309]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.13-05.58.46:447][811]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.13-06.01.57:657][522]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.01.57:701][522]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2023.01.13-06.03.10:135][487]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.03.10:177][487]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.01.13-06.03.17:770][154]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.03.17:805][154]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2023.01.13-06.03.31:614][414]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.03.31:651][414]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.01.13-06.03.42:075][369]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.03.42:115][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.01.13-06.04.17:417][624]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.04.17:458][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2023.01.13-06.04.20:799][947]LogEditorTransaction: Undo Move Widget
+[2023.01.13-06.04.29:153][831]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.04.29:193][831]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.01.13-06.05.33:277][504]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.13-06.05.44:004][512]LogEditorTransaction: Undo Remove Widget
+[2023.01.13-06.07.04:679][724]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.07.04:721][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.01.13-06.07.37:118][742]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.07.37:154][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2023.01.13-06.08.53:287][652]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.08.53:328][652]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2023.01.13-06.09.08:152][ 43]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.13-06.09.45:804][629]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.09.45:847][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2023.01.13-06.10.07:265][697]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.10.07:305][697]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.01.13-06.10.10:897][ 25]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-06.10.10:898][ 25]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope SKEL_wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-06.10.10:899][ 25]LogBlueprint: Error: [Compiler wdg_stagemenu] Internal Compiler Error: Tried to create a property Button_Stage in scope wdg_stagemenu_C, but another object (ObjectProperty /Script/TFC_Project.StageWidget:Button_Stage) already exists there.
+[2023.01.13-06.10.11:112][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.01.13-06.10.26:684][475]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-06.10.26:923][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2023.01.13-06.10.39:513][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-06.10.39:536][724]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu2762915D49241456B24890946837033D.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-06.10.39:552][724]AssetCheck: New page: Asset Save: wdg_stagemenu
+[2023.01.13-06.10.39:552][724]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-06.11.05:662][ 83]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-06.11.05:909][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.01.13-06.11.30:548][502]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2023.01.13-06.11.30:550][502]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/resouerce/Map/mainmenu_Map' took 0.047
+[2023.01.13-06.11.30:550][502]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/UI/wdg_stagemenu] ([1] browsable assets)...
+[2023.01.13-06.11.30:550][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/UI/wdg_stagemenu]
+[2023.01.13-06.11.30:597][502]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu_Auto47888D2464F222985343319A22B241EC5.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stagemenu_Auto4.uasset'
+[2023.01.13-06.11.30:598][502]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/UI/wdg_mainmanu] ([1] browsable assets)...
+[2023.01.13-06.11.30:598][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/UI/wdg_mainmanu]
+[2023.01.13-06.11.30:628][502]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_mainmanu_Auto423B31CB04B4E0D2EFD1CB28691DF737A.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_mainmanu_Auto4.uasset'
+[2023.01.13-06.11.30:630][502]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/UI/wdg_stageInfo] ([1] browsable assets)...
+[2023.01.13-06.11.30:630][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/UI/wdg_stageInfo]
+[2023.01.13-06.11.30:659][502]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stageInfo_Auto443E5C8A44E934CA5968292B9160AF3C9.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stageInfo_Auto4.uasset'
+[2023.01.13-06.11.30:659][502]LogFileHelpers: Auto-saving content packages took 0.110
+[2023.01.13-06.11.31:490][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stageInfo" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset" SILENT=true
+[2023.01.13-06.11.31:515][586]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stageInfo7DBA6E4F41A8E8E9AC25FCBA60EB9805.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset'
+[2023.01.13-06.11.31:534][586]AssetCheck: New page: Asset Save: wdg_stageInfo
+[2023.01.13-06.11.31:534][586]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stageInfo.wdg_stageInfo
+[2023.01.13-06.12.11:776][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stageInfo" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset" SILENT=true
+[2023.01.13-06.12.11:802][649]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stageInfo5881444C4D7E0E6B190F309C383CB26A.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset'
+[2023.01.13-06.12.11:819][649]AssetCheck: New page: Asset Save: wdg_stageInfo
+[2023.01.13-06.12.11:819][649]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stageInfo.wdg_stageInfo
+[2023.01.13-06.12.53:813][853]LogEditorTransaction: Undo Resize Widget
+[2023.01.13-06.12.54:446][881]LogEditorTransaction: Undo Resize Widget
+[2023.01.13-06.12.56:710][108]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-06.12.56:932][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.01.13-06.13.10:022][266]BlueprintLog: New page: Compile wdg_stageInfo
+[2023.01.13-06.13.10:241][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2023.01.13-06.13.36:836][848]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-06.13.37:103][848]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2023.01.13-06.13.59:204][915]BlueprintLog: New page: Compile wdg_stagemenu
+[2023.01.13-06.13.59:418][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2023.01.13-06.14.03:018][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stageInfo" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset" SILENT=true
+[2023.01.13-06.14.03:058][253]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stageInfo8ECB6D6848848548DC68988F6BAAC4A6.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset'
+[2023.01.13-06.14.03:073][253]AssetCheck: New page: Asset Save: wdg_stageInfo
+[2023.01.13-06.14.03:073][253]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stageInfo.wdg_stageInfo
+[2023.01.13-06.14.16:427][ 82]LogSlate: Window 'wdg_stageInfo' being destroyed
+[2023.01.13-06.14.16:434][ 82]LogSlate: Window 'wdg_stageInfo' being destroyed
+[2023.01.13-06.14.16:438][ 82]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.16:438][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-06.14.16:450][ 82]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.16:450][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-06.14.16:497][ 82]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.16:497][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-06.14.16:509][ 82]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.16:509][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.13-06.14.17:245][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.01.13-06.14.21:918][159]LogSlate: Window 'Save Content' being destroyed
+[2023.01.13-06.14.24:786][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.01.13-06.14.24:949][478]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/mainmenu_MapC6B328AF42809ECF81EBD6B604D45B78.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/mainmenu_Map.umap'
+[2023.01.13-06.14.24:978][478]AssetCheck: New page: Asset Save: mainmenu_Map
+[2023.01.13-06.14.24:978][478]LogContentValidation: Display: Validating World /Game/resouerce/Map/mainmenu_Map.mainmenu_Map
+[2023.01.13-06.14.26:362][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.01.13-06.14.27:801][637]LogSlate: Window 'Save Content' being destroyed
+[2023.01.13-06.14.27:818][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_mainmanu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uasset" SILENT=true
+[2023.01.13-06.14.27:846][637]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_mainmanuA332E07D43AE8EC88E5F09BB5653BAA5.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uasset'
+[2023.01.13-06.14.27:848][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/UI/wdg_stagemenu" FILE="../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" SILENT=true
+[2023.01.13-06.14.27:875][637]LogSavePackage: Moving '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Saved/wdg_stagemenu527F6AB14135302BC11FD9BC013A249D.tmp' to '../../../../../../Users/chash/Documents/GitHub/TFC/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset'
+[2023.01.13-06.14.27:931][637]LogSlate: Window 'TFC_Project - Unreal Editor' being destroyed
+[2023.01.13-06.14.28:087][637]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.13-06.14.28:087][637]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_mainmanu.wdg_mainmanu
+[2023.01.13-06.14.28:087][637]LogContentValidation: Display: Validating WidgetBlueprint /Game/blueprints/UI/wdg_stagemenu.wdg_stagemenu
+[2023.01.13-06.14.28:101][638]Cmd: QUIT_EDITOR
+[2023.01.13-06.14.28:101][638]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.01.13-06.14.28:114][638]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.01.13-06.14.28:114][638]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2023.01.13-06.14.28:799][638]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2023.01.13-06.14.28:810][638]LogExit: Preparing to exit.
+[2023.01.13-06.14.29:864][638]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.29:866][638]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.29:867][638]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.29:905][638]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2023.01.13-06.14.29:939][638]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.01.13-06.14.29:940][638]LogExit: Editor shut down
+[2023.01.13-06.14.29:940][638]LogExit: Transaction tracking system shut down
+[2023.01.13-06.14.30:320][638]LogExit: Object subsystem successfully closed.
+[2023.01.13-06.14.30:371][638]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.01.13-06.14.30:516][638]LogModuleManager: Shutting down and abandoning module TFC_Project (708)
+[2023.01.13-06.14.30:516][638]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (706)
+[2023.01.13-06.14.30:516][638]LogModuleManager: Shutting down and abandoning module Voice (704)
+[2023.01.13-06.14.30:517][638]LogModuleManager: Shutting down and abandoning module SequencerWidgets (702)
+[2023.01.13-06.14.30:517][638]LogModuleManager: Shutting down and abandoning module BlueprintGraph (700)
+[2023.01.13-06.14.30:517][638]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (698)
+[2023.01.13-06.14.30:517][638]LogModuleManager: Shutting down and abandoning module SceneOutliner (696)
+[2023.01.13-06.14.30:517][638]LogModuleManager: Shutting down and abandoning module AddContentDialog (694)
+[2023.01.13-06.14.30:519][638]LogModuleManager: Shutting down and abandoning module WidgetCarousel (693)
+[2023.01.13-06.14.30:519][638]LogModuleManager: Shutting down and abandoning module EditorWidgets (690)
+[2023.01.13-06.14.30:519][638]LogModuleManager: Shutting down and abandoning module CollectionManager (688)
+[2023.01.13-06.14.30:521][638]LogModuleManager: Shutting down and abandoning module StatsViewer (686)
+[2023.01.13-06.14.30:521][638]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (684)
+[2023.01.13-06.14.30:521][638]LogModuleManager: Shutting down and abandoning module FoliageEdit (682)
+[2023.01.13-06.14.30:522][638]LogModuleManager: Shutting down and abandoning module LandscapeEditor (680)
+[2023.01.13-06.14.30:531][638]LogModuleManager: Shutting down and abandoning module MeshPaintMode (678)
+[2023.01.13-06.14.30:531][638]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (676)
+[2023.01.13-06.14.30:531][638]LogModuleManager: Shutting down and abandoning module ActorPickerMode (674)
+[2023.01.13-06.14.30:531][638]LogModuleManager: Shutting down and abandoning module GeometryMode (672)
+[2023.01.13-06.14.30:531][638]LogModuleManager: Shutting down and abandoning module TextureAlignMode (670)
+[2023.01.13-06.14.30:531][638]LogModuleManager: Shutting down and abandoning module BspMode (668)
+[2023.01.13-06.14.30:531][638]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (666)
+[2023.01.13-06.14.30:535][638]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (664)
+[2023.01.13-06.14.30:536][638]LogModuleManager: Shutting down and abandoning module AutomationWorker (662)
+[2023.01.13-06.14.30:536][638]LogModuleManager: Shutting down and abandoning module SteamVREditor (660)
+[2023.01.13-06.14.30:536][638]LogModuleManager: Shutting down and abandoning module OculusMR (658)
+[2023.01.13-06.14.30:536][638]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (656)
+[2023.01.13-06.14.30:536][638]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (654)
+[2023.01.13-06.14.30:537][638]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (652)
+[2023.01.13-06.14.30:542][638]LogModuleManager: Shutting down and abandoning module PlacementMode (651)
+[2023.01.13-06.14.30:542][638]LogModuleManager: Shutting down and abandoning module MaterialEditor (650)
+[2023.01.13-06.14.30:544][638]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (646)
+[2023.01.13-06.14.30:545][638]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (644)
+[2023.01.13-06.14.30:545][638]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (642)
+[2023.01.13-06.14.30:545][638]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (640)
+[2023.01.13-06.14.30:545][638]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (638)
+[2023.01.13-06.14.30:545][638]LogModuleManager: Shutting down and abandoning module WebMMedia (636)
+[2023.01.13-06.14.30:546][638]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (634)
+[2023.01.13-06.14.30:549][638]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (632)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module SequenceRecorder (631)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (628)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (626)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (624)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (622)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (620)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (618)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (616)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (614)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (612)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (610)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module CharacterAI (608)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module SmartSnapping (606)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module SessionServices (604)
+[2023.01.13-06.14.30:550][638]LogModuleManager: Shutting down and abandoning module MeshPaint (602)
+[2023.01.13-06.14.30:551][638]LogModuleManager: Shutting down and abandoning module ViewportSnapping (600)
+[2023.01.13-06.14.30:551][638]LogModuleManager: Shutting down and abandoning module ViewportInteraction (598)
+[2023.01.13-06.14.30:551][638]LogModuleManager: Shutting down and abandoning module ClothPainter (596)
+[2023.01.13-06.14.30:551][638]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (595)
+[2023.01.13-06.14.30:552][638]LogModuleManager: Shutting down and abandoning module LogVisualizer (592)
+[2023.01.13-06.14.30:553][638]LogModuleManager: Shutting down and abandoning module IntroTutorials (590)
+[2023.01.13-06.14.30:553][638]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (589)
+[2023.01.13-06.14.30:554][638]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (586)
+[2023.01.13-06.14.30:554][638]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (584)
+[2023.01.13-06.14.30:554][638]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (582)
+[2023.01.13-06.14.30:554][638]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (581)
+[2023.01.13-06.14.31:810][638]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (578)
+[2023.01.13-06.14.31:810][638]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (576)
+[2023.01.13-06.14.31:810][638]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (574)
+[2023.01.13-06.14.31:810][638]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (572)
+[2023.01.13-06.14.31:810][638]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (570)
+[2023.01.13-06.14.31:810][638]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (568)
+[2023.01.13-06.14.31:811][638]LogModuleManager: Shutting down and abandoning module InputBindingEditor (566)
+[2023.01.13-06.14.31:811][638]LogModuleManager: Shutting down and abandoning module MergeActors (564)
+[2023.01.13-06.14.31:812][638]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (562)
+[2023.01.13-06.14.31:812][638]LogModuleManager: Shutting down and abandoning module LocalizationService (561)
+[2023.01.13-06.14.31:812][638]LogModuleManager: Shutting down and abandoning module HardwareTargeting (558)
+[2023.01.13-06.14.31:812][638]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (556)
+[2023.01.13-06.14.31:812][638]LogModuleManager: Shutting down and abandoning module UndoHistory (554)
+[2023.01.13-06.14.31:813][638]LogModuleManager: Shutting down and abandoning module XmlParser (552)
+[2023.01.13-06.14.31:813][638]LogModuleManager: Shutting down and abandoning module Blutility (550)
+[2023.01.13-06.14.31:813][638]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (548)
+[2023.01.13-06.14.31:813][638]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (547)
+[2023.01.13-06.14.31:814][638]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (544)
+[2023.01.13-06.14.31:814][638]LogModuleManager: Shutting down and abandoning module SettingsEditor (542)
+[2023.01.13-06.14.31:814][638]LogModuleManager: Shutting down and abandoning module ProjectLauncher (540)
+[2023.01.13-06.14.31:815][638]LogModuleManager: Shutting down and abandoning module SessionFrontend (538)
+[2023.01.13-06.14.31:815][638]LogModuleManager: Shutting down and abandoning module ProfilerClient (536)
+[2023.01.13-06.14.31:818][638]LogModuleManager: Shutting down and abandoning module DeviceManager (534)
+[2023.01.13-06.14.31:820][638]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (533)
+[2023.01.13-06.14.31:854][638]LogModuleManager: Shutting down and abandoning module AutomationController (530)
+[2023.01.13-06.14.31:854][638]LogModuleManager: Shutting down and abandoning module AutomationWindow (528)
+[2023.01.13-06.14.31:855][638]LogModuleManager: Shutting down and abandoning module Layers (526)
+[2023.01.13-06.14.31:858][638]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (524)
+[2023.01.13-06.14.31:858][638]LogModuleManager: Shutting down and abandoning module DetailCustomizations (522)
+[2023.01.13-06.14.31:859][638]LogModuleManager: Shutting down and abandoning module PackagesDialog (520)
+[2023.01.13-06.14.31:859][638]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (518)
+[2023.01.13-06.14.31:864][638]LogModuleManager: Shutting down and abandoning module Persona (516)
+[2023.01.13-06.14.31:865][638]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (515)
+[2023.01.13-06.14.31:865][638]LogModuleManager: Shutting down and abandoning module AnimGraph (513)
+[2023.01.13-06.14.31:865][638]LogModuleManager: Shutting down and abandoning module Kismet (510)
+[2023.01.13-06.14.31:871][638]LogModuleManager: Shutting down and abandoning module KismetWidgets (509)
+[2023.01.13-06.14.31:871][638]LogModuleManager: Shutting down and abandoning module GraphEditor (506)
+[2023.01.13-06.14.31:871][638]LogModuleManager: Shutting down and abandoning module StructViewer (504)
+[2023.01.13-06.14.31:871][638]LogModuleManager: Shutting down and abandoning module ClassViewer (502)
+[2023.01.13-06.14.31:872][638]LogModuleManager: Shutting down and abandoning module Toolbox (500)
+[2023.01.13-06.14.31:872][638]LogModuleManager: Shutting down and abandoning module ModuleUI (498)
+[2023.01.13-06.14.31:872][638]LogModuleManager: Shutting down and abandoning module OutputLog (496)
+[2023.01.13-06.14.31:873][638]LogModuleManager: Shutting down and abandoning module GammaUI (494)
+[2023.01.13-06.14.31:873][638]LogModuleManager: Shutting down and abandoning module Documentation (492)
+[2023.01.13-06.14.31:873][638]LogModuleManager: Shutting down and abandoning module ToolMenus (490)
+[2023.01.13-06.14.31:874][638]LogModuleManager: Shutting down and abandoning module LiveCoding (488)
+[2023.01.13-06.14.31:878][638]LogModuleManager: Shutting down and abandoning module LevelSequence (486)
+[2023.01.13-06.14.31:878][638]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (484)
+[2023.01.13-06.14.31:878][638]LogModuleManager: Shutting down and abandoning module MovieScene (482)
+[2023.01.13-06.14.31:879][638]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (480)
+[2023.01.13-06.14.31:880][638]LogModuleManager: Shutting down and abandoning module LauncherPlatform (478)
+[2023.01.13-06.14.31:880][638]LogModuleManager: Shutting down and abandoning module AnalyticsET (476)
+[2023.01.13-06.14.31:880][638]LogModuleManager: Shutting down and abandoning module PortalServices (474)
+[2023.01.13-06.14.31:880][638]LogModuleManager: Shutting down and abandoning module PortalRpc (472)
+[2023.01.13-06.14.31:880][638]LogModuleManager: Shutting down and abandoning module MessagingRpc (470)
+[2023.01.13-06.14.31:880][638]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (468)
+[2023.01.13-06.14.31:880][638]LogModuleManager: Shutting down and abandoning module AIModule (466)
+[2023.01.13-06.14.31:883][638]LogModuleManager: Shutting down and abandoning module GameplayDebugger (465)
+[2023.01.13-06.14.31:883][638]LogModuleManager: Shutting down and abandoning module AITestSuite (463)
+[2023.01.13-06.14.31:883][638]LogModuleManager: Shutting down and abandoning module NavigationSystem (461)
+[2023.01.13-06.14.31:883][638]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (458)
+[2023.01.13-06.14.31:886][638]LogModuleManager: Shutting down and abandoning module ProfilerService (456)
+[2023.01.13-06.14.32:015][638]LogModuleManager: Shutting down and abandoning module TaskGraph (454)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module ScreenshotTools (452)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (450)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (448)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module OculusEditor (446)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module OculusInput (444)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (442)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module EditableMesh (440)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (438)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module CableComponent (436)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (433)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module AssetTags (430)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (428)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (426)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module AppleImageUtils (424)
+[2023.01.13-06.14.32:021][638]LogModuleManager: Shutting down and abandoning module AndroidPermission (422)
+[2023.01.13-06.14.32:022][638]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (420)
+[2023.01.13-06.14.32:023][638]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (418)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module MediaCompositing (416)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module ImgMedia (414)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (412)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (410)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (408)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (406)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (404)
+[2023.01.13-06.14.32:026][638]LogModuleManager: Shutting down and abandoning module BackChannel (402)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (400)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module AutomationUtils (398)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module AlembicImporter (396)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module AlembicLibrary (395)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module GeometryCache (394)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (393)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (388)
+[2023.01.13-06.14.32:027][638]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (386)
+[2023.01.13-06.14.32:030][638]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (384)
+[2023.01.13-06.14.32:030][638]LogModuleManager: Shutting down and abandoning module PluginBrowser (382)
+[2023.01.13-06.14.32:032][638]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (380)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (378)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module CurveEditorTools (376)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (374)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module CryptoKeys (372)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (370)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (368)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module UObjectPlugin (366)
+[2023.01.13-06.14.32:033][638]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (364)
+[2023.01.13-06.14.32:034][638]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (362)
+[2023.01.13-06.14.32:036][638]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (360)
+[2023.01.13-06.14.32:038][638]LogModuleManager: Shutting down and abandoning module GitSourceControl (358)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module SourceControl (357)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (354)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (352)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (350)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (348)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (346)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (344)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (342)
+[2023.01.13-06.14.32:041][638]LogModuleManager: Shutting down and abandoning module Paper2DEditor (340)
+[2023.01.13-06.14.32:043][638]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2023.01.13-06.14.32:043][638]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2023.01.13-06.14.32:043][638]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2023.01.13-06.14.32:043][638]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2023.01.13-06.14.32:043][638]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2023.01.13-06.14.32:043][638]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2023.01.13-06.14.32:145][638]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2023.01.13-06.14.32:246][638]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2023.01.13-06.14.32:248][638]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2023.01.13-06.14.32:250][638]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2023.01.13-06.14.32:250][638]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2023.01.13-06.14.32:250][638]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2023.01.13-06.14.32:250][638]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2023.01.13-06.14.32:250][638]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2023.01.13-06.14.32:250][638]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2023.01.13-06.14.32:252][638]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2023.01.13-06.14.32:252][638]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2023.01.13-06.14.32:252][638]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.01.13-06.14.32:252][638]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2023.01.13-06.14.32:252][638]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2023.01.13-06.14.32:252][638]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2023.01.13-06.14.32:252][638]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2023.01.13-06.14.32:253][638]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2023.01.13-06.14.32:253][638]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2023.01.13-06.14.32:253][638]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2023.01.13-06.14.32:253][638]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2023.01.13-06.14.32:254][638]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2023.01.13-06.14.32:258][638]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2023.01.13-06.14.32:258][638]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2023.01.13-06.14.32:258][638]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2023.01.13-06.14.32:258][638]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2023.01.13-06.14.32:259][638]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2023.01.13-06.14.32:260][638]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2023.01.13-06.14.32:260][638]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2023.01.13-06.14.32:260][638]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2023.01.13-06.14.32:260][638]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2023.01.13-06.14.32:261][638]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2023.01.13-06.14.32:263][638]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2023.01.13-06.14.32:263][638]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2023.01.13-06.14.32:263][638]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2023.01.13-06.14.32:263][638]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2023.01.13-06.14.32:263][638]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2023.01.13-06.14.32:264][638]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2023.01.13-06.14.32:264][638]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2023.01.13-06.14.32:264][638]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2023.01.13-06.14.32:264][638]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2023.01.13-06.14.32:265][638]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2023.01.13-06.14.32:266][638]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2023.01.13-06.14.32:266][638]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2023.01.13-06.14.32:267][638]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2023.01.13-06.14.32:267][638]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2023.01.13-06.14.32:271][638]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2023.01.13-06.14.32:271][638]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2023.01.13-06.14.32:271][638]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2023.01.13-06.14.32:271][638]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2023.01.13-06.14.32:271][638]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2023.01.13-06.14.32:275][638]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2023.01.13-06.14.32:275][638]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2023.01.13-06.14.32:275][638]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2023.01.13-06.14.32:276][638]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2023.01.13-06.14.32:276][638]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2023.01.13-06.14.32:276][638]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2023.01.13-06.14.32:276][638]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2023.01.13-06.14.32:276][638]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2023.01.13-06.14.32:277][638]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2023.01.13-06.14.32:278][638]LogModuleManager: Shutting down and abandoning module Core (206)
+[2023.01.13-06.14.32:278][638]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2023.01.13-06.14.32:280][638]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2023.01.13-06.14.32:280][638]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2023.01.13-06.14.32:280][638]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2023.01.13-06.14.32:281][638]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2023.01.13-06.14.32:281][638]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2023.01.13-06.14.32:281][638]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2023.01.13-06.14.32:283][638]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2023.01.13-06.14.32:283][638]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2023.01.13-06.14.32:283][638]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2023.01.13-06.14.32:286][638]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2023.01.13-06.14.32:292][638]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2023.01.13-06.14.32:292][638]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2023.01.13-06.14.32:293][638]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2023.01.13-06.14.32:293][638]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2023.01.13-06.14.32:293][638]LogDerivedDataCache: Shutdown
+[2023.01.13-06.14.32:293][638]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2023.01.13-06.14.32:293][638]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2023.01.13-06.14.32:294][638]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2023.01.13-06.14.32:296][638]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2023.01.13-06.14.32:297][638]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2023.01.13-06.14.32:298][638]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2023.01.13-06.14.32:298][638]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2023.01.13-06.14.32:299][638]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2023.01.13-06.14.32:300][638]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2023.01.13-06.14.32:300][638]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2023.01.13-06.14.32:300][638]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2023.01.13-06.14.32:300][638]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2023.01.13-06.14.32:300][638]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2023.01.13-06.14.32:300][638]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2023.01.13-06.14.32:300][638]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2023.01.13-06.14.32:311][638]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2023.01.13-06.14.32:315][638]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2023.01.13-06.14.32:315][638]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2023.01.13-06.14.32:315][638]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2023.01.13-06.14.32:316][638]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2023.01.13-06.14.32:316][638]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2023.01.13-06.14.32:316][638]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2023.01.13-06.14.32:316][638]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2023.01.13-06.14.32:316][638]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2023.01.13-06.14.32:319][638]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2023.01.13-06.14.32:342][638]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2023.01.13-06.14.32:342][638]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2023.01.13-06.14.32:342][638]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2023.01.13-06.14.32:342][638]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2023.01.13-06.14.32:342][638]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2023.01.13-06.14.32:342][638]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2023.01.13-06.14.32:343][638]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2023.01.13-06.14.32:343][638]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2023.01.13-06.14.32:343][638]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2023.01.13-06.14.32:343][638]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2023.01.13-06.14.32:343][638]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2023.01.13-06.14.32:346][638]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2023.01.13-06.14.32:346][638]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2023.01.13-06.14.32:351][638]LogHMD: Freeing OpenVRDLLHandle.
+[2023.01.13-06.14.32:351][638]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2023.01.13-06.14.32:351][638]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2023.01.13-06.14.32:351][638]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2023.01.13-06.14.32:351][638]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2023.01.13-06.14.32:351][638]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2023.01.13-06.14.32:353][638]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2023.01.13-06.14.32:354][638]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2023.01.13-06.14.32:368][638]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2023.01.13-06.14.32:368][638]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2023.01.13-06.14.32:368][638]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B83C766B3-4C87-2984-1084-8497B183686B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=765d15e546e551cbe0cc66a9a86ea7d3%7Cc9bf1f71242a40479f12412fccce3902%7C43f9f1e1-7919-4419-9677-84c7ade23d1e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.01.13-06.14.32:386][638]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2023.01.13-06.14.32:387][638]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2023.01.13-06.14.32:389][638]LogModuleManager: Shutting down and abandoning module Media (57)
+[2023.01.13-06.14.32:390][638]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2023.01.13-06.14.32:390][638]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2023.01.13-06.14.32:390][638]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2023.01.13-06.14.32:390][638]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2023.01.13-06.14.32:390][638]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2023.01.13-06.14.32:390][638]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2023.01.13-06.14.32:391][638]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2023.01.13-06.14.32:391][638]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2023.01.13-06.14.32:391][638]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2023.01.13-06.14.32:391][638]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.01.13-06.14.32:393][638]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2023.01.13-06.14.32:395][638]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2023.01.13-06.14.32:396][638]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2023.01.13-06.14.32:396][638]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2023.01.13-06.14.32:396][638]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2023.01.13-06.14.32:400][638]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2023.01.13-06.14.32:400][638]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2023.01.13-06.14.32:400][638]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2023.01.13-06.14.32:401][638]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2023.01.13-06.14.32:401][638]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2023.01.13-06.14.32:401][638]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2023.01.13-06.14.32:401][638]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2023.01.13-06.14.32:401][638]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2023.01.13-06.14.32:401][638]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2023.01.13-06.14.32:402][638]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2023.01.13-06.14.32:402][638]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2023.01.13-06.14.32:402][638]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2023.01.13-06.14.32:404][638]LogD3D11RHI: Shutdown
+[2023.01.13-06.14.32:404][638]LogD3D11RHI: CleanupD3DDevice
+[2023.01.13-06.14.32:419][638]LogExit: Exiting.
+[2023.01.13-06.14.32:430][638]Log file closed, 01/13/23 15:14:32
