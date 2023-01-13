@@ -81,8 +81,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UStageInfoWidget); \
 
 
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__button_stgStart() { return STRUCT_OFFSET(UStageInfoWidget, button_stgStart); } \
-	FORCEINLINE static uint32 __PPO__targetlevelName() { return STRUCT_OFFSET(UStageInfoWidget, targetlevelName); }
+	FORCEINLINE static uint32 __PPO__button_stgStart() { return STRUCT_OFFSET(UStageInfoWidget, button_stgStart); }
 
 
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_12_PROLOG

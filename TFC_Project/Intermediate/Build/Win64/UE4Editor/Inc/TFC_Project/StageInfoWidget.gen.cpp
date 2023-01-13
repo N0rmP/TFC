@@ -92,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeStageInfoWidget() {}
 		{ "ModuleRelativePath", "StageInfoWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UStageInfoWidget_Statics::NewProp_targetlevelName = { "targetlevelName", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UStageInfoWidget, targetlevelName), METADATA_PARAMS(Z_Construct_UClass_UStageInfoWidget_Statics::NewProp_targetlevelName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UStageInfoWidget_Statics::NewProp_targetlevelName_MetaData)) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UStageInfoWidget_Statics::NewProp_targetlevelName = { "targetlevelName", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UStageInfoWidget, targetlevelName), METADATA_PARAMS(Z_Construct_UClass_UStageInfoWidget_Statics::NewProp_targetlevelName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UStageInfoWidget_Statics::NewProp_targetlevelName_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStageInfoWidget_Statics::NewProp_button_stgStart_MetaData[] = {
 		{ "EditInline", "true" },
@@ -131,7 +131,7 @@ void EmptyLinkFunctionForGeneratedCodeStageInfoWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStageInfoWidget, 3947296150);
+	IMPLEMENT_CLASS(UStageInfoWidget, 960091789);
 	template<> TFC_PROJECT_API UClass* StaticClass<UStageInfoWidget>()
 	{
 		return UStageInfoWidget::StaticClass();
