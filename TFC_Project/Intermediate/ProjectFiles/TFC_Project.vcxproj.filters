@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TFC_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B9153089-FF24-4459-84DA-D4CA5431A68F}</UniqueIdentifier>
+      <UniqueIdentifier>{941FBC40-7B9E-4111-B7C1-6E91715ED3EA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TFC_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{213D0294-FFF4-46B1-B5AD-03F55431C455}</UniqueIdentifier>
+      <UniqueIdentifier>{9485FB77-4413-434A-A1D5-612C9C2C47F5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,14 +27,8 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TFC_Project">
-      <UniqueIdentifier>{5912DADB-6045-4C14-98E5-3D6C58D7B6A5}</UniqueIdentifier>
+      <UniqueIdentifier>{51260A9C-548D-4589-BB02-E59B34D544CA}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\TFC_Project\Observer.cpp">
-      <Filter>Source\TFC_Project</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TFC_Project\Observer.h">
-      <Filter>Source\TFC_Project</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\TFC_Project\StageInfoWidget.cpp">
       <Filter>Source\TFC_Project</Filter>
     </ClCompile>
