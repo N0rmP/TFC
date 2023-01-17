@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Unreal Projects\\TFC\\TFC\\TFC_Project\\Source\\TFC_Project\\TFC_Project.Build.cs",
-		"C:\\Unreal Projects\\TFC\\TFC\\TFC_Project\\Source\\TFC_Project.Target.cs",
-		"C:\\Unreal Projects\\TFC\\TFC\\TFC_Project\\Source\\TFC_ProjectEditor.Target.cs"
+		"C:\\Users\\G418-24\\Desktop\\TFC_temp\\TFC\\TFC_Project\\Source\\TFC_Project\\TFC_Project.Build.cs",
+		"C:\\Users\\G418-24\\Desktop\\TFC_temp\\TFC\\TFC_Project\\Source\\TFC_Project.Target.cs",
+		"C:\\Users\\G418-24\\Desktop\\TFC_temp\\TFC\\TFC_Project\\Source\\TFC_ProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
