@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\G418-23\\Desktop\\TFC_start\\TFC\\TFC_Project\\Source\\TFC_Project\\TFC_Project.Build.cs",
-		"C:\\Users\\G418-23\\Desktop\\TFC_start\\TFC\\TFC_Project\\Source\\TFC_Project.Target.cs",
-		"C:\\Users\\G418-23\\Desktop\\TFC_start\\TFC\\TFC_Project\\Source\\TFC_ProjectEditor.Target.cs"
+		"C:\\Users\\G418-09\\Documents\\GitHub\\TFC\\TFC_Project\\Source\\TFC_Project\\TFC_Project.Build.cs",
+		"C:\\Users\\G418-09\\Documents\\GitHub\\TFC\\TFC_Project\\Source\\TFC_Project.Target.cs",
+		"C:\\Users\\G418-09\\Documents\\GitHub\\TFC\\TFC_Project\\Source\\TFC_ProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
