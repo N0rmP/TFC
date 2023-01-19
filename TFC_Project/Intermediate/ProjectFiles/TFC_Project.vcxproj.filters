@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TFC_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{296B37D3-1093-4609-BE7F-72F007F1FABC}</UniqueIdentifier>
+      <UniqueIdentifier>{9769C404-713B-4C69-B11E-87563AE1B904}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TFC_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4ED19531-E947-4C42-BAEB-70AD77403498}</UniqueIdentifier>
+      <UniqueIdentifier>{1ECDDC4D-598D-4670-AF16-537FC7206050}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TFC_Project">
-      <UniqueIdentifier>{E3E470C3-7532-4FD8-8F9C-2F954139A922}</UniqueIdentifier>
+      <UniqueIdentifier>{20E53514-2E81-454B-959B-B355EAFC5C97}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TFC_Project\StageInfoWidget.cpp">
       <Filter>Source\TFC_Project</Filter>
