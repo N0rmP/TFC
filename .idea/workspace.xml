@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d24591d7-73fe-4957-92cf-5d1e87b4bb91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/AoETower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/AoETower.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/BasicTower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/BasicTower.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoEModule2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoEModule3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoEModule4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoeModule1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/Module.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/SniperTower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/SniperTower.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Tower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Tower.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Upgrades/Rifle_Upgrade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Upgrades/Robot_Upgrade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Upgrades/Suit_Upgrade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Effect.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/Upgrade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/SlowEffect.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/creature.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/creature.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-024DA06E43E13E04D0DF5BAE73A3EAAF/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-0FB5FD8544DAE93FA5909A8463A4FD77/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-19472A1846E60491B9C2628BE5278416/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-1A11D592485C0257A529DB894D037B74/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-2B4F8B044DA54E903FB808B29C4E79E4/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-2BCBF19F499899D599BE8FB52CDC9203/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-2BEF970C457F72EC52383B9F0712E65B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-378EF0864AD776BB85BEE59D3BE83AAD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-46A0ADDF4E028E5C7E1EF1A7B65951D0/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-547A632847905EB14B69999A139B3B03/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-619B0B824BB746FC1BB7379B2867F891/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-63A03C404B0F06F6B4262C9EC087DC9B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-8C7F6CAF4D1AFA0AEE45E68901FB7CEE/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-8ECB0BA5432D0D2DD8FC9995C781E45A/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-98AB46A9422651A3E9588AB086285EBD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-99A82E364F33FA69005DBCAE4AD55E61/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-A0C41EA04712FABF92C7F9BC8001A490/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-A5C39FD94F9CC49493A53B9764697B42/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-B91E60DA43FEED81E880BAA90800FB0A/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-BEF4CE4943AA9BA1D4B830B47C801E11/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-CA7CD1B84ED24F39790687AC8A970C67/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-CC246ACB43457AFD09023D99207B9976/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-EC8AB2A147B11EE6A908C28DEF3AE1B2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-EEB42FC14B0DEFF9406EDBBA27539744/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-F1BF27DF44A8CB6CEE7AE5A06CD39CC7/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-FD7DE7604548151740F82CB15BC1DC52/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.19-05.46.40.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project.log" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ka83qF5HkxFpJD59SRd2bGGfAw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d24591d7-73fe-4957-92cf-5d1e87b4bb91" name="Default Changelist" comment="" />
+      <created>1674201139207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674201139207</updated>
+    </task>
+    <servers />
+  </component>
+</project>
