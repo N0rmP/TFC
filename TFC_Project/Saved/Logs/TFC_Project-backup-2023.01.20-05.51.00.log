@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.20-05.51.00.log
 ﻿Log file open, 01/20/23 14:51:00
+========
+﻿Log file open, 01/19/23 13:29:42
+>>>>>>>> main:TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.19-04.29.42.log
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +12,13 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: TFC_Project
 LogPlatformFile: Not using cached read wrapper
+<<<<<<<< HEAD:TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.20-05.51.00.log
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.073164
+========
+LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.227234
+>>>>>>>> main:TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.19-04.29.42.log
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Display: Downloading 'LowEntryExtStdLib' plugin from marketplace (com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e).
@@ -35,4 +44,8 @@ LogModuleManager: Shutting down and abandoning module SandboxFile (6)
 LogModuleManager: Shutting down and abandoning module PakFile (4)
 LogModuleManager: Shutting down and abandoning module RSA (3)
 LogExit: Exiting.
+<<<<<<<< HEAD:TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.20-05.51.00.log
 Log file closed, 01/20/23 14:51:00
+========
+Log file closed, 01/19/23 13:29:42
+>>>>>>>> main:TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.19-04.29.42.log
