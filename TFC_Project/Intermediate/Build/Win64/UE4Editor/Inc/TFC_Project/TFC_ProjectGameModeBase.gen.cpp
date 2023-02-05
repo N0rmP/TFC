@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeTFC_ProjectGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATFC_ProjectGameModeBase, 567334443);
+	IMPLEMENT_CLASS(ATFC_ProjectGameModeBase, 2945825377);
 	template<> TFC_PROJECT_API UClass* StaticClass<ATFC_ProjectGameModeBase>()
 	{
 		return ATFC_ProjectGameModeBase::StaticClass();
