@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -16,24 +16,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_SPARSE_DATA
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execopenStage) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->openStage(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execopenStage);
 
 
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execopenStage) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->openStage(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execopenStage);
 
 
 #define TFC_Project_Source_TFC_Project_StageInfoWidget_h_15_INCLASS_NO_PURE_DECLS \

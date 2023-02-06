@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -90,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeTFCHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATFCHUD, 373758870);
+	IMPLEMENT_CLASS(ATFCHUD, 2736129817);
 	template<> TFC_PROJECT_API UClass* StaticClass<ATFCHUD>()
 	{
 		return ATFCHUD::StaticClass();
