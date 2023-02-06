@@ -4,9 +4,9 @@
 #include "TFCHUD.h"
 #include "Engine/Canvas.h"
 
-void ATFCHUD::DrawHUD() {
+/* void ATFCHUD::DrawHUD() {
 	Super::DrawHUD();
-
+	
 	if (crosshair_texture) {
 		FVector2D Center(Canvas->ClipX * 0.5f, Canvas->ClipY * 0.5f);
 		FVector2D CrossHairDrawPosition(Center.X - (crosshair_texture->GetSurfaceWidth() * 0.5f), Center.Y - (crosshair_texture->GetSurfaceHeight() * 0.5f));
@@ -15,4 +15,4 @@ void ATFCHUD::DrawHUD() {
 		TileItem.BlendMode = SE_BLEND_Translucent;
 		Canvas->DrawItem(TileItem);
 	}
-}
+}*/
