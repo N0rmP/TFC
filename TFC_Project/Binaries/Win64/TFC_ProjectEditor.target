@@ -44,6 +44,82 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/Binaries/Win64/UE4Editor-DMXPixelMappingCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/Binaries/Win64/UE4Editor-DMXPixelMappingRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/Binaries/Win64/UE4Editor-DMXPixelMappingEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/Binaries/Win64/UE4Editor-DMXPixelMappingEditorWidgets.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/Binaries/Win64/UE4Editor-DMXPixelMappingBlueprintGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/Binaries/Win64/UE4Editor-DMXPixelMappingRenderer.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXProtocol/Binaries/Win64/UE4Editor-DMXProtocol.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXProtocol/Binaries/Win64/UE4Editor-DMXProtocolArtNet.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXProtocol/Binaries/Win64/UE4Editor-DMXProtocolSACN.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXEngine/Binaries/Win64/UE4Editor-DMXRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXEngine/Binaries/Win64/UE4Editor-DMXEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXEngine/Binaries/Win64/UE4Editor-DMXBlueprintGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UE4Editor-TakesCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UE4Editor-TakeTrackRecorders.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UE4Editor-TakeRecorderSources.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UE4Editor-TakeRecorder.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UE4Editor-TakeMovieScene.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UE4Editor-TakeSequencer.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -565,10 +641,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequenceEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -2260,6 +2332,26 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXProtocol/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXEngine/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2540,10 +2632,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2695,6 +2783,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/LowEntryExtStdLib/LowEntryExtStdLib.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/DigitalMultiplex/DMXPixelMapping/DMXPixelMapping.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXProtocol/DMXProtocol.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DMX/DMXEngine/DMXEngine.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Takes.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2979,10 +3087,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/ActorSequence.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
