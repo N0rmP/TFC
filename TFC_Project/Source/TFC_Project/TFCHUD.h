@@ -19,6 +19,6 @@ protected:
 		UTexture2D* crosshair_texture;
 
 public:
-	//virtual void DrawHUD() override;
+	virtual void DrawHUD() override;
 
 };
