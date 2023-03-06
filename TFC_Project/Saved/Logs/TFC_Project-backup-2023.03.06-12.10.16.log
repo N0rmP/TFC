@@ -1,0 +1,1300 @@
+﻿Log file open, 03/06/23 20:03:28
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: TFC_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.187359
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin LowEntryExtStdLib
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin DMXPixelMapping
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin DMXEngine
+LogPluginManager: Mounting plugin DMXProtocol
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz, GPU: NVIDIA GeForce RTX 3060 Ti
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -EpicPortal -epicusername=babambababam -epicuserid=bce160b788044b5ba732a8aee8c519d4 -epiclocale=ko -epicsandboxid=ue
+LogInit: Base Directory: D:/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+[2023.03.06-11.03.28:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.03.06-11.03.28:727][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.03.06-11.03.28:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+[2023.03.06-11.03.28:728][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+[2023.03.06-11.03.28:766][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.06-11.03.28:766][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.03.06-11.03.28:767][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.06-11.03.28:767][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.03.06-11.03.28:767][  0]LogHAL: Display: Platform has ~ 16 GB [17044975616 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.03.06-11.03.28:767][  0]LogInit: Going up to parent DeviceProfile []
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Scalability.ini]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.03.06-11.03.28:767][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.03.06-11.03.28:768][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.03.06-11.03.28:768][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.03.06-11.03.28:768][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.03.06-11.03.28:768][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.03.06-11.03.28:768][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.03.06-11.03.28:768][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Engine.ini]
+[2023.03.06-11.03.28:768][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Config/Windows/Editor.ini]
+[2023.03.06-11.03.28:768][  0]LogInit: Computer: DESKTOP-I51IJ90
+[2023.03.06-11.03.28:768][  0]LogInit: User: babam
+[2023.03.06-11.03.28:768][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.03.06-11.03.28:768][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.03.06-11.03.28:768][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.03.06-11.03.28:768][  0]LogMemory: Platform Memory Stats for Windows
+[2023.03.06-11.03.28:768][  0]LogMemory: Process Physical Memory: 135.48 MB used, 135.48 MB peak
+[2023.03.06-11.03.28:768][  0]LogMemory: Process Virtual Memory: 120.43 MB used, 120.43 MB peak
+[2023.03.06-11.03.28:768][  0]LogMemory: Physical Memory: 7080.27 MB used,  9175.09 MB free, 16255.36 MB total
+[2023.03.06-11.03.28:768][  0]LogMemory: Virtual Memory: 134206544.00 MB used,  11183.30 MB free, 134217728.00 MB total
+[2023.03.06-11.03.28:794][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.03.06-11.03.28:860][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.03.06-11.03.28:860][  0]LogInit: Using OS detected language (ko-KR).
+[2023.03.06-11.03.28:860][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.03.06-11.03.28:862][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2023.03.06-11.03.28:926][  0]LogInit: Setting process to per monitor DPI aware
+[2023.03.06-11.03.28:954][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.03.06-11.03.28:966][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.03.06-11.03.28:966][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.03.06-11.03.29:077][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.03.06-11.03.29:077][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.03.06-11.03.29:077][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.03.06-11.03.29:077][  0]LogD3D11RHI: D3D11 adapters:
+[2023.03.06-11.03.29:196][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
+[2023.03.06-11.03.29:196][  0]LogD3D11RHI:       8050/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.03.06-11.03.29:198][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.03.06-11.03.29:198][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.03.06-11.03.29:198][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.03.06-11.03.29:202][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.03.06-11.03.29:203][  0]LogD3D11RHI:     GPU DeviceId: 0x2489 (for the marketing name, search the web for "GPU Device Id")
+[2023.03.06-11.03.29:203][  0]LogWindows: EnumDisplayDevices:
+[2023.03.06-11.03.29:203][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
+[2023.03.06-11.03.29:203][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:1)
+[2023.03.06-11.03.29:204][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.03.06-11.03.29:204][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.03.06-11.03.29:205][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.03.06-11.03.29:205][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
+[2023.03.06-11.03.29:205][  0]LogD3D11RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
+[2023.03.06-11.03.29:205][  0]LogD3D11RHI:      Driver Date: 7-21-2022
+[2023.03.06-11.03.29:205][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
+[2023.03.06-11.03.29:253][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.03.06-11.03.29:253][  0]LogD3D11RHI: Async texture creation enabled
+[2023.03.06-11.03.29:253][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.03.06-11.03.29:277][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.03.06-11.03.29:278][  0]LogRHI: GeForceNow SDK initialized: 1
+[2023.03.06-11.03.29:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.03.06-11.03.29:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.03.06-11.03.29:606][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.03.06-11.03.29:606][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.03.06-11.03.29:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.03.06-11.03.29:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.03.06-11.03.29:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.03.06-11.03.29:634][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.03.06-11.03.29:641][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.03.06-11.03.29:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.03.06-11.03.29:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.03.06-11.03.29:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.03.06-11.03.29:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.03.06-11.03.29:677][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.03.06-11.03.29:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.03.06-11.03.29:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.03.06-11.03.29:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.03.06-11.03.29:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.03.06-11.03.29:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.03.06-11.03.29:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.03.06-11.03.29:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.03.06-11.03.29:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.03.06-11.03.29:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.03.06-11.03.29:733][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.03.06-11.03.29:740][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.03.06-11.03.29:797][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.03.06-11.03.29:797][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Intermediate/Shaders/WorkingDirectory/2260/).
+[2023.03.06-11.03.29:797][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/babam/AppData/Local/Temp/UnrealShaderWorkingDir/D1072F114019B55A49ECDDA6804BA79E/'.
+[2023.03.06-11.03.29:797][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.03.06-11.03.29:797][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.03.06-11.03.30:398][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.03.06-11.03.30:436][  0]LogDerivedDataCache: Loaded boot cache 0.04s 77MB C:/Users/babam/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2023.03.06-11.03.30:436][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/babam/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2023.03.06-11.03.30:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/babam/Documents/GitHub/TFC/TFC_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.03.06-11.03.30:437][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.03.06-11.03.30:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/babam/Documents/GitHub/TFC/TFC_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.06-11.03.30:437][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.03.06-11.03.30:447][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.03.06-11.03.30:447][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.06-11.03.30:447][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.03.06-11.03.30:452][  0]LogDerivedDataCache: Speed tests for C:/Users/babam/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.03.06-11.03.30:452][  0]LogDerivedDataCache: Display: Performance to C:/Users/babam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1174.00MBs, RandomWriteSpeed=215.58MBs. Assigned SpeedClass 'Local'
+[2023.03.06-11.03.30:453][  0]LogDerivedDataCache: Using Local data cache path C:/Users/babam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.03.06-11.03.30:453][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.03.06-11.03.30:453][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.03.06-11.03.30:489][  0]LogSlate: Using FreeType 2.10.0
+[2023.03.06-11.03.30:489][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.03.06-11.03.30:508][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2023.03.06-11.03.30:668][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.06-11.03.30:668][  0]LogInit: Active device profile: [0000025451B4A200][000002544FE9C780 49] Windows
+[2023.03.06-11.03.30:668][  0]LogInit: Profiles: [0000025451B4A200][000002544FE9C780 49] Windows, [0000025451AD9A00][000002544F26C900 49] WindowsNoEditor, [0000025451B4AD00][000002544F690A80 49] WindowsServer, [0000025451ADA500][000002544F694C00 49] WindowsClient, [0000025451B48F00][000002544F698D80 49] IOS, [0000025451AD8E00][000002544F69CF00 49] iPadAir, [0000025451B49C00][000002544F6A1080 49] iPadAir2, [0000025451A6DD00][000002544F6A9340 49] IPadPro, [0000025451A6DE00][000002544F6A5380 49] iPadAir3, [0000025451AD8500][000002544F6AD500 49] iPadAir4, [0000025451A6F600][000002544F269640 49] iPadMini2, [0000025451ADA800][000002544F6B1780 49] iPadMini3, [0000025451A6D400][000002544F6B58C0 49] iPadMini4, [0000025451AD9700][000002544F6B9A00 49] iPadMini5, [0000025451A95500][000002544F6C5CC0 49] iPhone6, [0000025451A95600][000002544F6C1D00 49] iPodTouch6, [0000025451A6CF00][000002544F6CC300 49] iPhone7, [0000025451A6CE00][000002544F6C8340 49] iPodTouch7, [0000025451A96D00][000002544F6D04C0 49] iPhone5S, [0000025451A6E900][000002544F6D4640 49] iPhone6Plus, [0000025451A97E00][000002544F6D87C0 49] iPhone6S, [0000025451A6C100][000002544F6DC940 49] iPhone6SPlus, [0000025451A94700][000002544F6E0AC0 49] iPhone7Plus, [0000025451A6CA00][000002544F6E4C40 49] iPhoneSE, [0000025451A96500][000002544F6E8DC0 49] iPhone8, [0000025451A6D500][000002544F6ECF40 49] iPhone8Plus, [0000025451A94500][000002544F6F10C0 49] iPhoneX, [0000025451A6E800][000002544F6F5240 49] iPhoneXS, [0000025451A96200][000002544F6F93C0 49] iPhoneXSMax, [0000025451A6D800][000002544F6FD540 49] iPhoneXR, [0000025451A94D00][000002544F6BD680 49] iPhone11, [0000025451A6E400][000002544F7017C0 49] iPhone11Pro, [0000025451A96300][000002544F705900 49] iPhone11ProMax, [0000025451A6FE00][000002544F709A40 49] iPhoneSE2, [0000025451A96400][000002544F711BC0 49] iPhone12Mini, [0000025451A6EE00][000002544F715D40 49] iPhone12, [0000025451A95D00][000002544F718200 49] iPhone12Pro, [0000025451A6EF00][000002544F71C380 49] iPhone12ProMax, [0000025451B48B00][000002544F720500 49] iPadPro105, [0000025451A6C600][000002544F724680 49] iPadPro129, [0000025451B49300][000002544F728800 49] iPadPro97, [0000025451A6C800][000002544F72C980 49] iPadPro2_129, [0000025451B4A700][000002544F730B00 49] iPad5, [0000025451A6CB00][000002544F734C80 49] iPad6, [0000025451B48300][000002544F738E00 49] iPad7, [0000025451A6FA00][000002544F73CF80 49] iPad8, [0000025451B49900][000002544F741100 49] iPadPro11, [0000025451A6CD00][000002544F745280 49] iPadPro2_11, [0000025451B49600][000002544F749400 49] iPadPro3_129, [0000025451A6FF00][000002544F75F580 49] iPadPro4_129, [0000025451B48A00][000002544F763700 49] AppleTV, [0000025451A6E500][000002544F70D840 49] AppleTV4K, [0000025451B48C00][000002544F7FF980 49] TVOS, [0000025451A6E200][000002544F80BAC0 49] Mac, [0000025451B49A00][000002544F837C40 49] MacClient, [0000025451A6EC00][000002544F852100 49] MacNoEditor, [0000025451B4AB00][000002544F856280 49] MacServer, [0000025451A6FC00][000002544F85A400 49] Linux, [0000025451B4B200][000002544F866580 49] LinuxAArch64, [0000025451A6C400][000002544F86A700 49] LinuxNoEditor, [0000025451B4A900][000002544F86E880 49] LinuxAArch64NoEditor, [0000025451A6D600][000002544F876A00 49] LinuxClient, [0000025451B48800][000002544F87EB80 49] LinuxAArch64Client, [0000025451A6E000][000002544F882D00 49] LinuxServer, [0000025451B4A000][000002544F886E80 49] LinuxAArch64Server, [0000025451A6F400][000002544F88B000 49] Android, [0000025451B4A100][000002544F89B180 49] Android_Low, [0000025451A6D900][000002544F89F300 49] Android_Mid, [0000025451B49400][000002544F8A3480 49] Android_High, [0000025451A6E300][000002544F8A7600 49] Android_Default, [0000025451B49D00][000002544F8AB780 49] Android_Adreno4xx, [0000025451A6C500][000002544F8338C0 49] Android_Adreno5xx_Low, [0000025451B49100][000002544F8C7A00 49] Android_Adreno5xx, [0000025451A6D100][000002544F8CBB40 49] Android_Adreno6xx, [0000025451B49200][000002544F8D3CC0 49] Android_Adreno6xx_Vulkan, [0000025451AD8C00][000002544F8D6180 49] Android_Mali_T6xx, [0000025451A97F00][000002544F8DA300 49] Android_Mali_T7xx, [0000025451ADA300][000002544F8DE480 49] Android_Mali_T8xx, [0000025451A96A00][000002544F902600 49] Android_Mali_G71, [0000025451ADA900][000002544F906780 49] Android_Mali_G72, [0000025451A95A00][000002544F90A900 49] Android_Mali_G72_Vulkan, [0000025451ADA200][000002544F90EA80 49] Android_Mali_G76, [0000025451A96800][000002544F912C00 49] Android_Mali_G76_Vulkan, [0000025451ADBC00][000002544F916D80 49] Android_Mali_G77, [0000025451A95E00][000002544F91AF00 49] Android_Mali_G77_Vulkan, [0000025451ADA700][000002544F91F080 49] Android_Vulkan_SM5, [0000025451A94300][000002544F923200 49] Android_PowerVR_G6xxx, [0000025451AD9900][000002544F927380 49] Android_PowerVR_GT7xxx, [0000025451A94400][000002544F92B500 49] Android_PowerVR_GE8xxx, [0000025451ADB900][000002544F92F680 49] Android_PowerVR_GM9xxx, [0000025451A97000][000002544F933800 49] Android_PowerVR_GM9xxx_Vulkan, [0000025451ADB200][000002544F8CF940 49] Android_TegraK1, [0000025451A95300][000002544F963A80 49] Android_Unknown_Vulkan, [0000025451ADB500][000002544F967BC0 49] Lumin, [0000025451A94900][000002544F96BD00 49] Lumin_Desktop, [0000025451ADB100][000002544F9721C0 49] HoloLens, 
+[2023.03.06-11.03.30:755][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.03.06-11.03.30:755][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.03.06-11.03.30:755][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.03.06-11.03.30:755][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.03.06-11.03.30:755][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.03.06-11.03.30:769][  0]LogNetVersion: TFC_Project 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 544390311)
+[2023.03.06-11.03.31:070][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2023.03.06-11.03.31:107][  0]LogPackageLocalizationCache: Processed 25 localized package path(s) for 1 prioritized culture(s) in 0.037157 seconds
+[2023.03.06-11.03.31:111][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2023.03.06-11.03.31:111][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2023.03.06-11.03.31:111][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.03.06-11.03.31:433][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.03.06-11.03.31:438][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.03.06-11.03.31:581][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.03.06-11.03.31:582][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.03.06-11.03.31:585][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.03.06-11.03.31:588][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.03.06-11.03.31:591][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.03.06-11.03.31:604][  0]LogUProjectInfo: Found projects:
+[2023.03.06-11.03.31:761][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.03.06-11.03.31:785][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.06-11.03.31:785][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.06-11.03.31:837][  0]LogCollectionManager: Loaded 0 collections in 0.000408 seconds
+[2023.03.06-11.03.31:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Collections/' took 0.00s
+[2023.03.06-11.03.31:879][  0]LogFileCache: Scanning file cache for directory 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/Developers/babam/Collections/' took 0.00s
+[2023.03.06-11.03.31:879][  0]LogFileCache: Scanning file cache for directory 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/Collections/' took 0.00s
+[2023.03.06-11.03.31:879][  0]LogOcInput: OculusInput pre-init called
+[2023.03.06-11.03.31:887][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.03.06-11.03.31:887][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.03.06-11.03.31:953][  0]LogEngine: Initializing Engine...
+[2023.03.06-11.03.31:954][  0]LogDMXProtocol: DMX: Creating protocol instance for: Art-Net
+[2023.03.06-11.03.31:956][  0]LogDMXProtocol: DMX: Creating protocol instance for: sACN
+[2023.03.06-11.03.31:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.03.06-11.03.31:957][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.03.06-11.03.31:958][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.03.06-11.03.32:032][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.03.06-11.03.32:039][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.03.06-11.03.32:046][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.03.06-11.03.32:049][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.03.06-11.03.32:049][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.03.06-11.03.32:049][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-11.03.32:049][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-11.03.32:049][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-11.03.32:049][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-11.03.32:049][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-11.03.32:049][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-11.03.32:049][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-11.03.32:049][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-11.03.32:050][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-11.03.32:050][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-11.03.32:091][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-11.03.32:091][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-11.03.32:236][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-11.03.32:238][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-11.03.32:240][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-11.03.32:240][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-11.03.32:240][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-11.03.32:240][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-11.03.32:240][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-11.03.32:241][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-11.03.32:241][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-11.03.32:241][  0]LogInit: FAudioDevice initialized.
+[2023.03.06-11.03.32:241][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.03.06-11.03.32:241][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.03.06-11.03.32:279][  0]LogDerivedDataCache: Saved boot cache 0.04s 77MB C:/Users/babam/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2023.03.06-11.03.32:281][  0]LogInit: Texture streaming: Enabled
+[2023.03.06-11.03.32:294][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2023.03.06-11.03.32:298][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.03.06-11.03.32:298][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.03.06-11.03.32:300][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.03.06-11.03.32:324][  0]LogInit: Transaction tracking system initialized
+[2023.03.06-11.03.32:344][  0]BlueprintLog: New page: 에디터 로드
+[2023.03.06-11.03.32:410][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2023.03.06-11.03.32:430][  0]TimingProfiler: Initialize
+[2023.03.06-11.03.32:430][  0]TimingProfiler: OnSessionChanged
+[2023.03.06-11.03.32:430][  0]LoadingProfiler: Initialize
+[2023.03.06-11.03.32:430][  0]LoadingProfiler: OnSessionChanged
+[2023.03.06-11.03.32:431][  0]NetworkingProfiler: Initialize
+[2023.03.06-11.03.32:431][  0]NetworkingProfiler: OnSessionChanged
+[2023.03.06-11.03.32:431][  0]MemoryProfiler: Initialize
+[2023.03.06-11.03.32:431][  0]MemoryProfiler: OnSessionChanged
+[2023.03.06-11.03.32:541][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.03.06-11.03.32:541][  0]LogCook: Display: Mobile HDR setting 1
+[2023.03.06-11.03.32:701][  0]LogFileCache: Scanning file cache for directory 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/' took 0.00s
+[2023.03.06-11.03.32:847][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.03.06-11.03.32:850][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.03.06-11.03.32:987][  0]LogSlate: Took 0.001414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2023.03.06-11.03.32:987][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.06-11.03.43:174][  0]LogSlate: Window '패키지 복원' being destroyed
+[2023.03.06-11.03.47:314][  0]LogSlate: Window '소스 컨트롤에서 체크아웃할 수 없습니다!' being destroyed
+[2023.03.06-11.03.47:321][  0]Message dialog closed, result: Ok, title: 소스 컨트롤에서 체크아웃할 수 없습니다!, text: 다음 애셋을 소스 컨트롤에서 체크아웃 시키지 못했습니다:
+/Game/blueprints/monster/midsize_enemy
+/Game/resouerce/Map/testing_Map2
+/Game/blueprints/monster/test/Enemy_for_Test
+[2023.03.06-11.03.47:329][  0]LogUnrealEdMisc: Loading editor; pre map load, took 19.267
+[2023.03.06-11.03.47:329][  0]Cmd: MAP LOAD FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.06-11.03.47:330][  0]LightingResults: New page: 라이팅 빌드
+[2023.03.06-11.03.47:331][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-11.03.47:331][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-11.03.47:331][  0]MapCheck: New page: 맵 체크
+[2023.03.06-11.03.47:331][  0]LightingResults: New page: 라이팅 빌드
+[2023.03.06-11.03.47:339][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.03.06-11.03.47:679][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] 사용 중인  <이름없음>  핀은 더 이상  Set HP Gen  노드에 존재하지 않습니다. 노드를 새로 고치거나 링크를 끊어 핀을 제거하세요.
+[2023.03.06-11.03.47:679][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] 사용 중인  타깃  핀은 더 이상  Set HP Gen  노드에 존재하지 않습니다. 노드를 새로 고치거나 링크를 끊어 핀을 제거하세요.
+[2023.03.06-11.03.47:680][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] 사용 중인  Value  핀은 더 이상  Set HP Gen  노드에 존재하지 않습니다. 노드를 새로 고치거나 링크를 끊어 핀을 제거하세요.
+[2023.03.06-11.03.47:680][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] player_character_C' 에서 "set_HP_Gen" 라는 이름의 함수를 찾을 수 없습니다.
+ Set HP Gen  에 대해 'player_character_C' 컴파일이 되었는지 확인하세요.
+[2023.03.06-11.03.47:680][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] 사용 중인  <이름없음>  핀은 더 이상  Get HP Gen  노드에 존재하지 않습니다. 노드를 새로 고치거나 링크를 끊어 핀을 제거하세요.
+[2023.03.06-11.03.47:680][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] 사용 중인  <이름없음>  핀은 더 이상  Get HP Gen  노드에 존재하지 않습니다. 노드를 새로 고치거나 링크를 끊어 핀을 제거하세요.
+[2023.03.06-11.03.47:680][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] 사용 중인  타깃  핀은 더 이상  Get HP Gen  노드에 존재하지 않습니다. 노드를 새로 고치거나 링크를 끊어 핀을 제거하세요.
+[2023.03.06-11.03.47:680][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] 사용 중인  Value  핀은 더 이상  Get HP Gen  노드에 존재하지 않습니다. 노드를 새로 고치거나 링크를 끊어 핀을 제거하세요.
+[2023.03.06-11.03.47:680][  0]LogBlueprint: Error: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\OnCollections\Upgrades\Suit-upgrades\Suit_Upgrade1.uasset: [Compiler] player_character_C' 에서 "get_HP_Gen" 라는 이름의 함수를 찾을 수 없습니다.
+ Get HP Gen  에 대해 'player_character_C' 컴파일이 되었는지 확인하세요.
+[2023.03.06-11.03.47:773][  0]LogBlueprint: Warning: [AssetLog] C:\Users\babam\Documents\GitHub\TFC\TFC_Project\Content\blueprints\monster\test\Enemy_for_Test.uasset: [Compiler] 기본값이 아닌  HP  입력 핀이  Enemy Init  노드에 더 이상 존재하지 않습니다. 노드를 새로고치거나 핀을 기본값으로 리셋시켜 제거하세요.
+[2023.03.06-11.03.47:966][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'testing_Map'.
+[2023.03.06-11.03.47:967][  0]LogAIModule: Creating AISystem for world testing_Map
+[2023.03.06-11.03.47:973][  0]LogActor: Error: SetOwner(): Failed to set 'enemy2_2' owner of 'enemy2_2' because it would cause an Owner loop
+[2023.03.06-11.03.47:973][  0]LogActor: Error: SetOwner(): Failed to set 'Enemy_for_Test_2' owner of 'Enemy_for_Test_2' because it would cause an Owner loop
+[2023.03.06-11.03.47:973][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.06-11.03.47:985][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.03.06-11.03.47:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.06-11.03.47:986][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.2ms.
+[2023.03.06-11.03.47:986][  0]LogFileHelpers: Loading map 'testing_Map' took 0.656
+[2023.03.06-11.03.47:988][  0]LogUnrealEdMisc: Total Editor Startup Time, took 19.926
+[2023.03.06-11.03.48:068][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-11.03.48:072][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-11.03.48:076][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-11.03.48:080][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-11.03.48:091][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0068 seconds. Added 3731 classes and 910 folders.
+[2023.03.06-11.03.48:092][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.03.06-11.03.48:094][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.03.06-11.03.48:094][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:094][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.06-11.03.48:094][  0]LogPakFile: OnPakFileMounted2Time == 0.000005
+[2023.03.06-11.03.48:094][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.03.06-11.03.48:094][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:094][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.03.06-11.03.48:094][  0]LogPakFile: OnPakFileMounted2Time == 0.000006
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.03.06-11.03.48:095][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.06-11.03.48:095][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:095][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.03.06-11.03.48:095][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2023.03.06-11.03.48:096][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.03.06-11.03.48:096][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:096][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.03.06-11.03.48:096][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2023.03.06-11.03.48:096][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.03.06-11.03.48:096][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:096][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.03.06-11.03.48:096][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.03.06-11.03.48:097][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.03.06-11.03.48:097][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:097][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.03.06-11.03.48:097][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.03.06-11.03.48:098][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.03.06-11.03.48:098][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:098][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.06-11.03.48:098][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.03.06-11.03.48:099][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.03.06-11.03.48:099][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:099][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.06-11.03.48:099][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.03.06-11.03.48:100][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.03.06-11.03.48:100][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:100][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.06-11.03.48:100][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.06-11.03.48:101][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.03.06-11.03.48:101][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:101][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.03.06-11.03.48:101][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.03.06-11.03.48:102][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.03.06-11.03.48:102][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:102][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.03.06-11.03.48:102][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.03.06-11.03.48:103][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.03.06-11.03.48:103][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.03.06-11.03.48:103][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.03.06-11.03.48:103][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.03.06-11.03.48:128][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.03.06-11.03.48:128][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2023.03.06-11.03.48:149][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.03.06-11.03.48:149][  0]LogLoad: (Engine Initialization) Total time: 20.09 seconds
+[2023.03.06-11.03.48:149][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.03.06-11.03.48:149][  0]LogInit: First time updating LLM stats...
+[2023.03.06-11.03.48:180][  0]LogAssetRegistry: Asset discovery search completed in 17.6720 seconds
+[2023.03.06-11.03.48:181][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2023.03.06-11.03.48:216][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.03.06-11.03.48:224][  0]LogSlate: Took 0.001140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2023.03.06-11.03.48:224][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.03.06-11.03.48:226][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.03.06-11.03.48:285][  0]LogRenderer: Reallocating scene render targets to support 804x528 Format 10 NumSamples 1 (Frame:1).
+[2023.03.06-11.03.48:285][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.06-11.03.48:308][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/' took 0.14s
+[2023.03.06-11.03.48:328][  1]LogActor: Error: SetOwner(): Failed to set 'charge_enemy_C_0' owner of 'charge_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-11.03.48:530][  2]LogActor: Error: SetOwner(): Failed to set 'Enemy_for_Test_C_0' owner of 'Enemy_for_Test_C_0' because it would cause an Owner loop
+[2023.03.06-11.03.49:164][ 77]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.06-11.03.50:352][149]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:151).
+[2023.03.06-11.03.55:026][569]LogActor: Error: SetOwner(): Failed to set 'normal_enemy_C_0' owner of 'normal_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-11.03.58:034][901]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/monster/midsize_enemy.midsize_enemy
+[2023.03.06-11.03.58:242][901]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 126 classes and 0 folders.
+[2023.03.06-11.03.58:902][901]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-11.03.58:902][901]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-11.03.58:930][901]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.06-11.03.58:975][902]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.03.06-11.04.00:774][ 68]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-11.04.00:795][ 69]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:1).
+[2023.03.06-11.04.07:078][744]LogSlate: Window 'midsize_enemy' being destroyed
+[2023.03.06-11.04.07:089][744]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-11.04.07:089][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-11.18.42:497][449]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/monster/midsize_enemy.midsize_enemy
+[2023.03.06-11.18.42:833][449]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-11.20.36:240][ 77]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/resouerce/Mannequin/Animations/armguard_run.armguard_run
+[2023.03.06-11.20.36:247][ 77]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2023.03.06-11.20.36:398][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.06-11.20.36:399][ 77]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2023.03.06-11.20.36:849][ 77]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.06-11.21.35:662][129]LogSlate: Window '새 애니메이션 오브젝트 생성' being destroyed
+[2023.03.06-11.21.38:760][426]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2023.03.06-11.21.38:761][426]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/resouerce/Map/testing_Map' took 0.043
+[2023.03.06-11.21.38:761][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/blueprints/monster/midsize_enemy] ([1] browsable assets)...
+[2023.03.06-11.21.38:770][426]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/blueprints/monster/midsize_enemy.midsize_enemy]
+[2023.03.06-11.21.38:770][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/monster/midsize_enemy]
+[2023.03.06-11.21.38:782][426]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/midsize_enemy_Auto11EE3DAE949C21AB5B0871D876C846495.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/Autosaves/Game/blueprints/monster/midsize_enemy_Auto1.uasset'
+[2023.03.06-11.21.38:783][426]LogFileHelpers: Auto-saving content packages took 0.023
+[2023.03.06-11.21.40:731][636]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun
+[2023.03.06-11.21.45:279][994]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun
+[2023.03.06-11.21.45:436][994]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-11.21.45:436][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-11.23.38:696][ 85]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun
+[2023.03.06-11.23.50:962][290]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun
+[2023.03.06-11.23.55:912][774]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun
+[2023.03.06-11.23.59:934][178]Cmd: TRANSACTION UNDO
+[2023.03.06-11.23.59:934][178]LogEditorTransaction: Undo 애니메이션 시퀀스 크롭
+[2023.03.06-11.24.00:011][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.06-11.24.45:612][642]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun
+[2023.03.06-11.26.36:036][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-11.26.36:042][744]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun70B109F74BBA843333D8E989FBA34A70.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-11.26.36:057][744]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-11.26.36:057][744]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-11.26.36:360][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-11.26.36:363][772]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrunBA987E8C47C7DA395FD296A1FB2D33CB.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-11.26.36:371][772]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-11.26.36:371][772]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-11.26.36:577][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-11.26.36:580][791]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun876FAC524A50DFAA02C2459D47F73E40.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-11.26.36:588][791]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-11.26.36:588][791]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-11.26.36:761][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-11.26.36:764][806]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun1922139A4FCC9095D0492881B7D75CFC.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-11.26.36:772][806]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-11.26.36:772][806]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-11.26.36:944][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-11.26.36:946][822]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrunDFB9C03542225CC1FAC7A68580924D5E.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-11.26.36:954][822]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-11.26.36:954][822]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-11.26.37:127][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-11.26.37:130][837]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrunB9B1319B447DA15734DAA68C1FA42F76.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-11.26.37:138][837]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-11.26.37:138][837]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-11.26.37:344][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-11.26.37:346][856]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun59D7ACCC413198C3246DDABCA71933B5.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-11.26.37:354][856]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-11.26.37:354][856]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.41:753][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.41:756][510]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun2FD0BE9F4801A4CC6C2005AB28A48AF7.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.41:768][510]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.41:768][510]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.42:354][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.42:356][567]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun1915856C4456028A9CC61398C557911D.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.42:365][567]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.42:365][567]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.42:505][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.42:508][579]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrunF54FE4084768FEF1CDA105B288FB132B.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.42:516][579]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.42:516][579]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.42:705][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.42:708][596]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrunC080E79F46037CAB83E5BE8D07A7F518.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.42:717][596]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.42:717][596]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.42:939][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.42:941][616]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun3C1AF32D455317A040BA838A74DF5F10.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.42:950][616]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.42:950][616]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.43:504][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.43:506][670]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrunA3713BB74129D56477EEFB8A6ED1F675.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.43:515][670]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.43:515][670]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.43:704][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.43:706][687]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrun74EDA31F41A16A3C31CB7FB5AF018D28.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.43:714][687]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.43:714][687]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.43:921][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/resouerce/Mannequin/Animations/guradrun" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset" SILENT=true
+[2023.03.06-12.03.43:924][707]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/guradrunD1C08259451EAC5ECBFD14855DE37263.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/guradrun.uasset'
+[2023.03.06-12.03.43:933][707]AssetCheck: New page: 애셋 저장: guradrun
+[2023.03.06-12.03.43:933][707]LogContentValidation: Display: AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun 유효성 검사
+[2023.03.06-12.03.45:387][839]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.03.45:387][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.03.45:403][839]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.03.45:403][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.03.45:455][839]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.03.45:455][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.03.46:587][940]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/resouerce/Mannequin/Animations/guradrun.guradrun
+[2023.03.06-12.03.46:590][940]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.06-12.03.46:844][940]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.06-12.03.49:197][143]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.03.49:197][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.03.49:211][143]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.03.49:211][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.03.49:246][143]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.03.49:246][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.03.55:888][781]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_armguard.ThirdPerson_IdleRun_armguard
+[2023.03.06-12.03.55:891][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.06-12.03.56:102][781]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.03.06-12.04.28:748][ 91]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/ThirdPerson_IdleRun_armguardA4FE65044637C00517FE5A89CD044F43.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_armguard.uasset'
+[2023.03.06-12.04.28:761][ 91]AssetCheck: New page: 애셋 저장: ThirdPerson_IdleRun_armguard
+[2023.03.06-12.04.28:761][ 91]LogContentValidation: Display: BlendSpace1D /Game/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_armguard.ThirdPerson_IdleRun_armguard 유효성 검사
+[2023.03.06-12.04.30:412][255]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.04.30:412][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.04.30:452][255]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.04.30:452][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.04.47:671][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.03.06-12.04.49:823][980]LogSlate: Window '콘텐츠 저장' being destroyed
+[2023.03.06-12.04.49:855][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/monster/midsize_enemy" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/blueprints/monster/midsize_enemy.uasset" SILENT=true
+[2023.03.06-12.04.49:865][980]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/midsize_enemy1DD8E01945A5CCF63849C3BA98A62F94.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/blueprints/monster/midsize_enemy.uasset'
+[2023.03.06-12.04.49:902][980]LogActor: Error: SetOwner(): Failed to set 'enemy2_2' owner of 'enemy2_2' because it would cause an Owner loop
+[2023.03.06-12.04.49:902][980]LogActor: Error: SetOwner(): Failed to set 'enemy3_5' owner of 'enemy3_5' because it would cause an Owner loop
+[2023.03.06-12.04.49:903][980]LogActor: Error: SetOwner(): Failed to set 'enemy1_2' owner of 'enemy1_2' because it would cause an Owner loop
+[2023.03.06-12.04.49:903][980]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_2' owner of 'midsize_enemy_2' because it would cause an Owner loop
+[2023.03.06-12.04.49:903][980]LogAssetEditorSubsystem: Opening Asset editor for World /Game/resouerce/Map/testing_Map2.testing_Map2
+[2023.03.06-12.04.49:903][980]Cmd: MAP LOAD FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Map/testing_Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.06-12.04.49:903][980]LightingResults: New page: 라이팅 빌드
+[2023.03.06-12.04.49:903][980]LoadErrors: New page: 맵 로드중: testing_Map2.umap
+[2023.03.06-12.04.49:940][980]LogWorld: UWorld::CleanupWorld for testing_Map, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.04.49:940][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.04.49:940][980]MapCheck: New page: 맵 체크
+[2023.03.06-12.04.49:940][980]LightingResults: New page: 라이팅 빌드
+[2023.03.06-12.04.49:962][980]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.06-12.04.49:968][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.03.06-12.04.49:969][980]LogAudio: Display: Audio Device (ID: 1) registered with world 'testing_Map2'.
+[2023.03.06-12.04.49:973][980]LogActor: Error: SetOwner(): Failed to set 'enemy2_2' owner of 'enemy2_2' because it would cause an Owner loop
+[2023.03.06-12.04.49:973][980]LogActor: Error: SetOwner(): Failed to set 'enemy3_5' owner of 'enemy3_5' because it would cause an Owner loop
+[2023.03.06-12.04.49:973][980]LogActor: Error: SetOwner(): Failed to set 'enemy1_2' owner of 'enemy1_2' because it would cause an Owner loop
+[2023.03.06-12.04.49:973][980]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_2' owner of 'midsize_enemy_2' because it would cause an Owner loop
+[2023.03.06-12.04.49:978][980]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.06-12.04.49:978][980]LogAIModule: Creating AISystem for world testing_Map2
+[2023.03.06-12.04.49:999][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.03.06-12.04.50:009][980]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.06-12.04.50:009][980]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.131ms.
+[2023.03.06-12.04.50:009][980]LogFileHelpers: Loading map 'testing_Map2' took 0.107
+[2023.03.06-12.04.50:031][980]AssetCheck: New page: 애셋 저장: midsize_enemy
+[2023.03.06-12.04.50:031][980]LogContentValidation: Display: Blueprint /Game/blueprints/monster/midsize_enemy.midsize_enemy 유효성 검사
+[2023.03.06-12.04.53:325][359]LogEditorViewport: Clicking on Actor (LMB): midsize_enemy_C (midsize_enemy)
+[2023.03.06-12.05.08:257][580]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/resouerce/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2023.03.06-12.05.08:261][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.06-12.05.40:587][320]LogContentBrowser: Deferred new asset file creation: ThirdPerson_AnimBP1
+[2023.03.06-12.05.40:650][320]LogContentBrowser: Creating deferred item: ThirdPerson_AnimBP1
+[2023.03.06-12.05.48:121][938]LogContentBrowser: Attempting asset rename: ThirdPerson_AnimBP1 -> ThirdPerson_AnimBP_armguard
+[2023.03.06-12.05.48:152][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.03.06-12.05.48:165][938]LogContentBrowser: End creating deferred item ThirdPerson_AnimBP1
+[2023.03.06-12.05.50:238][ 71]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.ThirdPerson_AnimBP_armguard
+[2023.03.06-12.05.50:242][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.03.06-12.06.17:768][259]BlueprintLog: New page: ThirdPerson_AnimBP_armguard 컴파일
+[2023.03.06-12.06.17:815][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.03.06-12.06.19:436][398]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/ThirdPerson_AnimBP_armguard8E2D5A3E4A9C2B6FAD6D8CBF57522B2B.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.uasset'
+[2023.03.06-12.06.19:451][398]AssetCheck: New page: 애셋 저장: ThirdPerson_AnimBP_armguard
+[2023.03.06-12.06.19:451][398]LogContentValidation: Display: AnimBlueprint /Game/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.ThirdPerson_AnimBP_armguard 유효성 검사
+[2023.03.06-12.06.20:291][472]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/ThirdPerson_AnimBP_armguard0BD71D5F4856F8D8EBBF6DB2128A8277.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.uasset'
+[2023.03.06-12.06.20:302][472]AssetCheck: New page: 애셋 저장: ThirdPerson_AnimBP_armguard
+[2023.03.06-12.06.20:302][472]LogContentValidation: Display: AnimBlueprint /Game/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.ThirdPerson_AnimBP_armguard 유효성 검사
+[2023.03.06-12.06.24:359][830]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/ThirdPerson_AnimBP_armguardB59ABDA14BD136819E9CED973B457D08.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.uasset'
+[2023.03.06-12.06.24:370][830]AssetCheck: New page: 애셋 저장: ThirdPerson_AnimBP_armguard
+[2023.03.06-12.06.24:370][830]LogContentValidation: Display: AnimBlueprint /Game/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.ThirdPerson_AnimBP_armguard 유효성 검사
+[2023.03.06-12.06.44:979][613]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.06.44:979][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.06.44:987][613]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.06.44:987][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.06.45:046][613]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.06.45:046][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.06.47:444][810]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.06.47:444][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.06.47:452][810]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.06.47:452][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.06.47:509][810]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.06.47:509][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.06.54:135][310]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_2' owner of 'midsize_enemy_2' because it would cause an Owner loop
+[2023.03.06-12.06.54:135][310]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.54:135][310]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.54:136][310]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.54:136][310]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.54:137][310]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_2' owner of 'midsize_enemy_2' because it would cause an Owner loop
+[2023.03.06-12.06.56:495][482]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_2' owner of 'midsize_enemy_2' because it would cause an Owner loop
+[2023.03.06-12.06.56:495][482]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.56:496][482]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.56:496][482]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.56:496][482]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.06.56:497][482]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_2' owner of 'midsize_enemy_2' because it would cause an Owner loop
+[2023.03.06-12.07.04:114][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/monster/midsize_enemy" FILE="C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/blueprints/monster/midsize_enemy.uasset" SILENT=true
+[2023.03.06-12.07.04:128][ 34]LogSavePackage: Moving 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Saved/midsize_enemyF00C8F264EB25DA69DE3F4BCD78A93EE.tmp' to 'C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/blueprints/monster/midsize_enemy.uasset'
+[2023.03.06-12.07.04:142][ 34]AssetCheck: New page: 애셋 저장: midsize_enemy
+[2023.03.06-12.07.04:142][ 34]LogContentValidation: Display: Blueprint /Game/blueprints/monster/midsize_enemy.midsize_enemy 유효성 검사
+[2023.03.06-12.07.05:557][148]LogSlate: Window 'midsize_enemy' being destroyed
+[2023.03.06-12.07.05:563][148]LogSlate: Window 'midsize_enemy' being destroyed
+[2023.03.06-12.07.05:568][148]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.07.05:568][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.07.07:242][322]LogTemp: Repeating last play command: 선택된 뷰포트
+[2023.03.06-12.07.07:249][322]BlueprintLog: Warning: {Name} 블루프린트 컴파일에 실패했습니다. Suit_Upgrade1
+[2023.03.06-12.07.07:249][322]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2023.03.06-12.07.07:249][322]LogPlayLevel: [PlayLevel] Compiling midsize_enemy before play...
+[2023.03.06-12.07.07:280][322]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.07.07:280][322]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_2' owner of 'midsize_enemy_2' because it would cause an Owner loop
+[2023.03.06-12.07.07:358][322]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.03.06-12.07.07:363][322]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (1 blueprints)
+[2023.03.06-12.07.07:363][322]LogCustomDialog: Dialog displayed:
+[2023.03.06-12.07.10:547][322]LogSlate: Window '블루프린트 컴파일 오류' being destroyed
+[2023.03.06-12.07.10:558][322]PIE: New page: PIE 세션: testing_Map2 (2023. 3. 7. 오전 6:07:10)
+[2023.03.06-12.07.10:587][322]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.03.06-12.07.10:588][322]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.06-12.07.10:589][322]LogPlayLevel: Creating play world package: /Game/resouerce/Map/UEDPIE_0_testing_Map2
+[2023.03.06-12.07.10:593][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003989s)
+[2023.03.06-12.07.10:593][322]LogAIModule: Creating AISystem for world testing_Map2
+[2023.03.06-12.07.10:594][322]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2023.03.06-12.07.10:594][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/resouerce/Map/testing_Map2.testing_Map2 to /Game/resouerce/Map/UEDPIE_0_testing_Map2.testing_Map2 (0.004959s)
+[2023.03.06-12.07.10:628][322]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.03.06-12.07.10:629][322]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.03.06-12.07.10:629][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.06-12.07.10:629][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.06-12.07.10:629][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.06-12.07.10:629][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.06-12.07.10:629][322]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.06-12.07.10:629][322]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.06-12.07.10:629][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.06-12.07.10:629][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.06-12.07.10:630][322]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.06-12.07.10:630][322]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.06-12.07.10:715][322]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.06-12.07.10:715][322]LogAudioMixer: Display: 1: FrontRight
+[2023.03.06-12.07.10:762][322]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2023.03.06-12.07.10:762][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.06-12.07.10:762][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.06-12.07.10:762][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.06-12.07.10:762][322]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.06-12.07.10:762][322]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.06-12.07.10:762][322]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.06-12.07.10:775][322]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.06-12.07.10:775][322]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.06-12.07.10:775][322]LogInit: FAudioDevice initialized.
+[2023.03.06-12.07.10:775][322]LogAudio: Display: Audio Device (ID: 2) registered with world 'testing_Map2'.
+[2023.03.06-12.07.10:801][322]LogLoad: Game class is 'basic_gamemode_C'
+[2023.03.06-12.07.10:803][322]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (enemy3_5.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2023.03.06-12.07.10:803][322]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (enemy3_5.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2023.03.06-12.07.10:803][322]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (enemy3_5.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2023.03.06-12.07.10:803][322]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (enemy1_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2023.03.06-12.07.10:803][322]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (enemy1_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2023.03.06-12.07.10:804][322]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (enemy1_2.CharacterMesh0 SK_Mannequin) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2023.03.06-12.07.10:804][322]LogWorld: Bringing World /Game/resouerce/Map/UEDPIE_0_testing_Map2.testing_Map2 up for play (max tick rate 0) at 2023.03.06-21.07.10
+[2023.03.06-12.07.10:805][322]LogWorld: Bringing up level for play took: 0.002835
+[2023.03.06-12.07.10:805][322]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2023.03.06-12.07.10:807][322]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.03.06-12.07.10:895][322]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2023.03.06-12.07.10:898][322]LogBlueprintUserMessages: [Main_GameInstance_C_0] GI init done
+[2023.03.06-12.07.10:898][322]LogScript: Warning: upgrade_manager 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Main_GameInstance_C /Engine/Transient.UnrealEdEngine_0:Main_GameInstance_C_0
+	Function /Game/blueprints/others/Observer/Main_GameInstance.Main_GameInstance_C:level_initiate:0174
+[2023.03.06-12.07.10:899][322]PIE: Error: 블루프린트 런타임 오류: "upgrade_manager 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: Main_GameInstance 함수: Level Initiate 그래프: level_initiate 노드: Get Upgraded
+[2023.03.06-12.07.10:899][322]PIE: 서버가 로그인했습니다.
+[2023.03.06-12.07.10:900][322]PIE: 에디터에서 플레이 총 시작 시간 3.653초입니다.
+[2023.03.06-12.07.11:951][397]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : 
+[2023.03.06-12.07.12:818][501]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : 
+[2023.03.06-12.07.13:143][540]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : 
+[2023.03.06-12.07.13:251][553]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : enemy2
+[2023.03.06-12.07.13:709][608]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : 
+[2023.03.06-12.07.14:042][648]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : 
+[2023.03.06-12.07.14:334][683]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : 
+[2023.03.06-12.07.14:543][708]LogBlueprintUserMessages: [rifle_GEN_VARIABLE_rifle_C_CAT_0] targ : midsize_enemy
+[2023.03.06-12.07.14:808][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-12.07.14:808][737]LogWorld: BeginTearingDown for /Game/resouerce/Map/UEDPIE_0_testing_Map2
+[2023.03.06-12.07.14:808][737]LogWorld: UWorld::CleanupWorld for testing_Map2, bSessionEnded=true, bCleanupResources=true
+[2023.03.06-12.07.14:809][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.07.14:814][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.06-12.07.14:841][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.06-12.07.14:853][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.06-12.07.14:855][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-12.07.14:857][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.06-12.07.14:926][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.03.06-12.07.15:041][737]LogSlate: Took 0.005864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.06-12.07.15:045][737]LogSlate: Took 0.004472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2023.03.06-12.07.15:058][738]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.03.06-12.07.16:701][905]LogSlate: Window '메시지 로그' being destroyed
+[2023.03.06-12.07.16:706][905]LogSlate: Window '메시지 로그' being destroyed
+[2023.03.06-12.07.47:253][424]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_1' owner of 'midsize_enemy_C_1' because it would cause an Owner loop
+[2023.03.06-12.07.50:672][717]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/monster/midsize_enemy.midsize_enemy
+[2023.03.06-12.07.51:110][717]LogActor: Error: SetOwner(): Failed to set 'midsize_enemy_C_0' owner of 'midsize_enemy_C_0' because it would cause an Owner loop
+[2023.03.06-12.09.08:208][699]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.03.06-12.09.08:684][699]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.475 s
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: === Handled ensure: ===
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: 
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: Ensure condition failed: !bGraphDataInvalid [File:D:/Build/++UE4/Sync/Engine/Source/Editor/GraphEditor/Private/SGraphPin.cpp] [Line: 821]
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: The Graph Pin Object has been invalidate. Someone is keeping a hard ref on the SGraphPin. See InvalidateGraphData for more info
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: Stack: 
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffb9f50d149 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffb9f4673ee UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffb9f433329 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaad9fc19 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaad9faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaada1ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaada1ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaad9faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaada1ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7857 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:684][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa6e252a UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaa7b7aec UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaab6977e UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaab69b2b UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaab9b93e UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaab6a0d7 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaabc1e57 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffbaabc1659 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ff6e5fbae49 UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ff6e5fd117c UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ff6e5fd125a UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ff6e5fe52bd UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ff6e5fe7fea UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffc2ba27614 KERNEL32.DLL!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: [Callstack] 0x00007ffc2c4a26a1 ntdll.dll!UnknownFunction []
+[2023.03.06-12.09.08:685][699]LogOutputDevice: Error: 
+[2023.03.06-12.09.08:687][699]LogStats:                SubmitErrorReport -  0.000 s
+[2023.03.06-12.09.29:904][699]LogStats:                    SendNewReport - 21.217 s
+[2023.03.06-12.09.29:904][699]LogStats:             FDebug::EnsureFailed - 21.696 s
+[2023.03.06-12.10.16:711][699]LogWindows: Error: === Critical error: ===
+[2023.03.06-12.10.16:711][699]LogWindows: Error: 
+[2023.03.06-12.10.16:711][699]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000108
+[2023.03.06-12.10.16:711][699]LogWindows: Error: 
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffb9f467469 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffb9f433329 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaad9fc19 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaad9faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaada1ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaada1ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaad9faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaada1ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b4a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b3dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b6d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7857 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa6e252a UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaa7b7aec UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaab6977e UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaab69b2b UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaab9b93e UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaab6a0d7 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaabc1e57 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffbaabc1659 UE4Editor-Slate.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ff6e5fbae49 UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ff6e5fd117c UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ff6e5fd125a UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ff6e5fe52bd UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ff6e5fe7fea UE4Editor.exe!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffc2ba27614 KERNEL32.DLL!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: [Callstack] 0x00007ffc2c4a26a1 ntdll.dll!UnknownFunction []
+[2023.03.06-12.10.16:711][699]LogWindows: Error: 
+[2023.03.06-12.10.16:720][699]LogExit: Executing StaticShutdownAfterError
+[2023.03.06-12.10.16:724][699]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.03.06-12.10.16:724][699]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.03.06-12.10.16:731][699]Log file closed, 03/06/23 21:10:16
