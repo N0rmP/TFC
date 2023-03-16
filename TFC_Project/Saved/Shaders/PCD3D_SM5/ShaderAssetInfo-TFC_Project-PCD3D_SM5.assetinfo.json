@@ -169,8 +169,8 @@
 			"ShaderMapHash": "6CDD0D67BE2F0A1AEAFF29AA516B67EADD0D23CB",
 			"Assets": [
 				"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset",
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/material/test.uasset",
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/material/full_black.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/material/test.uasset",
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/material/full_black.uasset"
 			]
 		},
 		{
@@ -222,33 +222,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "B95A5A45EABAF617D23E1319900ECD621233613F",
+			"ShaderMapHash": "14CE13A45B418615F4C91002F447022392497C95",
 			"Assets": [
-				"../../../Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "D6A4D95F44E5F31C7B77474B6B0799E477BDB601",
-			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/material/bullet_mark.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "7DC9AD995DCE9E9E177A42D050307C57A502C753",
-			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/temp/FirstPerson/FPWeapon/Materials/M_FPGun.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "5955D31DA1D64305C4B656F257539CF680F15414",
-			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/Mannequin/Character/Materials/M_UE4Man_Body.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "29D5E5A9772118A7A5A75131FCB983C30171715F",
-			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset"
+				"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
 			]
 		},
 		{
@@ -258,22 +234,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "14CE13A45B418615F4C91002F447022392497C95",
+			"ShaderMapHash": "B95A5A45EABAF617D23E1319900ECD621233613F",
 			"Assets": [
-				"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
+				"../../../Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "BD406433FCBD57A76CAECAC6FEEF73C6781BAE2B",
+			"ShaderMapHash": "4FE3282AB0F6C2789225C1FD03EF54E56158CD16",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/material/test2.uasset",
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/material/test3.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "436DE1A69DF5307C3F2F16128082A3D488396931",
-			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/temp/StarterContent/Materials/M_Basic_Wall.uasset"
+				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
 			]
 		},
 		{
@@ -289,99 +258,130 @@
 			]
 		},
 		{
+			"ShaderMapHash": "29D5E5A9772118A7A5A75131FCB983C30171715F",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5955D31DA1D64305C4B656F257539CF680F15414",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/Mannequin/Character/Materials/M_UE4Man_Body.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D6A4D95F44E5F31C7B77474B6B0799E477BDB601",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/material/bullet_mark.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7DC9AD995DCE9E9E177A42D050307C57A502C753",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/temp/FirstPerson/FPWeapon/Materials/M_FPGun.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "436DE1A69DF5307C3F2F16128082A3D488396931",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/temp/StarterContent/Materials/M_Basic_Wall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BD406433FCBD57A76CAECAC6FEEF73C6781BAE2B",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/material/test2.uasset",
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/material/test3.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "54AB829D1419992BBCE1D7BDC73B7E236AD914B7",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Door_01.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Door_01.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "CC336B0074B1CFCD2137FEBC681B407E46BF309F",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Floor_03.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Floor_03.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "8EB93F55B7DBF9DA8C6BE4C350005E7815436A78",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Wall_04.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Wall_04.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "DD9B8A0EB8D60D6D2A9147D4ADEEF424B154D1A6",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Glow.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "4FE3282AB0F6C2789225C1FD03EF54E56158CD16",
-			"Assets": [
-				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Glow.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "B42DBB99BFA8BEE5D7D914933E63611D4C635A02",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Stripe_Decal_02.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Stripe_Decal_02.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "B8548BFD9EB259F9401E7AD5A4973E9E46182C5D",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Stripe_Decal_01.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Stripe_Decal_01.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "ACB1520295B5003FE4661E01C55C9E6F04F30083",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_04.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_04.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "F8A2FED4DCD642C631F198EF3F4F93B270926850",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_03.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_03.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "1B993D461786B01F4FB32E0F9F0E420293BC9EE3",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_02.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_02.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "BAB669C7320F9760F5EE901780EB0CD4CCADE0B7",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_01.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "8EAA2958B3FE2BADDB8B3718ECBDD8DDE0449DE8",
-			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Pillar_01_Color.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "B377F2C466685D8337499DEB2ADC1465F3B5A0F1",
-			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Glass.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Signs_Decal_01.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "7F5F88D58F81E6F156D88F67D0241A8A879449EE",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/temp/StarterContent/Materials/transparent.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/temp/StarterContent/Materials/transparent.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "3E45A537F67D3F8D85CA68B114D278870937E5CC",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Decal_01.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Decal_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8EAA2958B3FE2BADDB8B3718ECBDD8DDE0449DE8",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Pillar_01_Color.uasset"
 			]
 		},
 		{
 			"ShaderMapHash": "5A0BC7AD83F40EBDA903D52167D2644A53CEE9FE",
 			"Assets": [
-				"../../../../../../Users/c4607/OneDrive/Desktop/TFC_home/TFC/TFC_Project/Content/resouerce/material/test1.uasset"
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/resouerce/material/test1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B377F2C466685D8337499DEB2ADC1465F3B5A0F1",
+			"Assets": [
+				"C:/Users/babam/Documents/GitHub/TFC/TFC_Project/Content/SpaceshipInterior/Materials/M_Scifi_Glass.uasset"
 			]
 		}
 	]
