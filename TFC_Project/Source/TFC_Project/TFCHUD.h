@@ -14,11 +14,4 @@ class TFC_PROJECT_API ATFCHUD : public AHUD
 {
 	GENERATED_BODY()
 
-protected:
-	UPROPERTY(EditAnywhere)
-		UTexture2D* crosshair_texture;
-
-public:
-	virtual void DrawHUD() override;
-
 };
