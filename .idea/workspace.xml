@@ -2,61 +2,316 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24591d7-73fe-4957-92cf-5d1e87b4bb91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Effects/SlowEffect/AdvancedSlowEffect.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Effects/Vulnerable-Effects/SniperModule4_Vul.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_key.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/SM_Scifi_Crate.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/SM_Scifi_Door_02.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/SM_Scifi_Door_02_Frame.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/OnCollections/Effects/AdvancedSlowEffect_Auto1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade2_Auto1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/resouerce/Map/stage_2_Auto1.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-41C3125649B3B985665287A2A7CA49CC/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-4E7211244E8B9E9FA5AEFA838175923C/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-4F7BC4244B5C8A174EF8C085B9791CAB/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-53DC343C45DE4E5D2165BBB82404391C/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-6A36DDA047C44A9421E36BBD166586D3/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-6B5B04B64DBA3CEED542EE846FEB3CB3/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-700693C94C8F62BB5FFA8B8BF3AACA13/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-73B837B643E900D1E7FFB685993D587D/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-7CE2F7A84DE75F5A5D0025A655DB1C72/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-8399BE844B2FAA492FF719B9C10158BA/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-8711A1824C206FFFFA14D292B22B004D/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-88A955484A7690A2DA8236B1DADB8CD4/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-9FA8EC604D0DBEE0D420A0B6BE756AC2/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-A3751EB14A175F482C1E1982BBA93769/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-BB381DB4481D84D8110754858B1FE0E0/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-BE94B89F428491DCD370F7BC12AA9166/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-E3EE498F4464E58759480681D24736B7/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-F977A7B34FF8E0BA07FE99841F562E72/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/WorldState/6121535.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Level/Floor.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Level/Floor.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/Effect.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/Effect.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/SlowEffect.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/SlowEffect.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/Vulnerable-Effects/Stackable_Vul01.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/Vulnerable-Effects/Stackable_Vul01.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/Vulnerable-Effects/VulnerableEffect.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Effects/Vulnerable-Effects/VulnerableEffect.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule2.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule3.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule4.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoeModule1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/AoeModule1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule2.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule3.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule4.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/Module.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/Module.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule2.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule3.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule4.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/OnCollection.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/OnCollection.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Base_Upgrade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Base_Upgrade.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle_Upgrade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle_Upgrade.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade2_2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade2_2.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot_Upgrade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot_Upgrade.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade2_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade2_1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit_Upgrade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit_Upgrade.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Upgrade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/OnCollections/Upgrades/Upgrade.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Robot/Robot1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Robot/Robot1.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Robot/Robot_range.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Robot/Robot_range.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/AoEEffect.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/AoEEffect.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/AoETower.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/AoETower.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/BasicTower.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/BasicTower.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/SniperTower.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/SniperTower.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/Tower.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/Tower.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/TowerBase.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/Tower/TowerBase.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg-plrUpgrade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg-plrUpgrade.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_Hud.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_Hud.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_mainmanu.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_optionmenu.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_optionmenu.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_towerBuild.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_towerBuild.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_towerUpgrade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/UI/wdg_towerUpgrade.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/charge_enemy.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/charge_enemy.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/enemy_base.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/enemy_base.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/enemy_spawner.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/enemy_spawner.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/etc/enemy_bullet.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/etc/enemy_bullet.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/fly_enemy.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/fly_enemy.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/gunner_enemy.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/gunner_enemy.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/midsize_enemy.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/midsize_enemy.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/normal_enemy.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/normal_enemy.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/Enemy_for_Test.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/Enemy_for_Test.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/test.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/test.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/testEnemy.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/testEnemy.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/testEnemy2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/monster/test/testEnemy2.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/Main_GameInstance.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/Main_GameInstance.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/SaveLoadManager.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/SaveLoadManager.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/electricity_manager.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/electricity_manager.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/enemy_manager.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/enemy_manager.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/line_manager.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/line_manager.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/temp_clear.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/temp_clear.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/temp_over.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/temp_over.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/tower_manager.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/tower_manager.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/upgrade_Manager.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/Observer/upgrade_Manager.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/core.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/core.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/creature.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/creature.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/damagable.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/damagable.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/excel/enemy_spawn_table.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/excel/enemy_spawn_table.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/excel/test_excel.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/others/excel/test_excel.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/player_character.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/player_character.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/player_controller.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/player_controller.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/tool/abst_tool.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/tool/abst_tool.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/tool/rifle.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/tool/rifle.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/tool/terminal.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/blueprints/player/tool/terminal.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/mesh/blinking_lamp.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/mesh/blinking_lamp.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/mesh/lamp.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/mesh/lamp.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/temp/FirstPerson/Animations/FirstPerson_AnimBP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/resouerce/temp/FirstPerson/Animations/FirstPerson_AnimBP.uexp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-08.51.06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-08.51.29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-10.51.13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-11.22.56.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-12.11.43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-12.11.52.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-13.18.31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-14.15.43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.20-07.49.54.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project_2-backup-2023.03.16-08.49.57.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project_2-backup-2023.03.16-12.59.03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project_2-backup-2023.03.16-13.36.48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project_2-backup-2023.03.16-13.44.09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project_2-backup-2023.03.16-13.52.24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/MaterialStats/Stats-2023.03.16-21.05.10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFC_Project/Saved/MaterialStatsDebug/StatsDebug-2023.03.16-21.05.10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Build/WindowsNoEditor/FileOpenOrder/CookerOpenOrder.log" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Build/WindowsNoEditor/FileOpenOrder/CookerOpenOrder.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Build/WindowsNoEditor/FileOpenOrder/EditorOpenOrder.log" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Build/WindowsNoEditor/FileOpenOrder/EditorOpenOrder.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Effects/SlowEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Effects/SlowEffect/SlowEffect.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoEModule4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoeModule1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/AoeModule1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/BasicModule4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Modules/SniperModule4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade2_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade2_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Robot/Robot1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Robot/Robot1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/AoEEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/AoEEffect.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/AoETower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/AoETower.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/BasicTower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/BasicTower.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoEModule2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoEModule3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoEModule4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/AoeModule1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/BasicModule4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/Module.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Module/SniperModule4.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/SniperTower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/SniperTower.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Tower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/Tower.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Upgrades/Rifle_Upgrade.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Upgrades/Robot_Upgrade.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Upgrades/Suit_Upgrade.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Effect.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/Upgrade.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/SlowEffect.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/TowerBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/Tower/TowerBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg-plrUpgrade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg-plrUpgrade.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_Hud.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_Hud.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_optionmenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_optionmenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_stageInfo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_stagemenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_towerBuild.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_towerBuild.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_towerUpgrade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/UI/wdg_towerUpgrade.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/enemy_base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/enemy_base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/midsize_enemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/midsize_enemy.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/normal_enemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/normal_enemy.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/test/Enemy_for_Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/monster/test/Enemy_for_Test.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/Main_GameInstance.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/Main_GameInstance.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/electricity_manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/electricity_manager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/tower_manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/Observer/tower_manager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/core.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/core.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/creature.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/blueprints/others/creature.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_armguard.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_armguard.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/stage_1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/stage_1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/stage_3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/stage_3.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/testing_Map.umap" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/testing_Map.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/testing_Map2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/Map/testing_Map2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/mesh/Cube.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/Cube.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/mesh/SM_Scifi_Floor_02_8m.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/SM_Scifi_Floor_02_8m.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/mesh/SM_Scifi_ceiling_03_8m.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/SM_Scifi_ceiling_03_8m.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/mesh/blinking_lamp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/blinking_lamp.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/mesh/broken_lamp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/broken_lamp.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/mesh/lamp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/lamp.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Content/resouerce/mesh/wall_mesh_01_.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Content/resouerce/environment_objects/wall_mesh_01_.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-024DA06E43E13E04D0DF5BAE73A3EAAF/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-0FB5FD8544DAE93FA5909A8463A4FD77/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-19472A1846E60491B9C2628BE5278416/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-1A11D592485C0257A529DB894D037B74/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-2B4F8B044DA54E903FB808B29C4E79E4/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-2BCBF19F499899D599BE8FB52CDC9203/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-2BEF970C457F72EC52383B9F0712E65B/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-378EF0864AD776BB85BEE59D3BE83AAD/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-46A0ADDF4E028E5C7E1EF1A7B65951D0/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-547A632847905EB14B69999A139B3B03/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-619B0B824BB746FC1BB7379B2867F891/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-63A03C404B0F06F6B4262C9EC087DC9B/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-8C7F6CAF4D1AFA0AEE45E68901FB7CEE/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-8ECB0BA5432D0D2DD8FC9995C781E45A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-98AB46A9422651A3E9588AB086285EBD/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-99A82E364F33FA69005DBCAE4AD55E61/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-A0C41EA04712FABF92C7F9BC8001A490/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-A5C39FD94F9CC49493A53B9764697B42/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-B91E60DA43FEED81E880BAA90800FB0A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-BEF4CE4943AA9BA1D4B830B47C801E11/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-CA7CD1B84ED24F39790687AC8A970C67/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-CC246ACB43457AFD09023D99207B9976/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-EC8AB2A147B11EE6A908C28DEF3AE1B2/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-EEB42FC14B0DEFF9406EDBBA27539744/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-F1BF27DF44A8CB6CEE7AE5A06CD39CC7/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-FD7DE7604548151740F82CB15BC1DC52/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/OnCollections/Modules/AoEModule4_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/OnCollections/Modules/AoEModule4_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/Tower/AoETower_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/Tower/AoETower_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/Tower/AoETower_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/Tower/AoETower_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/Tower/BasicTower_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/Tower/BasicTower_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg-plrUpgrade_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg-plrUpgrade_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_optionmenu_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_optionmenu_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stageInfo_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stageInfo_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stagemenu_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_stagemenu_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_towerBuild_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_towerBuild_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_towerUpgrade_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/UI/wdg_towerUpgrade_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/monster/fly_enemy_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/monster/fly_enemy_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/others/creature_Auto3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/blueprints/others/creature_Auto3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/resouerce/Map/testing_Map2_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/resouerce/Map/testing_Map2_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/resouerce/Map/testing_Map_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Autosaves/Game/resouerce/Map/testing_Map_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-288CD1024282796072E956B04A0C3F73/CrashReportClient.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-1F683A804286353A42BDB8BDF7B3122B/CrashReportClient.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-5C402C6B439A93B5AF47AB8574E685C9/CrashReportClient.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-268E626D4C97268E733E65979FEFA666/CrashReportClient.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-5E69024C4A7196CC8B48909F47C1761F/CrashReportClient.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-29E2C8874ED21FF392177DA02DFAD807/CrashReportClient.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-92EFE19E45BCC6F25A6F77A2C1E5EC04/CrashReportClient.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-2F78987C4E399C3AA89CE1B26701C1CD/CrashReportClient.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-E9AB68474CC597F902CB07BC8DEF5EAF/CrashReportClient.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-352B9D124609C06BBE7B66AACF12E6A1/CrashReportClient.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-F1E027D8462A1816E82FA28A51D667A0/CrashReportClient.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/CrashReportClient/UE4CC-Windows-356C97504173AFE97F0023AFD7A3C2E5/CrashReportClient.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/Editor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.01.19-05.46.40.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/GameUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/Windows/GameUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/WorldState/424040830.json" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/WorldState/424040830.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Config/WorldState/728775676.json" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Config/WorldState/728775676.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/NewMap.uexp" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Cooked/WindowsNoEditor/TFC_Project/Content/NewMap.uexp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.08-11.56.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.08-12.03.52.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.09-12.01.17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.13-07.10.49.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.13-09.41.00.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.14-08.16.35.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.15-14.15.53.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.16-07.23.10.log" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project-backup-2023.03.15-18.12.05.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project.log" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Saved/Logs/TFC_Project_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFC_Project/Source/TFC_Project/TFCHUD.h" beforeDir="false" afterPath="$PROJECT_DIR$/TFC_Project/Source/TFC_Project/TFCHUD.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
