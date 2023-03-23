@@ -1,0 +1,146 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ATowerBase_C__pf711247040;
+class Aplayer_character_C__pf2509438801;
+#ifdef NATIVIZEDASSETS_wdg_towerBuild__pf3053510930_generated_h
+#error "wdg_towerBuild__pf3053510930.generated.h already included, missing '#pragma once' in wdg_towerBuild__pf3053510930.h"
+#endif
+#define NATIVIZEDASSETS_wdg_towerBuild__pf3053510930_generated_h
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_SPARSE_DATA
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__closewdg__pf); \
+	DECLARE_FUNCTION(execbpf__updatehovered__pf); \
+	DECLARE_FUNCTION(execbpf__selectedtpe__pf); \
+	DECLARE_FUNCTION(execbpf__setbase__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_No_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_0_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_1_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_2_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_2_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_1_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__Button_closewdg_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__Construct__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_alreadybuild_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_build_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature__pf);
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__closewdg__pf); \
+	DECLARE_FUNCTION(execbpf__updatehovered__pf); \
+	DECLARE_FUNCTION(execbpf__selectedtpe__pf); \
+	DECLARE_FUNCTION(execbpf__setbase__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_No_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_0_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_1_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_2_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_2_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_1_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__Button_closewdg_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__Construct__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_alreadybuild_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__wdg_towerBuild_Button_build_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature__pf);
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_EVENT_PARMS
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_CALLBACK_WRAPPERS \
+	void eventbpf__Construct__pf(); \
+
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUwdg_towerBuild_C__pf3053510930(); \
+	friend struct Z_Construct_UClass_Uwdg_towerBuild_C__pf3053510930_Statics; \
+public: \
+	DECLARE_CLASS(Uwdg_towerBuild_C__pf3053510930, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Game/blueprints/UI/wdg_towerBuild"), NO_API) \
+	DECLARE_SERIALIZER(Uwdg_towerBuild_C__pf3053510930) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_INCLASS \
+private: \
+	static void StaticRegisterNativesUwdg_towerBuild_C__pf3053510930(); \
+	friend struct Z_Construct_UClass_Uwdg_towerBuild_C__pf3053510930_Statics; \
+public: \
+	DECLARE_CLASS(Uwdg_towerBuild_C__pf3053510930, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Game/blueprints/UI/wdg_towerBuild"), NO_API) \
+	DECLARE_SERIALIZER(Uwdg_towerBuild_C__pf3053510930) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API Uwdg_towerBuild_C__pf3053510930(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Uwdg_towerBuild_C__pf3053510930) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, Uwdg_towerBuild_C__pf3053510930); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Uwdg_towerBuild_C__pf3053510930); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API Uwdg_towerBuild_C__pf3053510930(Uwdg_towerBuild_C__pf3053510930&&); \
+	NO_API Uwdg_towerBuild_C__pf3053510930(const Uwdg_towerBuild_C__pf3053510930&); \
+public:
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API Uwdg_towerBuild_C__pf3053510930(Uwdg_towerBuild_C__pf3053510930&&); \
+	NO_API Uwdg_towerBuild_C__pf3053510930(const Uwdg_towerBuild_C__pf3053510930&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, Uwdg_towerBuild_C__pf3053510930); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Uwdg_towerBuild_C__pf3053510930); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Uwdg_towerBuild_C__pf3053510930)
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_PRIVATE_PROPERTY_OFFSET
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_17_PROLOG \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_EVENT_PARMS
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_PRIVATE_PROPERTY_OFFSET \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_SPARSE_DATA \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_RPC_WRAPPERS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_CALLBACK_WRAPPERS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_INCLASS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_PRIVATE_PROPERTY_OFFSET \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_SPARSE_DATA \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_CALLBACK_WRAPPERS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_INCLASS_NO_PURE_DECLS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h_21_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class Uwdg_towerBuild_C__pf3053510930>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_wdg_towerBuild__pf3053510930_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -12,7 +12,7 @@ public class NativizedAssets : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "Engine", "TFC_Project" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject", "MagicLeapARPin", "NavigationSystem", "ClothingSystemRuntimeNv", "PhysicsCore", "UMG", "AnimGraphRuntime", "AIModule", "LowEntryExtendedStandardLibrary", "SlateCore", "InputCore", "MovieScene", "MovieSceneTracks", "Landscape", "StaticMeshDescription", "MeshDescription", "AudioExtensions", "AudioPlatformConfiguration", "GameplayTasks", "GameplayTags", "ClothingSystemRuntimeInterface", "PropertyAccess", "PropertyPath", "Slate", "AudioMixer", "MediaUtils", "MediaAssets" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject", "MagicLeapARPin", "NavigationSystem", "ClothingSystemRuntimeNv", "PhysicsCore", "AnimGraphRuntime", "AIModule", "LowEntryExtendedStandardLibrary", "SlateCore", "UMG", "InputCore", "MovieScene", "MovieSceneTracks", "Landscape", "StaticMeshDescription", "MeshDescription", "AudioExtensions", "AudioPlatformConfiguration", "GameplayTasks", "GameplayTags", "ClothingSystemRuntimeInterface", "PropertyAccess", "PropertyPath", "Slate", "AudioMixer", "MediaUtils", "MediaAssets" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

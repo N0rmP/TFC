@@ -490,10 +490,13 @@
 #include "Runtime/SlateCore/Public/Styling/SlateWidgetStyleAsset.h"
 #include "Runtime/SlateCore/Public/Styling/SlateWidgetStyleContainerBase.h"
 #include "Runtime/SlateCore/Public/Styling/SlateWidgetStyleContainerInterface.h"
-#include "Runtime/Engine/Classes/Kismet/KismetMathLibrary.h"
-#include "Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h"
 #include "Main_GameInstance__pf3789721252.h"
+#include "Runtime/Engine/Classes/Kismet/KismetTextLibrary.h"
+#include "Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h"
+#include "Runtime/Engine/Classes/Kismet/KismetMathLibrary.h"
 #include "Rifle_Upgrade1__pf1870350606.h"
+#include "Rifle_Upgrade3__pf1870350606.h"
+#include "Rifle_Upgrade2__pf1870350606.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Runtime/Engine/Classes/Components/AudioComponent.h"
 #include "Runtime/AudioMixer/Public/Quartz/AudioMixerClockHandle.h"
@@ -510,9 +513,11 @@
 #include "Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h"
 #include "upgrade_Manager__pf3789721252.h"
 #include "Robot_Upgrade1__pf712717951.h"
-#include "Robot_Upgrade2_2__pf712717951.h"
+#include "Robot_Upgrade3__pf712717951.h"
+#include "Robot_Upgrade2__pf712717951.h"
 #include "Suit_Upgrade1__pf3462679379.h"
-#include "Suit_Upgrade2_1__pf3462679379.h"
+#include "Suit_Upgrade3__pf3462679379.h"
+#include "Suit_Upgrade2__pf3462679379.h"
 #include "Runtime/Engine/Classes/Engine/Texture2DDynamic.h"
 #include "Runtime/Engine/Public/Slate/SlateTextureAtlasInterface.h"
 #include "Runtime/Engine/Classes/Slate/SlateBrushAsset.h"
@@ -568,11 +573,15 @@ void UwdgxplrUpgrade_C__pfG3053510930::__CustomDynamicClassInitialization(UDynam
 	// List of all referenced converted classes
 	InDynamicClass->ReferencedConvertedFields.Add(UMain_GameInstance_C__pf3789721252::StaticClass());
 	InDynamicClass->ReferencedConvertedFields.Add(URifle_Upgrade1_C__pf1870350606::StaticClass());
+	InDynamicClass->ReferencedConvertedFields.Add(URifle_Upgrade3_C__pf1870350606::StaticClass());
+	InDynamicClass->ReferencedConvertedFields.Add(URifle_Upgrade2_C__pf1870350606::StaticClass());
 	InDynamicClass->ReferencedConvertedFields.Add(Aupgrade_Manager_C__pf3789721252::StaticClass());
 	InDynamicClass->ReferencedConvertedFields.Add(URobot_Upgrade1_C__pf712717951::StaticClass());
-	InDynamicClass->ReferencedConvertedFields.Add(URobot_Upgrade2_2_C__pf712717951::StaticClass());
+	InDynamicClass->ReferencedConvertedFields.Add(URobot_Upgrade3_C__pf712717951::StaticClass());
+	InDynamicClass->ReferencedConvertedFields.Add(URobot_Upgrade2_C__pf712717951::StaticClass());
 	InDynamicClass->ReferencedConvertedFields.Add(USuit_Upgrade1_C__pf3462679379::StaticClass());
-	InDynamicClass->ReferencedConvertedFields.Add(USuit_Upgrade2_1_C__pf3462679379::StaticClass());
+	InDynamicClass->ReferencedConvertedFields.Add(USuit_Upgrade3_C__pf3462679379::StaticClass());
+	InDynamicClass->ReferencedConvertedFields.Add(USuit_Upgrade2_C__pf3462679379::StaticClass());
 	FConvertedBlueprintsDependencies::FillUsedAssetsInDynamicClass(InDynamicClass, &__StaticDependencies_DirectlyUsedAssets);
 	auto __Local__0 = NewObject<UComponentDelegateBinding>(InDynamicClass, UComponentDelegateBinding::StaticClass(), TEXT("ComponentDelegateBinding_1"), (EObjectFlags)0x00000000);
 	InDynamicClass->DynamicBindingObjects.Add(__Local__0);
@@ -780,7 +789,7 @@ TEXT("NSLOCTEXT(\"[6687669E422B5EA85B0E41AFA7944D28]\", \"D496468D4231D596C71192
 	__Local__55->Parent = __Local__53;
 	auto __Local__56 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_686"), (EObjectFlags)0x00280008);
 	__Local__56->Text = FTextStringHelper::CreateFromBuffer(
-TEXT("NSLOCTEXT(\"[6687669E422B5EA85B0E41AFA7944D28]\", \"2600AFCD418BAC58CF58F29B9A0E16E6\", \"\uc288\ub4dc2\")")	);
+TEXT("NSLOCTEXT(\"[6687669E422B5EA85B0E41AFA7944D28]\", \"2600AFCD418BAC58CF58F29B9A0E16E6\", \"\uc288\ud2b82\")")	);
 	__Local__56->Slot = __Local__55;
 	__Local__55->Content = __Local__56;
 	__Local__54.Add(__Local__55);
@@ -1005,13 +1014,13 @@ void UwdgxplrUpgrade_C__pfG3053510930::InitializeNativeClassData()
 	auto& __Local__115 = __Local__114[0];
 	__Local__115.ObjectName = FString(TEXT("TextBlock_278"));
 	__Local__115.PropertyName = FName(TEXT("Text"));
+	__Local__115.FunctionName = FName(TEXT("GetCell"));
 	auto& __Local__116 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__115.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
 	__Local__116 = TArray<FPropertyPathSegment> ();
 	__Local__116.AddUninitialized(1);
 	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__116.GetData(), 1);
 	auto& __Local__117 = __Local__116[0];
-	__Local__117.Name = FName(TEXT("curcells"));
-	__Local__115.Kind = EBindingKind::Property;
+	__Local__117.Name = FName(TEXT("GetCell"));
 	UWidgetBlueprintGeneratedClass::InitializeWidgetStatic(this, GetClass(), CastChecked<UWidgetTree>(CastChecked<UDynamicClass>(UwdgxplrUpgrade_C__pfG3053510930::StaticClass())->MiscConvertedSubobjects[0]), __Local__113, __Local__114);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::PreSave(const class ITargetPlatform* TargetPlatform)
@@ -1023,118 +1032,164 @@ void UwdgxplrUpgrade_C__pfG3053510930::PreSave(const class ITargetPlatform* Targ
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_0(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 6);
+	check(bpp__EntryPoint__pf == 20);
 	// optimized KCST_UnconditionalGoto
-	bpf__UpgradexRobot__pfT(bpv__Button_R_1__pf, 0);
+	bpf__Upgradexrifle__pfT(bpv__Button_RF_2__pf, 1);
 	return; // KCST_GotoReturn
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_1(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 17);
+	check(bpp__EntryPoint__pf == 12);
 	// optimized KCST_UnconditionalGoto
-	bpf__updateUpgrd__pf();
+	bpf__UpgradexRobot__pfT(bpv__Button_R_3__pf, 2);
 	return; // KCST_GotoReturn
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_2(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 12);
+	check(bpp__EntryPoint__pf == 4);
 	// optimized KCST_UnconditionalGoto
-	bpf__UpgradexSuit__pfT(bpv__Button_S_2__pf, 1);
+	bpf__UpgradexSuit__pfT(bpv__Button_S_3__pf, 2);
 	return; // KCST_GotoReturn
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_3(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 10);
-	// optimized KCST_UnconditionalGoto
-	bpf__UpgradexSuit__pfT(bpv__Button_S_1__pf, 0);
-	return; // KCST_GotoReturn
-}
-void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_4(int32 bpp__EntryPoint__pf)
-{
-	check(bpp__EntryPoint__pf == 16);
-	return; // KCST_GotoReturn
-}
-void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_5(int32 bpp__EntryPoint__pf)
-{
-	check(bpp__EntryPoint__pf == 15);
-	return; // KCST_GotoReturn
-}
-void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_6(int32 bpp__EntryPoint__pf)
-{
-	check(bpp__EntryPoint__pf == 14);
+	check(bpp__EntryPoint__pf == 18);
 	// optimized KCST_UnconditionalGoto
 	bpf__Upgradexrifle__pfT(bpv__Button_RF_1__pf, 0);
 	return; // KCST_GotoReturn
 }
+void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_4(int32 bpp__EntryPoint__pf)
+{
+	check(bpp__EntryPoint__pf == 10);
+	// optimized KCST_UnconditionalGoto
+	bpf__UpgradexRobot__pfT(bpv__Button_R_2__pf, 1);
+	return; // KCST_GotoReturn
+}
+void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_5(int32 bpp__EntryPoint__pf)
+{
+	check(bpp__EntryPoint__pf == 8);
+	// optimized KCST_UnconditionalGoto
+	bpf__UpgradexRobot__pfT(bpv__Button_R_1__pf, 0);
+	return; // KCST_GotoReturn
+}
+void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_6(int32 bpp__EntryPoint__pf)
+{
+	check(bpp__EntryPoint__pf == 16);
+	// optimized KCST_UnconditionalGoto
+	bpf__UpgradexSuit__pfT(bpv__Button_S_2__pf, 1);
+	return; // KCST_GotoReturn
+}
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_7(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 9);
+	check(bpp__EntryPoint__pf == 14);
+	// optimized KCST_UnconditionalGoto
+	bpf__UpgradexSuit__pfT(bpv__Button_S_1__pf, 0);
 	return; // KCST_GotoReturn
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_8(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 8);
+	check(bpp__EntryPoint__pf == 22);
+	// optimized KCST_UnconditionalGoto
+	bpf__Upgradexrifle__pfT(bpv__Button_RF_3__pf, 2);
 	return; // KCST_GotoReturn
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_9(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 3);
+	check(bpp__EntryPoint__pf == 2);
 	// optimized KCST_UnconditionalGoto
-	RemoveFromParent();
+	bpf__updateUpgrd__pf();
 	return; // KCST_GotoReturn
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_10(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 1);
+	check(bpp__EntryPoint__pf == 6);
+	// optimized KCST_UnconditionalGoto
+	RemoveFromParent();
 	return; // KCST_GotoReturn
-}
-void UwdgxplrUpgrade_C__pfG3053510930::bpf__Construct__pf()
-{
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_1(17);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_RF_3_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_4(16);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_8(22);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_RF_2_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_5(15);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_0(20);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_RF_1_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_6(14);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_3(18);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_S_2_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_2(12);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_6(16);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_S_1_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_3(10);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_7(14);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_R_3_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_7(9);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_1(12);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_R_2_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_8(8);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_4(10);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_R_1_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_0(6);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_5(8);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_140_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_9(3);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_10(6);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__BndEvt__wdgxplrUpgrade_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature__pfG()
 {
-	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_10(1);
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_2(4);
+}
+void UwdgxplrUpgrade_C__pfG3053510930::bpf__Construct__pf()
+{
+	bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_9(2);
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__updateUpgrd__pf()
 {
-	bpv__curcells__pf = 3;
+	UGameInstance* bpfv__CallFunc_GetGameInstance_ReturnValue__pf{};
+	UMain_GameInstance_C__pf3789721252* bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf{};
+	bool bpfv__K2Node_DynamicCast_bSuccess__pf{};
+	int32 __CurrentState = 1;
+	do
+	{
+		switch( __CurrentState )
+		{
+		case 1:
+			{
+				bpfv__CallFunc_GetGameInstance_ReturnValue__pf = UWidget::GetGameInstance();
+				bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf = Cast<UMain_GameInstance_C__pf3789721252>(bpfv__CallFunc_GetGameInstance_ReturnValue__pf);
+				bpfv__K2Node_DynamicCast_bSuccess__pf = (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf != nullptr);;
+				if (!bpfv__K2Node_DynamicCast_bSuccess__pf)
+				{
+					__CurrentState = -1;
+					break;
+				}
+			}
+		case 2:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__cell__pf = 6;
+				}
+			}
+		case 3:
+			{
+				int32  __Local__118 = 0;
+				bpv__curcells__pf = ((::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf)) ? (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__cell__pf) : (__Local__118));
+				__CurrentState = -1;
+				break;
+			}
+		default:
+			break;
+		}
+	} while( __CurrentState != -1 );
 }
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewParam__pf, int32 bpp__NewParam1__pf)
 {
@@ -1147,9 +1202,11 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 	UMain_GameInstance_C__pf3789721252* bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf{};
 	bool bpfv__K2Node_DynamicCast_bSuccess__pf{};
 	USuit_Upgrade1_C__pf3462679379* bpfv__CallFunc_GetComponentByClass_ReturnValue__pf{};
-	USuit_Upgrade2_1_C__pf3462679379* bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf{};
+	USuit_Upgrade3_C__pf3462679379* bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf{};
 	bool bpfv__CallFunc_Upgrade_succeed__pf{};
 	bool bpfv__CallFunc_Upgrade_succeed_1__pf{};
+	USuit_Upgrade2_C__pf3462679379* bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf{};
+	bool bpfv__CallFunc_Upgrade_succeed_2__pf{};
 	int32 __CurrentState = 1;
 	do
 	{
@@ -1171,10 +1228,6 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 			}
 		case 3:
 			{
-				bpf__payCost__pf(bpp__NewParam1__pf);
-			}
-		case 4:
-			{
 				bpfv__CallFunc_GetGameInstance_ReturnValue__pf = UGameplayStatics::GetGameInstance(this);
 				bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf = Cast<UMain_GameInstance_C__pf3789721252>(bpfv__CallFunc_GetGameInstance_ReturnValue__pf);
 				bpfv__K2Node_DynamicCast_bSuccess__pf = (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf != nullptr);;
@@ -1184,12 +1237,12 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 					break;
 				}
 			}
-		case 5:
+		case 4:
 			{
 				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 0);
 				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
 				{
-					__CurrentState = 6;
+					__CurrentState = 5;
 					break;
 				}
 				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 1);
@@ -1198,10 +1251,16 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 					__CurrentState = 11;
 					break;
 				}
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 2);
+				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				{
+					__CurrentState = 13;
+					break;
+				}
 				__CurrentState = -1;
 				break;
 			}
-		case 6:
+		case 5:
 			{
 				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
 				{
@@ -1212,11 +1271,11 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed__pf);
 				}
 			}
-		case 7:
+		case 6:
 			{
 				bpfv__suitxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed__pf;
 			}
-		case 8:
+		case 7:
 			{
 				if (!bpfv__suitxupxtf__pfTT)
 				{
@@ -1224,7 +1283,7 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 					break;
 				}
 			}
-		case 9:
+		case 8:
 			{
 				bpfv__CallFunc_MakeColor_ReturnValue__pf = UKismetMathLibrary::MakeColor(1.000000, 0.000000, 0.000000, 1.000000);
 				if(::IsValid(bpp__NewParam__pf))
@@ -1232,12 +1291,16 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 					bpp__NewParam__pf->UButton::SetBackgroundColor(bpfv__CallFunc_MakeColor_ReturnValue__pf);
 				}
 			}
-		case 10:
+		case 9:
 			{
 				if(::IsValid(bpp__NewParam__pf))
 				{
 					bpp__NewParam__pf->SetIsEnabled(false);
 				}
+			}
+		case 10:
+			{
+				bpf__payCost__pf(bpp__NewParam1__pf);
 				__CurrentState = -1;
 				break;
 			}
@@ -1245,17 +1308,34 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexSuit__pfT(UButton* bpp__NewP
 			{
 				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
 				{
-					bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf = CastChecked<USuit_Upgrade2_1_C__pf3462679379>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(USuit_Upgrade2_1_C__pf3462679379::StaticClass()), ECastCheckedType::NullAllowed);
+					bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf = CastChecked<USuit_Upgrade2_C__pf3462679379>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(USuit_Upgrade2_C__pf3462679379::StaticClass()), ECastCheckedType::NullAllowed);
+				}
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed_2__pf);
+				}
+			}
+		case 12:
+			{
+				bpfv__suitxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed_2__pf;
+				__CurrentState = 7;
+				break;
+			}
+		case 13:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf = CastChecked<USuit_Upgrade3_C__pf3462679379>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(USuit_Upgrade3_C__pf3462679379::StaticClass()), ECastCheckedType::NullAllowed);
 				}
 				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
 				{
 					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed_1__pf);
 				}
 			}
-		case 12:
+		case 14:
 			{
 				bpfv__suitxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed_1__pf;
-				__CurrentState = 8;
+				__CurrentState = 7;
 				break;
 			}
 		default:
@@ -1274,9 +1354,11 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexRobot__pfT(UButton* bpp__New
 	UMain_GameInstance_C__pf3789721252* bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf{};
 	bool bpfv__K2Node_DynamicCast_bSuccess__pf{};
 	URobot_Upgrade1_C__pf712717951* bpfv__CallFunc_GetComponentByClass_ReturnValue__pf{};
-	URobot_Upgrade2_2_C__pf712717951* bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf{};
+	URobot_Upgrade3_C__pf712717951* bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf{};
 	bool bpfv__CallFunc_Upgrade_succeed__pf{};
 	bool bpfv__CallFunc_Upgrade_succeed_1__pf{};
+	URobot_Upgrade2_C__pf712717951* bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf{};
+	bool bpfv__CallFunc_Upgrade_succeed_2__pf{};
 	int32 __CurrentState = 1;
 	do
 	{
@@ -1298,131 +1380,6 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__UpgradexRobot__pfT(UButton* bpp__New
 			}
 		case 3:
 			{
-				bpf__payCost__pf(bpp__NewParam1__pf);
-			}
-		case 4:
-			{
-				bpfv__CallFunc_GetGameInstance_ReturnValue__pf = UGameplayStatics::GetGameInstance(this);
-				bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf = Cast<UMain_GameInstance_C__pf3789721252>(bpfv__CallFunc_GetGameInstance_ReturnValue__pf);
-				bpfv__K2Node_DynamicCast_bSuccess__pf = (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf != nullptr);;
-				if (!bpfv__K2Node_DynamicCast_bSuccess__pf)
-				{
-					__CurrentState = -1;
-					break;
-				}
-			}
-		case 5:
-			{
-				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 0);
-				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
-				{
-					__CurrentState = 6;
-					break;
-				}
-				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 1);
-				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
-				{
-					__CurrentState = 11;
-					break;
-				}
-				__CurrentState = -1;
-				break;
-			}
-		case 6:
-			{
-				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
-				{
-					bpfv__CallFunc_GetComponentByClass_ReturnValue__pf = CastChecked<URobot_Upgrade1_C__pf712717951>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URobot_Upgrade1_C__pf712717951::StaticClass()), ECastCheckedType::NullAllowed);
-				}
-				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
-				{
-					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed__pf);
-				}
-			}
-		case 7:
-			{
-				bpfv__robotxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed__pf;
-			}
-		case 8:
-			{
-				if (!bpfv__robotxupxtf__pfTT)
-				{
-					__CurrentState = -1;
-					break;
-				}
-			}
-		case 9:
-			{
-				bpfv__CallFunc_MakeColor_ReturnValue__pf = UKismetMathLibrary::MakeColor(1.000000, 0.000000, 0.000000, 1.000000);
-				if(::IsValid(bpp__NewParam__pf))
-				{
-					bpp__NewParam__pf->UButton::SetBackgroundColor(bpfv__CallFunc_MakeColor_ReturnValue__pf);
-				}
-			}
-		case 10:
-			{
-				if(::IsValid(bpp__NewParam__pf))
-				{
-					bpp__NewParam__pf->SetIsEnabled(false);
-				}
-				__CurrentState = -1;
-				break;
-			}
-		case 11:
-			{
-				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
-				{
-					bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf = CastChecked<URobot_Upgrade2_2_C__pf712717951>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URobot_Upgrade2_2_C__pf712717951::StaticClass()), ECastCheckedType::NullAllowed);
-				}
-				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
-				{
-					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed_1__pf);
-				}
-			}
-		case 12:
-			{
-				bpfv__robotxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed_1__pf;
-				__CurrentState = 8;
-				break;
-			}
-		default:
-			break;
-		}
-	} while( __CurrentState != -1 );
-}
-void UwdgxplrUpgrade_C__pfG3053510930::bpf__Upgradexrifle__pfT(UButton* bpp__NewParam__pf, int32 bpp__NewParam1__pf)
-{
-	bool bpfv__rifflexupxtf__pfTT{};
-	bool bpfv__K2Node_SwitchInteger_CmpSuccess__pf{};
-	int32 bpfv__CallFunc_Add_IntInt_ReturnValue__pf{};
-	bool bpfv__CallFunc_LessEqual_IntInt_ReturnValue__pf{};
-	FLinearColor bpfv__CallFunc_MakeColor_ReturnValue__pf(EForceInit::ForceInit);
-	UGameInstance* bpfv__CallFunc_GetGameInstance_ReturnValue__pf{};
-	UMain_GameInstance_C__pf3789721252* bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf{};
-	bool bpfv__K2Node_DynamicCast_bSuccess__pf{};
-	URifle_Upgrade1_C__pf1870350606* bpfv__CallFunc_GetComponentByClass_ReturnValue__pf{};
-	bool bpfv__CallFunc_Upgrade_succeed__pf{};
-	int32 __CurrentState = 1;
-	do
-	{
-		switch( __CurrentState )
-		{
-		case 1:
-			{
-				bpfv__CallFunc_Add_IntInt_ReturnValue__pf = UKismetMathLibrary::Add_IntInt(bpp__NewParam1__pf, 1);
-				bpfv__CallFunc_LessEqual_IntInt_ReturnValue__pf = UKismetMathLibrary::LessEqual_IntInt(bpfv__CallFunc_Add_IntInt_ReturnValue__pf, bpv__curcells__pf);
-				if (!bpfv__CallFunc_LessEqual_IntInt_ReturnValue__pf)
-				{
-					__CurrentState = -1;
-					break;
-				}
-			}
-		case 2:
-			{
-				bpf__payCost__pf(bpp__NewParam1__pf);
-			}
-		case 3:
-			{
 				bpfv__CallFunc_GetGameInstance_ReturnValue__pf = UGameplayStatics::GetGameInstance(this);
 				bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf = Cast<UMain_GameInstance_C__pf3789721252>(bpfv__CallFunc_GetGameInstance_ReturnValue__pf);
 				bpfv__K2Node_DynamicCast_bSuccess__pf = (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf != nullptr);;
@@ -1440,6 +1397,18 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__Upgradexrifle__pfT(UButton* bpp__New
 					__CurrentState = 5;
 					break;
 				}
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 1);
+				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				{
+					__CurrentState = 11;
+					break;
+				}
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 2);
+				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				{
+					__CurrentState = 13;
+					break;
+				}
 				__CurrentState = -1;
 				break;
 			}
@@ -1447,7 +1416,7 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__Upgradexrifle__pfT(UButton* bpp__New
 			{
 				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
 				{
-					bpfv__CallFunc_GetComponentByClass_ReturnValue__pf = CastChecked<URifle_Upgrade1_C__pf1870350606>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URifle_Upgrade1_C__pf1870350606::StaticClass()), ECastCheckedType::NullAllowed);
+					bpfv__CallFunc_GetComponentByClass_ReturnValue__pf = CastChecked<URobot_Upgrade1_C__pf712717951>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URobot_Upgrade1_C__pf712717951::StaticClass()), ECastCheckedType::NullAllowed);
 				}
 				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
 				{
@@ -1456,11 +1425,11 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__Upgradexrifle__pfT(UButton* bpp__New
 			}
 		case 6:
 			{
-				bpfv__rifflexupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed__pf;
+				bpfv__robotxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed__pf;
 			}
 		case 7:
 			{
-				if (!bpfv__rifflexupxtf__pfTT)
+				if (!bpfv__robotxupxtf__pfTT)
 				{
 					__CurrentState = -1;
 					break;
@@ -1480,7 +1449,193 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__Upgradexrifle__pfT(UButton* bpp__New
 				{
 					bpp__NewParam__pf->SetIsEnabled(false);
 				}
+			}
+		case 10:
+			{
+				bpf__payCost__pf(bpp__NewParam1__pf);
 				__CurrentState = -1;
+				break;
+			}
+		case 11:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf = CastChecked<URobot_Upgrade2_C__pf712717951>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URobot_Upgrade2_C__pf712717951::StaticClass()), ECastCheckedType::NullAllowed);
+				}
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed_2__pf);
+				}
+			}
+		case 12:
+			{
+				bpfv__robotxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed_2__pf;
+				__CurrentState = 7;
+				break;
+			}
+		case 13:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf = CastChecked<URobot_Upgrade3_C__pf712717951>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URobot_Upgrade3_C__pf712717951::StaticClass()), ECastCheckedType::NullAllowed);
+				}
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed_1__pf);
+				}
+			}
+		case 14:
+			{
+				bpfv__robotxupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed_1__pf;
+				__CurrentState = 7;
+				break;
+			}
+		default:
+			break;
+		}
+	} while( __CurrentState != -1 );
+}
+void UwdgxplrUpgrade_C__pfG3053510930::bpf__Upgradexrifle__pfT(UButton* bpp__NewParam__pf, int32 bpp__NewParam1__pf)
+{
+	bool bpfv__rifflexupxtf__pfTT{};
+	bool bpfv__K2Node_SwitchInteger_CmpSuccess__pf{};
+	int32 bpfv__CallFunc_Add_IntInt_ReturnValue__pf{};
+	FLinearColor bpfv__CallFunc_MakeColor_ReturnValue__pf(EForceInit::ForceInit);
+	bool bpfv__CallFunc_LessEqual_IntInt_ReturnValue__pf{};
+	UGameInstance* bpfv__CallFunc_GetGameInstance_ReturnValue__pf{};
+	UMain_GameInstance_C__pf3789721252* bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf{};
+	bool bpfv__K2Node_DynamicCast_bSuccess__pf{};
+	URifle_Upgrade1_C__pf1870350606* bpfv__CallFunc_GetComponentByClass_ReturnValue__pf{};
+	URifle_Upgrade3_C__pf1870350606* bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf{};
+	bool bpfv__CallFunc_Upgrade_succeed__pf{};
+	bool bpfv__CallFunc_Upgrade_succeed_1__pf{};
+	URifle_Upgrade2_C__pf1870350606* bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf{};
+	bool bpfv__CallFunc_Upgrade_succeed_2__pf{};
+	int32 __CurrentState = 1;
+	do
+	{
+		switch( __CurrentState )
+		{
+		case 1:
+			{
+				bpfv__CallFunc_Add_IntInt_ReturnValue__pf = UKismetMathLibrary::Add_IntInt(bpp__NewParam1__pf, 1);
+				bpfv__CallFunc_LessEqual_IntInt_ReturnValue__pf = UKismetMathLibrary::LessEqual_IntInt(bpfv__CallFunc_Add_IntInt_ReturnValue__pf, bpv__curcells__pf);
+				if (!bpfv__CallFunc_LessEqual_IntInt_ReturnValue__pf)
+				{
+					__CurrentState = -1;
+					break;
+				}
+			}
+		case 2:
+			{
+				bpfv__CallFunc_GetGameInstance_ReturnValue__pf = UGameplayStatics::GetGameInstance(this);
+				bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf = Cast<UMain_GameInstance_C__pf3789721252>(bpfv__CallFunc_GetGameInstance_ReturnValue__pf);
+				bpfv__K2Node_DynamicCast_bSuccess__pf = (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf != nullptr);;
+				if (!bpfv__K2Node_DynamicCast_bSuccess__pf)
+				{
+					__CurrentState = -1;
+					break;
+				}
+			}
+		case 3:
+			{
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 0);
+				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				{
+					__CurrentState = 4;
+					break;
+				}
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 1);
+				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				{
+					__CurrentState = 10;
+					break;
+				}
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam1__pf, 2);
+				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				{
+					__CurrentState = 12;
+					break;
+				}
+				__CurrentState = -1;
+				break;
+			}
+		case 4:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__CallFunc_GetComponentByClass_ReturnValue__pf = CastChecked<URifle_Upgrade1_C__pf1870350606>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URifle_Upgrade1_C__pf1870350606::StaticClass()), ECastCheckedType::NullAllowed);
+				}
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed__pf);
+				}
+			}
+		case 5:
+			{
+				bpfv__rifflexupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed__pf;
+			}
+		case 6:
+			{
+				if (!bpfv__rifflexupxtf__pfTT)
+				{
+					__CurrentState = -1;
+					break;
+				}
+			}
+		case 7:
+			{
+				bpfv__CallFunc_MakeColor_ReturnValue__pf = UKismetMathLibrary::MakeColor(1.000000, 0.000000, 0.000000, 1.000000);
+				if(::IsValid(bpp__NewParam__pf))
+				{
+					bpp__NewParam__pf->UButton::SetBackgroundColor(bpfv__CallFunc_MakeColor_ReturnValue__pf);
+				}
+			}
+		case 8:
+			{
+				if(::IsValid(bpp__NewParam__pf))
+				{
+					bpp__NewParam__pf->SetIsEnabled(false);
+				}
+			}
+		case 9:
+			{
+				bpf__payCost__pf(bpp__NewParam1__pf);
+				__CurrentState = -1;
+				break;
+			}
+		case 10:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf = CastChecked<URifle_Upgrade2_C__pf1870350606>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URifle_Upgrade2_C__pf1870350606::StaticClass()), ECastCheckedType::NullAllowed);
+				}
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue_2__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed_2__pf);
+				}
+			}
+		case 11:
+			{
+				bpfv__rifflexupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed_2__pf;
+				__CurrentState = 6;
+				break;
+			}
+		case 12:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf = CastChecked<URifle_Upgrade3_C__pf1870350606>(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->AActor::GetComponentByClass(URifle_Upgrade3_C__pf1870350606::StaticClass()), ECastCheckedType::NullAllowed);
+				}
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf) && ::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__upgrade_manager__pf->bpf__Upgrade__pf(bpfv__CallFunc_GetComponentByClass_ReturnValue_1__pf, /*out*/ bpfv__CallFunc_Upgrade_succeed_1__pf);
+				}
+			}
+		case 13:
+			{
+				bpfv__rifflexupxtf__pfTT = bpfv__CallFunc_Upgrade_succeed_1__pf;
+				__CurrentState = 6;
 				break;
 			}
 		default:
@@ -1491,6 +1646,9 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__Upgradexrifle__pfT(UButton* bpp__New
 void UwdgxplrUpgrade_C__pfG3053510930::bpf__payCost__pf(int32 bpp__NewParam__pf)
 {
 	bool bpfv__K2Node_SwitchInteger_CmpSuccess__pf{};
+	UGameInstance* bpfv__CallFunc_GetGameInstance_ReturnValue__pf{};
+	UMain_GameInstance_C__pf3789721252* bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf{};
+	bool bpfv__K2Node_DynamicCast_bSuccess__pf{};
 	int32 bpfv__CallFunc_Subtract_IntInt_ReturnValue__pf{};
 	int32 bpfv__CallFunc_Subtract_IntInt_ReturnValue_1__pf{};
 	int32 bpfv__CallFunc_Subtract_IntInt_ReturnValue_2__pf{};
@@ -1501,45 +1659,77 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__payCost__pf(int32 bpp__NewParam__pf)
 		{
 		case 1:
 			{
-				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam__pf, 0);
-				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				bpfv__CallFunc_GetGameInstance_ReturnValue__pf = UWidget::GetGameInstance();
+				bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf = Cast<UMain_GameInstance_C__pf3789721252>(bpfv__CallFunc_GetGameInstance_ReturnValue__pf);
+				bpfv__K2Node_DynamicCast_bSuccess__pf = (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf != nullptr);;
+				if (!bpfv__K2Node_DynamicCast_bSuccess__pf)
 				{
-					__CurrentState = 2;
+					__CurrentState = -1;
 					break;
 				}
-				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam__pf, 1);
+			}
+		case 2:
+			{
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam__pf, 0);
 				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
 				{
 					__CurrentState = 3;
 					break;
 				}
+				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam__pf, 1);
+				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
+				{
+					__CurrentState = 5;
+					break;
+				}
 				bpfv__K2Node_SwitchInteger_CmpSuccess__pf = UKismetMathLibrary::NotEqual_IntInt(bpp__NewParam__pf, 2);
 				if (!bpfv__K2Node_SwitchInteger_CmpSuccess__pf)
 				{
-					__CurrentState = 4;
+					__CurrentState = 7;
 					break;
 				}
 				__CurrentState = -1;
 				break;
 			}
-		case 2:
+		case 3:
 			{
 				bpfv__CallFunc_Subtract_IntInt_ReturnValue_2__pf = UKismetMathLibrary::Subtract_IntInt(bpv__curcells__pf, 1);
 				bpv__curcells__pf = bpfv__CallFunc_Subtract_IntInt_ReturnValue_2__pf;
-				__CurrentState = -1;
-				break;
-			}
-		case 3:
-			{
-				bpfv__CallFunc_Subtract_IntInt_ReturnValue_1__pf = UKismetMathLibrary::Subtract_IntInt(bpv__curcells__pf, 2);
-				bpv__curcells__pf = bpfv__CallFunc_Subtract_IntInt_ReturnValue_1__pf;
-				__CurrentState = -1;
-				break;
 			}
 		case 4:
 			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__cell__pf = bpv__curcells__pf;
+				}
+				__CurrentState = -1;
+				break;
+			}
+		case 5:
+			{
+				bpfv__CallFunc_Subtract_IntInt_ReturnValue_1__pf = UKismetMathLibrary::Subtract_IntInt(bpv__curcells__pf, 2);
+				bpv__curcells__pf = bpfv__CallFunc_Subtract_IntInt_ReturnValue_1__pf;
+			}
+		case 6:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__cell__pf = bpv__curcells__pf;
+				}
+				__CurrentState = -1;
+				break;
+			}
+		case 7:
+			{
 				bpfv__CallFunc_Subtract_IntInt_ReturnValue__pf = UKismetMathLibrary::Subtract_IntInt(bpv__curcells__pf, 3);
 				bpv__curcells__pf = bpfv__CallFunc_Subtract_IntInt_ReturnValue__pf;
+			}
+		case 8:
+			{
+				if(::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf))
+				{
+					bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__cell__pf = bpv__curcells__pf;
+				}
 				__CurrentState = -1;
 				break;
 			}
@@ -1547,6 +1737,43 @@ void UwdgxplrUpgrade_C__pfG3053510930::bpf__payCost__pf(int32 bpp__NewParam__pf)
 			break;
 		}
 	} while( __CurrentState != -1 );
+}
+FText  UwdgxplrUpgrade_C__pfG3053510930::bpf__GetCell__pf()
+{
+	FText bpp__ReturnValue__pf{};
+	UGameInstance* bpfv__CallFunc_GetGameInstance_ReturnValue__pf{};
+	UMain_GameInstance_C__pf3789721252* bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf{};
+	bool bpfv__K2Node_DynamicCast_bSuccess__pf{};
+	FText bpfv__CallFunc_Conv_IntToText_ReturnValue__pf{};
+	int32 __CurrentState = 1;
+	do
+	{
+		switch( __CurrentState )
+		{
+		case 1:
+			{
+				bpfv__CallFunc_GetGameInstance_ReturnValue__pf = UWidget::GetGameInstance();
+				bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf = Cast<UMain_GameInstance_C__pf3789721252>(bpfv__CallFunc_GetGameInstance_ReturnValue__pf);
+				bpfv__K2Node_DynamicCast_bSuccess__pf = (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf != nullptr);;
+				if (!bpfv__K2Node_DynamicCast_bSuccess__pf)
+				{
+					__CurrentState = -1;
+					break;
+				}
+			}
+		case 2:
+			{
+				int32  __Local__119 = 0;
+				bpfv__CallFunc_Conv_IntToText_ReturnValue__pf = UKismetTextLibrary::Conv_IntToText(((::IsValid(bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf)) ? (bpfv__K2Node_DynamicCast_AsMain_Game_Instance__pf->bpv__cell__pf) : (__Local__119)), false, true, 1, 324);
+				bpp__ReturnValue__pf = bpfv__CallFunc_Conv_IntToText_ReturnValue__pf;
+				__CurrentState = -1;
+				break;
+			}
+		default:
+			break;
+		}
+	} while( __CurrentState != -1 );
+	return bpp__ReturnValue__pf;
 }
 PRAGMA_DISABLE_OPTIMIZATION
 void UwdgxplrUpgrade_C__pfG3053510930::__StaticDependencies_DirectlyUsedAssets(TArray<FBlueprintDependencyData>& AssetsToLoad)
@@ -1559,107 +1786,111 @@ void UwdgxplrUpgrade_C__pfG3053510930::__StaticDependenciesAssets(TArray<FBluepr
 	__StaticDependencies_DirectlyUsedAssets(AssetsToLoad);
 	const FCompactBlueprintDependencyData LocCompactBlueprintDependencyData[] =
 	{
-		{56, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
-		{88, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Button 
-		{28, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.UserWidget 
-		{4, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetMathLibrary 
+		{55, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
+		{89, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Button 
+		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.UserWidget 
 		{13, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.GameInstance 
+		{86, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Widget 
+		{57, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetTextLibrary 
+		{4, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetMathLibrary 
 		{14, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.GameplayStatics 
 		{10, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Actor 
 		{15, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.PointerToUberGraphFrame 
-		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Image 
-		{37, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.TextBlock 
-		{19, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpringArmComponent 
-		{20, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SkeletalMeshComponent 
-		{16, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv 
-		{21, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms 
-		{22, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall 
-		{23, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ChildActorComponent 
-		{24, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CameraComponent 
-		{25, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpotLightComponent 
-		{0, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SceneComponent 
-		{26, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/InputCore.Key 
-		{27, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.HitResult 
-		{5, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CharacterMovementComponent 
-		{6, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Character 
-		{12, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetStringLibrary 
+		{58, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Image 
+		{22, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.TextBlock 
+		{19, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ActorComponent 
+		{21, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.StaticMeshComponent 
 		{7, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetSystemLibrary 
+		{0, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SceneComponent 
+		{43, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Sphere.Sphere 
+		{44, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/EditorLandscapeResources/AlphaBrushMaterial.AlphaBrushMaterial 
+		{35, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.HitResult 
+		{45, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PrimitiveComponent 
 		{11, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetArrayLibrary 
+		{6, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Character 
+		{16, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv 
 		{17, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/NavigationSystem.NavArea_Obstacle 
 		{18, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/AIModule.AIController 
-		{39, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PlayerController 
-		{40, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.WidgetBlueprintLibrary 
+		{24, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop 
+		{25, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start 
+		{26, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlendSpace1D /Game/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D 
+		{27, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpringArmComponent 
+		{28, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SkeletalMeshComponent 
+		{29, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms 
+		{30, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall 
+		{31, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ChildActorComponent 
+		{32, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CameraComponent 
+		{33, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpotLightComponent 
+		{34, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/InputCore.Key 
+		{5, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CharacterMovementComponent 
+		{12, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetStringLibrary 
+		{37, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SaveGame 
+		{38, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/widget_manager.widget_manager_C 
+		{39, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  widget_manager_C /Game/blueprints/others/Observer/widget_manager.Default__widget_manager_C 
+		{40, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTable 
+		{20, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DataTable /Game/resouerce/excel/EST_stage_1.EST_stage_1 
+		{66, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_StateMachine 
+		{23, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump 
+		{41, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PlayerController 
+		{42, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.WidgetBlueprintLibrary 
 		{8, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.LatentActionInfo 
-		{29, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SaveGame 
-		{30, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/widget_manager.widget_manager_C 
-		{31, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  widget_manager_C /Game/blueprints/others/Observer/widget_manager.Default__widget_manager_C 
-		{32, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTable 
-		{33, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DataTable /Game/resouerce/excel/EST_stage_1.EST_stage_1 
-		{59, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump 
-		{60, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop 
-		{61, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start 
-		{38, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlendSpace1D /Game/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D 
-		{34, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ActorComponent 
-		{41, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.StaticMeshComponent 
-		{42, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Sphere.Sphere 
-		{43, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial 
-		{44, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SphereComponent 
+		{59, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.TimerHandle 
 		{1, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Enum /Script/AIModule.EPathFollowingResult 
 		{2, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DelegateFunction /Script/AIModule.OAISimpleDelegate__DelegateSignature 
 		{3, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/AIModule.AIAsyncTaskBlueprintProxy 
 		{9, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/AIModule.AIBlueprintHelperLibrary 
-		{45, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PrimitiveComponent 
-		{72, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_BlendSpacePlayer 
-		{73, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.PoseLink 
-		{74, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_Root 
-		{65, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_SequencePlayer 
-		{57, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_StateResult 
-		{58, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_StateMachine 
-		{62, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTableFunctionLibrary 
-		{63, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DelegateFunction /Script/LowEntryExtendedStandardLibrary.DelegateULowEntryExtendedStandardLibraryCompareObjects__DelegateSignature 
-		{64, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/LowEntryExtendedStandardLibrary.LowEntryExtendedStandardLibrary 
-		{68, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Pawn 
-		{69, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PawnMovementComponent 
-		{70, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.AnimInstance 
-		{71, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_TransitionResult 
-		{66, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin 
-		{67, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 
-		{75, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Cube.Cube 
-		{76, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test.test 
-		{46, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/EditorLandscapeResources/AlphaBrushMaterial.AlphaBrushMaterial 
-		{47, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.TimerHandle 
-		{51, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/bullet_mark.bullet_mark 
-		{54, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/PhysicsCore.PhysicalMaterial 
-		{35, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/SlateCore.Geometry 
-		{48, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.MaterialInstanceDynamic 
-		{49, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.BlueprintMapLibrary 
-		{50, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Game/resouerce/temp/StarterContent/Shapes/Shape_Cube.Shape_Cube 
-		{52, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun 
-		{53, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/FirstPerson/FPWeapon/Materials/M_FPGun.M_FPGun 
-		{55, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Texture2D /Game/resouerce/image/FirstPersonCrosshair.FirstPersonCrosshair 
-		{77, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Idle.FirstPerson_Idle 
-		{78, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ParticleSystemComponent 
-		{79, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ParticleSystem /Game/blueprints/Tower/AoEParticle.AoEParticle 
-		{80, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CapsuleComponent 
-		{81, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpEnd.FirstPerson_JumpEnd 
-		{82, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpLoop.FirstPerson_JumpLoop 
-		{83, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpStart.FirstPerson_JumpStart 
-		{84, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.VerticalBox 
-		{85, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Widget 
-		{86, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Overlay 
-		{87, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test2.test2 
-		{89, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetTextLibrary 
+		{79, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ParticleSystemComponent 
+		{80, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ParticleSystem /Game/blueprints/Tower/AoEParticle.AoEParticle 
+		{81, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CapsuleComponent 
+		{73, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_BlendSpacePlayer 
+		{74, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.PoseLink 
+		{75, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_Root 
+		{64, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_SequencePlayer 
+		{65, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_StateResult 
+		{47, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SphereComponent 
+		{53, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/PhysicsCore.PhysicalMaterial 
+		{46, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial 
+		{62, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DelegateFunction /Script/LowEntryExtendedStandardLibrary.DelegateULowEntryExtendedStandardLibraryCompareObjects__DelegateSignature 
+		{63, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/LowEntryExtendedStandardLibrary.LowEntryExtendedStandardLibrary 
+		{61, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTableFunctionLibrary 
+		{76, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Cube.Cube 
+		{67, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin 
+		{68, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 
+		{69, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Pawn 
+		{70, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PawnMovementComponent 
+		{71, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.AnimInstance 
+		{72, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_TransitionResult 
+		{77, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test.test 
+		{60, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.MaterialInstanceDynamic 
+		{48, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.BlueprintMapLibrary 
+		{49, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Game/resouerce/temp/StarterContent/Shapes/Shape_Cube.Shape_Cube 
+		{50, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/bullet_mark.bullet_mark 
+		{51, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun 
+		{52, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/FirstPerson/FPWeapon/Materials/M_FPGun.M_FPGun 
+		{54, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Texture2D /Game/resouerce/image/FirstPersonCrosshair.FirstPersonCrosshair 
+		{56, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/SlateCore.Geometry 
+		{88, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test2.test2 
 		{90, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.MultiLineEditableTextBox 
-		{91, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton1.SK_Mannequin_Arms_Skeleton1 
-		{92, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_Slot 
-		{93, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Run.FirstPerson_Run 
-		{118, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/Main_GameInstance.Main_GameInstance_C 
-		{122, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade1.Rifle_Upgrade1_C 
-		{126, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/upgrade_Manager.upgrade_Manager_C 
-		{124, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade1.Robot_Upgrade1_C 
-		{165, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade2_2.Robot_Upgrade2_2_C 
-		{123, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade1.Suit_Upgrade1_C 
-		{166, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade2_1.Suit_Upgrade2_1_C 
+		{91, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Overlay 
+		{87, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.VerticalBox 
+		{85, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Run.FirstPerson_Run 
+		{82, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpEnd.FirstPerson_JumpEnd 
+		{83, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpLoop.FirstPerson_JumpLoop 
+		{84, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpStart.FirstPerson_JumpStart 
+		{78, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Idle.FirstPerson_Idle 
+		{92, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton1.SK_Mannequin_Arms_Skeleton1 
+		{93, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_Slot 
+		{122, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/Main_GameInstance.Main_GameInstance_C 
+		{147, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade1.Rifle_Upgrade1_C 
+		{146, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade3.Rifle_Upgrade3_C 
+		{145, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Rifle-upgrades/Rifle_Upgrade2.Rifle_Upgrade2_C 
+		{148, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/upgrade_Manager.upgrade_Manager_C 
+		{143, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade1.Robot_Upgrade1_C 
+		{142, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade3.Robot_Upgrade3_C 
+		{141, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Robot-upgrades/Robot_Upgrade2.Robot_Upgrade2_C 
+		{135, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade1.Suit_Upgrade1_C 
+		{134, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade3.Suit_Upgrade3_C 
+		{133, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/OnCollections/Upgrades/Suit-upgrades/Suit_Upgrade2.Suit_Upgrade2_C 
 	};
 	for(const FCompactBlueprintDependencyData& CompactData : LocCompactBlueprintDependencyData)
 	{

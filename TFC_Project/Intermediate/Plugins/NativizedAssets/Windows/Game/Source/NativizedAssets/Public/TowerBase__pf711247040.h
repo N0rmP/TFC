@@ -36,11 +36,10 @@ public:
 	static void __StaticDependenciesAssets(TArray<FBlueprintDependencyData>& AssetsToLoad);
 	static void __StaticDependencies_DirectlyUsedAssets(TArray<FBlueprintDependencyData>& AssetsToLoad);
 	void bpf__ExecuteUbergraph_TowerBase__pf_0(int32 bpp__EntryPoint__pf);
-	UFUNCTION(meta=(OverrideNativeName="ExecuteUbergraph_TowerBase_1"))
 	void bpf__ExecuteUbergraph_TowerBase__pf_1(int32 bpp__EntryPoint__pf);
-	UFUNCTION(meta=(Comment="/** Event when play begins for this actor. */", DisplayName="BeginPlay", ToolTip="Event when play begins for this actor.", CppFromBpEvent, OverrideNativeName="ReceiveBeginPlay"))
-	virtual void bpf__ReceiveBeginPlay__pf();
 	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="BuildTower"))
 	virtual void bpf__BuildTower__pf(int32 bpp__Index__pf);
+	UFUNCTION(meta=(Comment="/** Event when play begins for this actor. */", DisplayName="BeginPlay", ToolTip="Event when play begins for this actor.", CppFromBpEvent, OverrideNativeName="ReceiveBeginPlay"))
+	virtual void bpf__ReceiveBeginPlay__pf();
 public:
 };

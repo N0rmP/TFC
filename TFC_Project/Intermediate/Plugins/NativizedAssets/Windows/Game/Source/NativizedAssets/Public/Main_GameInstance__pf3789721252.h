@@ -34,6 +34,8 @@ public:
 	USaveLoadManager_C__pf3789721252* bpv__saveload_manager__pf;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="EST Arr", Category="Default", MultiLine="true", OverrideNativeName="EST_arr"))
 	TArray<UDataTable*> bpv__EST_arr__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Cell", Category="Default", MultiLine="true", OverrideNativeName="cell"))
+	int32 bpv__cell__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_CustomEvent_is_clear"))
 	bool b0l__K2Node_CustomEvent_is_clear__pf;
 	UMain_GameInstance_C__pf3789721252(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());

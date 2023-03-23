@@ -19,6 +19,8 @@ public:
 	float bpv__Vulnerablility__pf;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Final Vulnerability", Category="Default", MultiLine="true", OverrideNativeName="Final_Vulnerability"))
 	float bpv__Final_Vulnerability__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Last Attacker", Category="Default", MultiLine="true", OverrideNativeName="LastAttacker"))
+	AActor* bpv__LastAttacker__pf;
 	Acreature_C__pf937085289(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 	virtual void PostLoadSubobjects(FObjectInstancingGraph* OuterInstanceGraph) override;
 	static void __CustomDynamicClassInitialization(UDynamicClass* InDynamicClass);

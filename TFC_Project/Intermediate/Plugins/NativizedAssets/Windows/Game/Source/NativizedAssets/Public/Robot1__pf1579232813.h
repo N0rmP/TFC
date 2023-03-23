@@ -40,6 +40,8 @@ public:
 	float bpv__robotSpeed__pf;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Speed Amp", Category="Default", MultiLine="true", OverrideNativeName="speedAmp"))
 	float bpv__speedAmp__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Advanced Slow", Category="Default", MultiLine="true", OverrideNativeName="advancedSlow"))
+	bool bpv__advancedSlow__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_CustomEvent_MovementResult_1"))
 	TEnumAsByte<EPathFollowingResult::Type> b0l__K2Node_CustomEvent_MovementResult_1__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_CreateDelegate_OutputDelegate"))
