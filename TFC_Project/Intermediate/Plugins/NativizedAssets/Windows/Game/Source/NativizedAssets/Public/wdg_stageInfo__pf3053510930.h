@@ -30,6 +30,8 @@ public:
 	FString bpv__NewVar_0__pf;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Isinfoshowed", Category="Default", MultiLine="true", OverrideNativeName="isinfoshowed"))
 	bool bpv__isinfoshowed__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Temptarget Stagename", Category="Default", MultiLine="true", OverrideNativeName="temptargetStagename"))
+	FString bpv__temptargetStagename__pf;
 	Uwdg_stageInfo_C__pf3053510930(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 	virtual void PostLoadSubobjects(FObjectInstancingGraph* OuterInstanceGraph) override;
 	static void __CustomDynamicClassInitialization(UDynamicClass* InDynamicClass);
