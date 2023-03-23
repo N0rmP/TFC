@@ -6,11 +6,8 @@
 #include "Runtime/UMG/Public/Components/CanvasPanelSlot.h"
 #include "Runtime/UMG/Public/Components/Image.h"
 #include "Runtime/Engine/Classes/Engine/Texture2D.h"
-#include "Runtime/UMG/Public/Components/VerticalBox.h"
-#include "Runtime/UMG/Public/Components/VerticalBoxSlot.h"
-#include "Runtime/UMG/Public/Components/Button.h"
-#include "Runtime/UMG/Public/Components/Spacer.h"
 #include "wdg_stageInfo__pf3053510930.h"
+#include "Runtime/UMG/Public/Components/Button.h"
 #include "Runtime/Engine/Classes/Engine/ComponentDelegateBinding.h"
 #include "Runtime/Engine/Classes/GameFramework/PlayerController.h"
 #include "Runtime/Engine/Classes/GameFramework/Controller.h"
@@ -594,7 +591,7 @@ void Uwdg_stagemenu_C__pf3053510930::__CustomDynamicClassInitialization(UDynamic
 	auto __Local__9 = NewObject<UCanvasPanel>(__Local__1, TEXT("CanvasPanel_0"), (EObjectFlags)0x00280008);
 	auto& __Local__10 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__9), UPanelWidget::__PPO__Slots() )));
 	__Local__10 = TArray<UPanelSlot*> ();
-	__Local__10.Reserve(5);
+	__Local__10.Reserve(10);
 	auto __Local__11 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_33"), (EObjectFlags)0x00280008);
 	__Local__11->LayoutData.Offsets.Right = 0.000000f;
 	__Local__11->LayoutData.Offsets.Bottom = 0.000000f;
@@ -619,161 +616,104 @@ void Uwdg_stagemenu_C__pf3053510930::__CustomDynamicClassInitialization(UDynamic
 	__Local__14->Slot = __Local__13;
 	__Local__13->Content = __Local__14;
 	__Local__10.Add(__Local__13);
-	auto __Local__16 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_81"), (EObjectFlags)0x00280008);
-	__Local__16->LayoutData.Offsets.Left = 290.000000f;
-	__Local__16->LayoutData.Offsets.Top = -300.000000f;
-	__Local__16->LayoutData.Offsets.Right = 600.000000f;
-	__Local__16->LayoutData.Offsets.Bottom = 800.000000f;
+	auto __Local__16 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_86"), (EObjectFlags)0x00280008);
+	__Local__16->LayoutData.Offsets.Left = 240.000000f;
+	__Local__16->LayoutData.Offsets.Top = -200.000000f;
+	__Local__16->LayoutData.Offsets.Right = 700.000000f;
+	__Local__16->LayoutData.Offsets.Bottom = 600.000000f;
 	__Local__16->LayoutData.Anchors.Minimum = FVector2D(0.500000, 0.500000);
 	__Local__16->LayoutData.Anchors.Maximum = FVector2D(0.500000, 0.500000);
+	__Local__16->ZOrder = 1;
 	__Local__16->Parent = __Local__9;
-	auto __Local__17 = NewObject<UVerticalBox>(__Local__1, TEXT("VerticalBox_124"), (EObjectFlags)0x00280008);
-	auto& __Local__18 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__17), UPanelWidget::__PPO__Slots() )));
-	__Local__18 = TArray<UPanelSlot*> ();
-	__Local__18.Reserve(11);
-	auto __Local__19 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_0"), (EObjectFlags)0x00280008);
-	__Local__19->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__19->Parent = __Local__17;
-	auto __Local__20 = NewObject<UButton>(__Local__1, TEXT("button_Stage_0"), (EObjectFlags)0x00280008);
-	__Local__20->Slot = __Local__19;
-	__Local__19->Content = __Local__20;
-	__Local__18.Add(__Local__19);
-	auto __Local__21 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_7"), (EObjectFlags)0x00280008);
-	__Local__21->Padding.Left = 4.000000f;
-	__Local__21->Padding.Top = 2.000000f;
-	__Local__21->Padding.Right = 4.000000f;
-	__Local__21->Padding.Bottom = 2.000000f;
-	__Local__21->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__21->VerticalAlignment = EVerticalAlignment::VAlign_Center;
-	__Local__21->Parent = __Local__17;
-	auto __Local__22 = NewObject<USpacer>(__Local__1, TEXT("Spacer_70"), (EObjectFlags)0x00280008);
-	__Local__22->Slot = __Local__21;
-	__Local__21->Content = __Local__22;
-	__Local__18.Add(__Local__21);
-	auto __Local__23 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_1"), (EObjectFlags)0x00280008);
-	__Local__23->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__23->Parent = __Local__17;
-	auto __Local__24 = NewObject<UButton>(__Local__1, TEXT("button_Stage_1"), (EObjectFlags)0x00280008);
-	__Local__24->Slot = __Local__23;
-	__Local__23->Content = __Local__24;
-	__Local__18.Add(__Local__23);
-	auto __Local__25 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_6"), (EObjectFlags)0x00280008);
-	__Local__25->Padding.Left = 4.000000f;
-	__Local__25->Padding.Top = 2.000000f;
-	__Local__25->Padding.Right = 4.000000f;
-	__Local__25->Padding.Bottom = 2.000000f;
-	__Local__25->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__25->VerticalAlignment = EVerticalAlignment::VAlign_Center;
-	__Local__25->Parent = __Local__17;
-	auto __Local__26 = NewObject<USpacer>(__Local__1, TEXT("Spacer"), (EObjectFlags)0x00280008);
-	__Local__26->Slot = __Local__25;
-	__Local__25->Content = __Local__26;
-	__Local__18.Add(__Local__25);
-	auto __Local__27 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_2"), (EObjectFlags)0x00280008);
-	__Local__27->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__27->Parent = __Local__17;
-	auto __Local__28 = NewObject<UButton>(__Local__1, TEXT("button_Stage_2"), (EObjectFlags)0x00280008);
-	__Local__28->Slot = __Local__27;
-	__Local__27->Content = __Local__28;
-	__Local__18.Add(__Local__27);
-	auto __Local__29 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_11"), (EObjectFlags)0x00280008);
-	__Local__29->Padding.Left = 4.000000f;
-	__Local__29->Padding.Top = 2.000000f;
-	__Local__29->Padding.Right = 4.000000f;
-	__Local__29->Padding.Bottom = 2.000000f;
-	__Local__29->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__29->VerticalAlignment = EVerticalAlignment::VAlign_Center;
-	__Local__29->Parent = __Local__17;
-	auto __Local__30 = NewObject<USpacer>(__Local__1, TEXT("Spacer_1"), (EObjectFlags)0x00280008);
-	__Local__30->Slot = __Local__29;
-	__Local__29->Content = __Local__30;
-	__Local__18.Add(__Local__29);
-	auto __Local__31 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_3"), (EObjectFlags)0x00280008);
-	__Local__31->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__31->Parent = __Local__17;
-	auto __Local__32 = NewObject<UButton>(__Local__1, TEXT("button_Stage_3"), (EObjectFlags)0x00280008);
-	__Local__32->Slot = __Local__31;
-	__Local__31->Content = __Local__32;
-	__Local__18.Add(__Local__31);
-	auto __Local__33 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_12"), (EObjectFlags)0x00280008);
-	__Local__33->Padding.Left = 4.000000f;
-	__Local__33->Padding.Top = 2.000000f;
-	__Local__33->Padding.Right = 4.000000f;
-	__Local__33->Padding.Bottom = 2.000000f;
-	__Local__33->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__33->VerticalAlignment = EVerticalAlignment::VAlign_Center;
-	__Local__33->Parent = __Local__17;
-	auto __Local__34 = NewObject<USpacer>(__Local__1, TEXT("Spacer_2"), (EObjectFlags)0x00280008);
-	__Local__34->Slot = __Local__33;
-	__Local__33->Content = __Local__34;
-	__Local__18.Add(__Local__33);
-	auto __Local__35 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_4"), (EObjectFlags)0x00280008);
-	__Local__35->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__35->Parent = __Local__17;
-	auto __Local__36 = NewObject<UButton>(__Local__1, TEXT("button_Stage_4"), (EObjectFlags)0x00280008);
-	__Local__36->Slot = __Local__35;
-	__Local__35->Content = __Local__36;
-	__Local__18.Add(__Local__35);
-	auto __Local__37 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_13"), (EObjectFlags)0x00280008);
-	__Local__37->Padding.Left = 4.000000f;
-	__Local__37->Padding.Top = 2.000000f;
-	__Local__37->Padding.Right = 4.000000f;
-	__Local__37->Padding.Bottom = 2.000000f;
-	__Local__37->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__37->VerticalAlignment = EVerticalAlignment::VAlign_Center;
-	__Local__37->Parent = __Local__17;
-	auto __Local__38 = NewObject<USpacer>(__Local__1, TEXT("Spacer_3"), (EObjectFlags)0x00280008);
-	__Local__38->Slot = __Local__37;
-	__Local__37->Content = __Local__38;
-	__Local__18.Add(__Local__37);
-	auto __Local__39 = NewObject<UVerticalBoxSlot>(__Local__17, TEXT("VerticalBoxSlot_5"), (EObjectFlags)0x00280008);
-	__Local__39->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__39->Parent = __Local__17;
-	auto __Local__40 = NewObject<UButton>(__Local__1, TEXT("button_Stage_5"), (EObjectFlags)0x00280008);
-	__Local__40->Slot = __Local__39;
-	__Local__39->Content = __Local__40;
-	__Local__18.Add(__Local__39);
+	auto __Local__17 = NewObject<Uwdg_stageInfo_C__pf3053510930>(__Local__1, TEXT("wdg_stageInfo"), (EObjectFlags)0x00280008);
+	__Local__17->Priority = 1;
 	__Local__17->Slot = __Local__16;
+	__Local__17->Visibility = ESlateVisibility::Hidden;
 	__Local__16->Content = __Local__17;
 	__Local__10.Add(__Local__16);
-	auto __Local__41 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_86"), (EObjectFlags)0x00280008);
-	__Local__41->LayoutData.Offsets.Left = 240.000000f;
-	__Local__41->LayoutData.Offsets.Top = -200.000000f;
-	__Local__41->LayoutData.Offsets.Right = 700.000000f;
-	__Local__41->LayoutData.Offsets.Bottom = 600.000000f;
-	__Local__41->LayoutData.Anchors.Minimum = FVector2D(0.500000, 0.500000);
-	__Local__41->LayoutData.Anchors.Maximum = FVector2D(0.500000, 0.500000);
-	__Local__41->ZOrder = 1;
-	__Local__41->Parent = __Local__9;
-	auto __Local__42 = NewObject<Uwdg_stageInfo_C__pf3053510930>(__Local__1, TEXT("wdg_stageInfo"), (EObjectFlags)0x00280008);
-	__Local__42->Priority = 1;
-	__Local__42->Slot = __Local__41;
-	__Local__42->Visibility = ESlateVisibility::Hidden;
-	__Local__41->Content = __Local__42;
-	__Local__10.Add(__Local__41);
-	auto __Local__43 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_4"), (EObjectFlags)0x00280008);
-	__Local__43->LayoutData.Offsets.Left = 552.000000f;
-	__Local__43->LayoutData.Offsets.Top = 24.000000f;
-	__Local__43->LayoutData.Offsets.Right = 204.000000f;
-	__Local__43->LayoutData.Offsets.Bottom = 200.000000f;
-	__Local__43->Parent = __Local__9;
-	auto __Local__44 = NewObject<UButton>(__Local__1, TEXT("PlayerUpgrade"), (EObjectFlags)0x00280008);
-	__Local__44->Slot = __Local__43;
-	__Local__43->Content = __Local__44;
-	__Local__10.Add(__Local__43);
+	auto __Local__18 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_4"), (EObjectFlags)0x00280008);
+	__Local__18->LayoutData.Offsets.Left = 552.000000f;
+	__Local__18->LayoutData.Offsets.Top = 24.000000f;
+	__Local__18->LayoutData.Offsets.Right = 204.000000f;
+	__Local__18->LayoutData.Offsets.Bottom = 200.000000f;
+	__Local__18->Parent = __Local__9;
+	auto __Local__19 = NewObject<UButton>(__Local__1, TEXT("PlayerUpgrade"), (EObjectFlags)0x00280008);
+	__Local__19->Slot = __Local__18;
+	__Local__18->Content = __Local__19;
+	__Local__10.Add(__Local__18);
+	auto __Local__20 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_1"), (EObjectFlags)0x00280008);
+	__Local__20->LayoutData.Offsets.Left = 1032.000000f;
+	__Local__20->LayoutData.Offsets.Top = 312.000000f;
+	__Local__20->LayoutData.Offsets.Right = 90.000000f;
+	__Local__20->LayoutData.Offsets.Bottom = 90.000000f;
+	__Local__20->Parent = __Local__9;
+	auto __Local__21 = NewObject<UButton>(__Local__1, TEXT("button_Stage_0"), (EObjectFlags)0x00280008);
+	__Local__21->Slot = __Local__20;
+	__Local__20->Content = __Local__21;
+	__Local__10.Add(__Local__20);
+	auto __Local__22 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_8"), (EObjectFlags)0x00280008);
+	__Local__22->LayoutData.Offsets.Left = 936.000000f;
+	__Local__22->LayoutData.Offsets.Top = 496.000000f;
+	__Local__22->LayoutData.Offsets.Right = 90.000000f;
+	__Local__22->LayoutData.Offsets.Bottom = 90.000000f;
+	__Local__22->Parent = __Local__9;
+	auto __Local__23 = NewObject<UButton>(__Local__1, TEXT("button_Stage_1"), (EObjectFlags)0x00280008);
+	__Local__23->Slot = __Local__22;
+	__Local__22->Content = __Local__23;
+	__Local__10.Add(__Local__22);
+	auto __Local__24 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_9"), (EObjectFlags)0x00280008);
+	__Local__24->LayoutData.Offsets.Left = 700.000000f;
+	__Local__24->LayoutData.Offsets.Top = 588.000000f;
+	__Local__24->LayoutData.Offsets.Right = 90.000000f;
+	__Local__24->LayoutData.Offsets.Bottom = 90.000000f;
+	__Local__24->Parent = __Local__9;
+	auto __Local__25 = NewObject<UButton>(__Local__1, TEXT("button_Stage_2"), (EObjectFlags)0x00280008);
+	__Local__25->Slot = __Local__24;
+	__Local__24->Content = __Local__25;
+	__Local__10.Add(__Local__24);
+	auto __Local__26 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_10"), (EObjectFlags)0x00280008);
+	__Local__26->LayoutData.Offsets.Left = 576.000000f;
+	__Local__26->LayoutData.Offsets.Top = 736.000000f;
+	__Local__26->LayoutData.Offsets.Right = 90.000000f;
+	__Local__26->LayoutData.Offsets.Bottom = 90.000000f;
+	__Local__26->Parent = __Local__9;
+	auto __Local__27 = NewObject<UButton>(__Local__1, TEXT("button_Stage_3"), (EObjectFlags)0x00280008);
+	__Local__27->Slot = __Local__26;
+	__Local__26->Content = __Local__27;
+	__Local__10.Add(__Local__26);
+	auto __Local__28 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_11"), (EObjectFlags)0x00280008);
+	__Local__28->LayoutData.Offsets.Left = 424.000000f;
+	__Local__28->LayoutData.Offsets.Top = 508.000000f;
+	__Local__28->LayoutData.Offsets.Right = 90.000000f;
+	__Local__28->LayoutData.Offsets.Bottom = 90.000000f;
+	__Local__28->Parent = __Local__9;
+	auto __Local__29 = NewObject<UButton>(__Local__1, TEXT("button_Stage_4"), (EObjectFlags)0x00280008);
+	__Local__29->Slot = __Local__28;
+	__Local__28->Content = __Local__29;
+	__Local__10.Add(__Local__28);
+	auto __Local__30 = NewObject<UCanvasPanelSlot>(__Local__9, TEXT("CanvasPanelSlot_12"), (EObjectFlags)0x00280008);
+	__Local__30->LayoutData.Offsets.Left = 184.000000f;
+	__Local__30->LayoutData.Offsets.Top = 672.000000f;
+	__Local__30->LayoutData.Offsets.Right = 90.000000f;
+	__Local__30->LayoutData.Offsets.Bottom = 90.000000f;
+	__Local__30->Parent = __Local__9;
+	auto __Local__31 = NewObject<UButton>(__Local__1, TEXT("button_Stage_5"), (EObjectFlags)0x00280008);
+	__Local__31->Slot = __Local__30;
+	__Local__30->Content = __Local__31;
+	__Local__10.Add(__Local__30);
 	__Local__1->RootWidget = __Local__9;
 }
 PRAGMA_ENABLE_OPTIMIZATION
 void Uwdg_stagemenu_C__pf3053510930::GetSlotNames(TArray<FName>& SlotNames) const
 {
-	TArray<FName>  __Local__45;
-	SlotNames.Append(__Local__45);
+	TArray<FName>  __Local__32;
+	SlotNames.Append(__Local__32);
 }
 void Uwdg_stagemenu_C__pf3053510930::InitializeNativeClassData()
 {
-	TArray<UWidgetAnimation*>  __Local__46;
-	TArray<FDelegateRuntimeBinding>  __Local__47;
-	UWidgetBlueprintGeneratedClass::InitializeWidgetStatic(this, GetClass(), CastChecked<UWidgetTree>(CastChecked<UDynamicClass>(Uwdg_stagemenu_C__pf3053510930::StaticClass())->MiscConvertedSubobjects[0]), __Local__46, __Local__47);
+	TArray<UWidgetAnimation*>  __Local__33;
+	TArray<FDelegateRuntimeBinding>  __Local__34;
+	UWidgetBlueprintGeneratedClass::InitializeWidgetStatic(this, GetClass(), CastChecked<UWidgetTree>(CastChecked<UDynamicClass>(Uwdg_stagemenu_C__pf3053510930::StaticClass())->MiscConvertedSubobjects[0]), __Local__33, __Local__34);
 }
 void Uwdg_stagemenu_C__pf3053510930::PreSave(const class ITargetPlatform* TargetPlatform)
 {
@@ -908,7 +848,7 @@ void Uwdg_stagemenu_C__pf3053510930::__StaticDependencies_DirectlyUsedAssets(TAr
 {
 	const FCompactBlueprintDependencyData LocCompactBlueprintDependencyData[] =
 	{
-		{167, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Texture2D /Game/resouerce/image/tempMapImg.tempMapImg 
+		{173, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Texture2D /Game/resouerce/image/tempMapImg.tempMapImg 
 	};
 	for(const FCompactBlueprintDependencyData& CompactData : LocCompactBlueprintDependencyData)
 	{
@@ -922,102 +862,102 @@ void Uwdg_stagemenu_C__pf3053510930::__StaticDependenciesAssets(TArray<FBlueprin
 	__StaticDependencies_DirectlyUsedAssets(AssetsToLoad);
 	const FCompactBlueprintDependencyData LocCompactBlueprintDependencyData[] =
 	{
-		{39, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PlayerController 
+		{41, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PlayerController 
 		{14, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/Engine.GameplayStatics 
-		{40, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.WidgetBlueprintLibrary 
-		{28, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.UserWidget 
-		{88, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.Button 
+		{42, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.WidgetBlueprintLibrary 
+		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.UserWidget 
+		{89, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.Button 
 		{7, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetSystemLibrary 
 		{12, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/Engine.KismetStringLibrary 
-		{4, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetMathLibrary 
+		{4, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/Engine.KismetMathLibrary 
 		{15, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, true, false)},  //  ScriptStruct /Script/Engine.PointerToUberGraphFrame 
-		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.Image 
-		{56, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
+		{58, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.Image 
+		{55, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
 		{90, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.MultiLineEditableTextBox 
-		{37, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.TextBlock 
+		{22, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, true, false)},  //  Class /Script/UMG.TextBlock 
 		{13, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.GameInstance 
+		{86, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Widget 
+		{57, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetTextLibrary 
 		{10, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Actor 
-		{60, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop 
-		{61, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start 
-		{38, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlendSpace1D /Game/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D 
-		{19, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpringArmComponent 
-		{20, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SkeletalMeshComponent 
-		{16, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv 
-		{21, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms 
-		{22, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall 
-		{23, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ChildActorComponent 
-		{24, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CameraComponent 
-		{25, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpotLightComponent 
+		{19, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ActorComponent 
+		{21, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.StaticMeshComponent 
 		{0, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SceneComponent 
-		{26, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/InputCore.Key 
-		{27, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.HitResult 
-		{5, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CharacterMovementComponent 
-		{6, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Character 
+		{43, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Sphere.Sphere 
+		{44, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/EditorLandscapeResources/AlphaBrushMaterial.AlphaBrushMaterial 
+		{35, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.HitResult 
+		{45, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PrimitiveComponent 
 		{11, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetArrayLibrary 
+		{26, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlendSpace1D /Game/resouerce/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D 
+		{6, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Character 
+		{16, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/ClothingSystemRuntimeNv.ClothingSimulationFactoryNv 
 		{17, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/NavigationSystem.NavArea_Obstacle 
 		{18, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/AIModule.AIController 
+		{23, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump 
+		{24, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop 
+		{25, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start 
+		{27, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpringArmComponent 
+		{28, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SkeletalMeshComponent 
+		{29, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms 
+		{30, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall 
+		{31, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ChildActorComponent 
+		{32, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CameraComponent 
+		{33, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SpotLightComponent 
+		{34, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/InputCore.Key 
+		{5, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CharacterMovementComponent 
 		{8, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.LatentActionInfo 
-		{29, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SaveGame 
-		{30, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/widget_manager.widget_manager_C 
-		{31, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  widget_manager_C /Game/blueprints/others/Observer/widget_manager.Default__widget_manager_C 
-		{32, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTable 
-		{33, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DataTable /Game/resouerce/excel/EST_stage_1.EST_stage_1 
-		{34, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ActorComponent 
-		{59, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump 
-		{41, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.StaticMeshComponent 
-		{42, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Sphere.Sphere 
-		{43, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial 
-		{44, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SphereComponent 
+		{37, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SaveGame 
+		{38, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  BlueprintGeneratedClass /Game/blueprints/others/Observer/widget_manager.widget_manager_C 
+		{39, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  widget_manager_C /Game/blueprints/others/Observer/widget_manager.Default__widget_manager_C 
+		{40, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTable 
+		{20, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DataTable /Game/resouerce/excel/EST_stage_1.EST_stage_1 
+		{59, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.TimerHandle 
+		{66, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_StateMachine 
 		{1, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Enum /Script/AIModule.EPathFollowingResult 
 		{2, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DelegateFunction /Script/AIModule.OAISimpleDelegate__DelegateSignature 
 		{3, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/AIModule.AIAsyncTaskBlueprintProxy 
 		{9, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/AIModule.AIBlueprintHelperLibrary 
-		{45, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PrimitiveComponent 
-		{72, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_BlendSpacePlayer 
-		{73, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.PoseLink 
-		{74, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_Root 
-		{65, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_SequencePlayer 
-		{57, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_StateResult 
-		{58, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_StateMachine 
-		{62, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTableFunctionLibrary 
-		{63, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DelegateFunction /Script/LowEntryExtendedStandardLibrary.DelegateULowEntryExtendedStandardLibraryCompareObjects__DelegateSignature 
-		{64, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/LowEntryExtendedStandardLibrary.LowEntryExtendedStandardLibrary 
-		{68, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Pawn 
-		{69, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PawnMovementComponent 
-		{70, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.AnimInstance 
-		{71, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_TransitionResult 
-		{66, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin 
-		{67, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 
-		{75, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Cube.Cube 
-		{76, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test.test 
-		{46, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/EditorLandscapeResources/AlphaBrushMaterial.AlphaBrushMaterial 
-		{47, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.TimerHandle 
-		{51, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/bullet_mark.bullet_mark 
-		{54, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/PhysicsCore.PhysicalMaterial 
-		{48, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.MaterialInstanceDynamic 
-		{49, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.BlueprintMapLibrary 
-		{50, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Game/resouerce/temp/StarterContent/Shapes/Shape_Cube.Shape_Cube 
-		{52, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun 
-		{53, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/FirstPerson/FPWeapon/Materials/M_FPGun.M_FPGun 
-		{55, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Texture2D /Game/resouerce/image/FirstPersonCrosshair.FirstPersonCrosshair 
-		{35, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/SlateCore.Geometry 
-		{77, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Idle.FirstPerson_Idle 
-		{78, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ParticleSystemComponent 
-		{79, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ParticleSystem /Game/blueprints/Tower/AoEParticle.AoEParticle 
-		{80, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CapsuleComponent 
-		{81, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpEnd.FirstPerson_JumpEnd 
-		{82, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpLoop.FirstPerson_JumpLoop 
-		{83, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpStart.FirstPerson_JumpStart 
-		{93, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Run.FirstPerson_Run 
-		{85, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Widget 
-		{92, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_Slot 
-		{87, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test2.test2 
-		{89, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetTextLibrary 
-		{86, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Overlay 
-		{84, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.VerticalBox 
-		{91, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton1.SK_Mannequin_Arms_Skeleton1 
-		{168, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  WidgetBlueprintGeneratedClass /Game/blueprints/UI/wdg-plrUpgrade.wdg-plrUpgrade_C 
-		{169, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  WidgetBlueprintGeneratedClass /Game/blueprints/UI/wdg_stageInfo.wdg_stageInfo_C 
+		{79, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.ParticleSystemComponent 
+		{80, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ParticleSystem /Game/blueprints/Tower/AoEParticle.AoEParticle 
+		{81, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.CapsuleComponent 
+		{73, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_BlendSpacePlayer 
+		{74, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.PoseLink 
+		{75, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_Root 
+		{64, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_SequencePlayer 
+		{65, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_StateResult 
+		{47, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.SphereComponent 
+		{53, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/PhysicsCore.PhysicalMaterial 
+		{46, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial 
+		{62, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  DelegateFunction /Script/LowEntryExtendedStandardLibrary.DelegateULowEntryExtendedStandardLibraryCompareObjects__DelegateSignature 
+		{63, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/LowEntryExtendedStandardLibrary.LowEntryExtendedStandardLibrary 
+		{61, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.DataTableFunctionLibrary 
+		{76, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Engine/BasicShapes/Cube.Cube 
+		{67, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin 
+		{68, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 
+		{69, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.Pawn 
+		{70, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.PawnMovementComponent 
+		{71, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.AnimInstance 
+		{72, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.AnimNode_TransitionResult 
+		{77, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test.test 
+		{60, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.MaterialInstanceDynamic 
+		{48, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.BlueprintMapLibrary 
+		{49, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  StaticMesh /Game/resouerce/temp/StarterContent/Shapes/Shape_Cube.Shape_Cube 
+		{50, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/bullet_mark.bullet_mark 
+		{51, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SkeletalMesh /Game/resouerce/temp/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun 
+		{52, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/temp/FirstPerson/FPWeapon/Materials/M_FPGun.M_FPGun 
+		{54, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Texture2D /Game/resouerce/image/FirstPersonCrosshair.FirstPersonCrosshair 
+		{56, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/SlateCore.Geometry 
+		{78, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Idle.FirstPerson_Idle 
+		{88, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Material /Game/resouerce/material/test2.test2 
+		{91, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Overlay 
+		{87, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.VerticalBox 
+		{92, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Skeleton /Game/resouerce/temp/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton1.SK_Mannequin_Arms_Skeleton1 
+		{93, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/AnimGraphRuntime.AnimNode_Slot 
+		{85, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_Run.FirstPerson_Run 
+		{82, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpEnd.FirstPerson_JumpEnd 
+		{83, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpLoop.FirstPerson_JumpLoop 
+		{84, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  AnimSequence /Game/resouerce/temp/FirstPerson/Animations/FirstPerson_JumpStart.FirstPerson_JumpStart 
+		{174, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  WidgetBlueprintGeneratedClass /Game/blueprints/UI/wdg-plrUpgrade.wdg-plrUpgrade_C 
+		{175, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  WidgetBlueprintGeneratedClass /Game/blueprints/UI/wdg_stageInfo.wdg_stageInfo_C 
 	};
 	for(const FCompactBlueprintDependencyData& CompactData : LocCompactBlueprintDependencyData)
 	{

@@ -1,0 +1,198 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "NativizedAssets/Public/BasicModule4__pf2556257598.h"
+#ifdef _MSC_VER
+#pragma warning (push)
+#pragma warning (disable : 4883)
+#endif
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeBasicModule4__pf2556257598() {}
+// Cross Module References
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UBasicModule4_C__pf2556257598_NoRegister();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UBasicModule4_C__pf2556257598();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UModule_C__pf2556257598();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+// End Cross Module References
+	DEFINE_FUNCTION(UBasicModule4_C__pf2556257598::execbpf__ReceiveBeginPlay__pf)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__ReceiveBeginPlay__pf();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UBasicModule4_C__pf2556257598::execbpf__ReceiveActorBeginOverlap_1__pf)
+	{
+		P_GET_OBJECT(AActor,Z_Param_bpp__OtherActor__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__ReceiveActorBeginOverlap_1__pf(Z_Param_bpp__OtherActor__pf);
+		P_NATIVE_END;
+	}
+	static FName NAME_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf = FName(TEXT("ReceiveBeginPlay"));
+	void UBasicModule4_C__pf2556257598::eventbpf__ReceiveBeginPlay__pf()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf),NULL);
+	}
+	void UBasicModule4_C__pf2556257598::StaticRegisterNativesUBasicModule4_C__pf2556257598()
+	{
+		UClass* Class = UBasicModule4_C__pf2556257598::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "ReceiveActorBeginOverlap_1", &UBasicModule4_C__pf2556257598::execbpf__ReceiveActorBeginOverlap_1__pf },
+			{ "ReceiveBeginPlay", &UBasicModule4_C__pf2556257598::execbpf__ReceiveBeginPlay__pf },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics
+	{
+		struct BasicModule4_C__pf2556257598_eventbpf__ReceiveActorBeginOverlap_1__pf_Parms
+		{
+			AActor* bpp__OtherActor__pf;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherActor__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::NewProp_bpp__OtherActor__pf = { "bpp__OtherActor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BasicModule4_C__pf2556257598_eventbpf__ReceiveActorBeginOverlap_1__pf_Parms, bpp__OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::NewProp_bpp__OtherActor__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "ModuleRelativePath", "Public/BasicModule4__pf2556257598.h" },
+		{ "OverrideNativeName", "ReceiveActorBeginOverlap_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UBasicModule4_C__pf2556257598, nullptr, "ReceiveActorBeginOverlap_1", nullptr, nullptr, sizeof(BasicModule4_C__pf2556257598_eventbpf__ReceiveActorBeginOverlap_1__pf_Parms), Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_UBasicModule4_C__pf2556257598();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "ReceiveActorBeginOverlap_1" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/** t * Blueprint implementable event for when the component is beginning play, called before its owning actor's BeginPlayt * or when the component is dynamically created if the Actor has already BegunPlay. t */" },
+		{ "CppFromBpEvent", "" },
+		{ "DisplayName", "Begin Play" },
+		{ "ModuleRelativePath", "Public/BasicModule4__pf2556257598.h" },
+		{ "OverrideNativeName", "ReceiveBeginPlay" },
+		{ "ToolTip", "Blueprint implementable event for when the component is beginning play, called before its owning actor's BeginPlayor when the component is dynamically created if the Actor has already BegunPlay." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UBasicModule4_C__pf2556257598, nullptr, "ReceiveBeginPlay", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient, (EFunctionFlags)0x00020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_UBasicModule4_C__pf2556257598();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "ReceiveBeginPlay" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_UBasicModule4_C__pf2556257598_NoRegister()
+	{
+		return UBasicModule4_C__pf2556257598::StaticClass();
+	}
+	struct Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b2l__K2Node_Event_OtherActor__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b2l__K2Node_Event_OtherActor__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UModule_C__pf2556257598,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveActorBeginOverlap_1__pf, "ReceiveActorBeginOverlap_1" }, // 1169751360
+		{ &Z_Construct_UFunction_UBasicModule4_C__pf2556257598_bpf__ReceiveBeginPlay__pf, "ReceiveBeginPlay" }, // 1269077356
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IncludePath", "BasicModule4__pf2556257598.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/BasicModule4__pf2556257598.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
+		{ "OverrideNativeName", "BasicModule4_C" },
+		{ "ReplaceConverted", "/Game/blueprints/OnCollections/Modules/BasicModule4.BasicModule4_C" },
+	};
+#endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::NewProp_b2l__K2Node_Event_OtherActor__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BasicModule4__pf2556257598.h" },
+		{ "OverrideNativeName", "K2Node_Event_OtherActor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::NewProp_b2l__K2Node_Event_OtherActor__pf = { "K2Node_Event_OtherActor", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBasicModule4_C__pf2556257598, b2l__K2Node_Event_OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::NewProp_b2l__K2Node_Event_OtherActor__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::NewProp_b2l__K2Node_Event_OtherActor__pf_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::NewProp_b2l__K2Node_Event_OtherActor__pf,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UBasicModule4_C__pf2556257598>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::ClassParams = {
+		&UBasicModule4_C__pf2556257598::StaticClass,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::PropPointers),
+		0,
+		0x00A000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UBasicModule4_C__pf2556257598()
+	{
+		UPackage* OuterPackage = FindOrConstructDynamicTypePackage(TEXT("/Game/blueprints/OnCollections/Modules/BasicModule4"));
+		UClass* OuterClass = Cast<UClass>(StaticFindObjectFast(UClass::StaticClass(), OuterPackage, TEXT("BasicModule4_C")));
+		if (!OuterClass || !(OuterClass->ClassFlags & CLASS_Constructed))
+		{
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_UBasicModule4_C__pf2556257598_Statics::ClassParams);
+		}
+		return OuterClass;
+	}
+	IMPLEMENT_DYNAMIC_CLASS(UBasicModule4_C__pf2556257598, TEXT("BasicModule4_C"), 3227134783);
+	template<> NATIVIZEDASSETS_API UClass* StaticClass<UBasicModule4_C__pf2556257598>()
+	{
+		return UBasicModule4_C__pf2556257598::StaticClass();
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UBasicModule4_C__pf2556257598(Z_Construct_UClass_UBasicModule4_C__pf2556257598, &UBasicModule4_C__pf2556257598::StaticClass, TEXT("/Game/blueprints/OnCollections/Modules/BasicModule4"), TEXT("BasicModule4_C"), true, TEXT("/Game/blueprints/OnCollections/Modules/BasicModule4"), TEXT("/Game/blueprints/OnCollections/Modules/BasicModule4.BasicModule4_C"), nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UBasicModule4_C__pf2556257598);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+#ifdef _MSC_VER
+#pragma warning (pop)
+#endif

@@ -14,7 +14,6 @@
 #include "Runtime/UMG/Public/Components/Spacer.h"
 #include "Runtime/UMG/Public/Components/Slider.h"
 #include "Runtime/UMG/Public/Components/ComboBoxString.h"
-#include "Runtime/UMG/Public/Components/InputKeySelector.h"
 #include "Runtime/UMG/Public/Components/Button.h"
 #include "Runtime/UMG/Public/Components/ButtonSlot.h"
 #include "Runtime/Engine/Classes/Engine/ComponentDelegateBinding.h"
@@ -507,7 +506,6 @@
 #include "Runtime/SlateCore/Public/Fonts/SlateFontInfo.h"
 #include "Runtime/Engine/Classes/Kismet/KismetStringLibrary.h"
 #include "Runtime/Engine/Classes/Kismet/KismetTextLibrary.h"
-#include "Runtime/Slate/Public/Framework/Commands/InputChord.h"
 #include "Runtime/UMG/Public/Components/ContentWidget.h"
 #include "Runtime/SlateCore/Public/Styling/SlateWidgetStyleAsset.h"
 #include "Runtime/SlateCore/Public/Styling/SlateWidgetStyleContainerBase.h"
@@ -529,17 +527,10 @@ PRAGMA_DISABLE_OPTIMIZATION
 Uwdg_optionmenu_C__pf3053510930::Uwdg_optionmenu_C__pf3053510930(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	
-	bpv__BACKKeySelector__pf = nullptr;
 	bpv__Button_apply__pf = nullptr;
 	bpv__Button_undo__pf = nullptr;
 	bpv__ComboBoxString_528__pf = nullptr;
-	bpv__FORWARDKeySelector__pf = nullptr;
 	bpv__Image_39__pf = nullptr;
-	bpv__Image_235__pf = nullptr;
-	bpv__LEFTKeySelector__pf = nullptr;
-	bpv__MOUS_RKeySelector__pf = nullptr;
-	bpv__MOUSE_LKeySelector__pf = nullptr;
-	bpv__RIGHTKeySelector__pf = nullptr;
 	bpv__Slider_bgm__pf = nullptr;
 	bpv__Slider_matser__pf = nullptr;
 	bpv__Slider_sfx__pf = nullptr;
@@ -852,209 +843,80 @@ TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"6B680BD34395012749DC1E
 	__Local__14.Add(__Local__70);
 	auto __Local__72 = NewObject<UVerticalBoxSlot>(__Local__13, TEXT("VerticalBoxSlot_12"), (EObjectFlags)0x00280008);
 	__Local__72->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
+	__Local__72->VerticalAlignment = EVerticalAlignment::VAlign_Center;
 	__Local__72->Parent = __Local__13;
-	auto __Local__73 = NewObject<UHorizontalBox>(__Local__1, TEXT("inputmouseL"), (EObjectFlags)0x00280008);
-	auto& __Local__74 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__73), UPanelWidget::__PPO__Slots() )));
-	__Local__74 = TArray<UPanelSlot*> ();
-	__Local__74.Reserve(3);
-	auto __Local__75 = NewObject<UHorizontalBoxSlot>(__Local__73, TEXT("HorizontalBoxSlot_3"), (EObjectFlags)0x00280008);
-	__Local__75->Parent = __Local__73;
-	auto __Local__76 = NewObject<UVerticalBox>(__Local__1, TEXT("inputTEXT"), (EObjectFlags)0x00280008);
-	auto& __Local__77 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__76), UPanelWidget::__PPO__Slots() )));
-	__Local__77 = TArray<UPanelSlot*> ();
-	__Local__77.Reserve(6);
-	auto __Local__78 = NewObject<UVerticalBoxSlot>(__Local__76, TEXT("VerticalBoxSlot_10"), (EObjectFlags)0x00280008);
-	__Local__78->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__78->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__78->Parent = __Local__76;
-	auto __Local__79 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_1097"), (EObjectFlags)0x00280008);
-	__Local__79->Text = FTextStringHelper::CreateFromBuffer(
-TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"CAE57B9B49335BBBFA9BA09540391B3F\", \"MOVE FORWARD\")")	);
-	__Local__79->Slot = __Local__78;
-	__Local__78->Content = __Local__79;
-	__Local__77.Add(__Local__78);
-	auto __Local__80 = NewObject<UVerticalBoxSlot>(__Local__76, TEXT("VerticalBoxSlot_3"), (EObjectFlags)0x00280008);
-	__Local__80->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__80->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__80->Parent = __Local__76;
-	auto __Local__81 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_2"), (EObjectFlags)0x00280008);
-	__Local__81->Text = FTextStringHelper::CreateFromBuffer(
-TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"63AFA3AA4E2BE9D69684448C7DB2A1A2\", \"MOVE RIGHT\")")	);
-	__Local__81->Slot = __Local__80;
-	__Local__80->Content = __Local__81;
-	__Local__77.Add(__Local__80);
-	auto __Local__82 = NewObject<UVerticalBoxSlot>(__Local__76, TEXT("VerticalBoxSlot_4"), (EObjectFlags)0x00280008);
-	__Local__82->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__82->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__82->Parent = __Local__76;
-	auto __Local__83 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_3"), (EObjectFlags)0x00280008);
-	__Local__83->Text = FTextStringHelper::CreateFromBuffer(
-TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"2234A3C54F09CDEB38D9DA811D7127A4\", \"MOVE LEFT\")")	);
-	__Local__83->Slot = __Local__82;
-	__Local__82->Content = __Local__83;
-	__Local__77.Add(__Local__82);
-	auto __Local__84 = NewObject<UVerticalBoxSlot>(__Local__76, TEXT("VerticalBoxSlot_11"), (EObjectFlags)0x00280008);
-	__Local__84->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__84->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__84->Parent = __Local__76;
-	auto __Local__85 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_4"), (EObjectFlags)0x00280008);
-	__Local__85->Text = FTextStringHelper::CreateFromBuffer(
-TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"F2C7BCF04CDB257A5E9B14A314AF89F2\", \"MOVE BACK\")")	);
-	__Local__85->Slot = __Local__84;
-	__Local__84->Content = __Local__85;
-	__Local__77.Add(__Local__84);
-	auto __Local__86 = NewObject<UVerticalBoxSlot>(__Local__76, TEXT("VerticalBoxSlot_6"), (EObjectFlags)0x00280008);
-	__Local__86->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__86->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__86->Parent = __Local__76;
-	auto __Local__87 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_5"), (EObjectFlags)0x00280008);
-	__Local__87->Text = FTextStringHelper::CreateFromBuffer(
-TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"7D07A7424A8228CAEEF1DBA47AB955C1\", \"SHOOT\")")	);
-	__Local__87->Slot = __Local__86;
-	__Local__86->Content = __Local__87;
-	__Local__77.Add(__Local__86);
-	auto __Local__88 = NewObject<UVerticalBoxSlot>(__Local__76, TEXT("VerticalBoxSlot_7"), (EObjectFlags)0x00280008);
-	__Local__88->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__88->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__88->Parent = __Local__76;
-	auto __Local__89 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_6"), (EObjectFlags)0x00280008);
-	__Local__89->Text = FTextStringHelper::CreateFromBuffer(
-TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"BDA63793489749D6B11806AC1865134E\", \"AIM\")")	);
-	__Local__89->Slot = __Local__88;
-	__Local__88->Content = __Local__89;
-	__Local__77.Add(__Local__88);
-	__Local__76->Slot = __Local__75;
-	__Local__75->Content = __Local__76;
-	__Local__74.Add(__Local__75);
-	auto __Local__90 = NewObject<UHorizontalBoxSlot>(__Local__73, TEXT("HorizontalBoxSlot_5"), (EObjectFlags)0x00280008);
-	__Local__90->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__90->Parent = __Local__73;
-	auto __Local__91 = NewObject<UImage>(__Local__1, TEXT("Image_235"), (EObjectFlags)0x00280008);
-	__Local__91->Slot = __Local__90;
-	__Local__90->Content = __Local__91;
-	__Local__74.Add(__Local__90);
-	auto __Local__92 = NewObject<UHorizontalBoxSlot>(__Local__73, TEXT("HorizontalBoxSlot_4"), (EObjectFlags)0x00280008);
-	__Local__92->Parent = __Local__73;
-	auto __Local__93 = NewObject<UVerticalBox>(__Local__1, TEXT("unputBOX"), (EObjectFlags)0x00280008);
-	auto& __Local__94 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__93), UPanelWidget::__PPO__Slots() )));
-	__Local__94 = TArray<UPanelSlot*> ();
-	__Local__94.Reserve(6);
-	auto __Local__95 = NewObject<UVerticalBoxSlot>(__Local__93, TEXT("VerticalBoxSlot_0"), (EObjectFlags)0x00280008);
-	__Local__95->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__95->Parent = __Local__93;
-	auto __Local__96 = NewObject<UInputKeySelector>(__Local__1, TEXT("FORWARDKeySelector"), (EObjectFlags)0x00280008);
-	__Local__96->Slot = __Local__95;
-	__Local__95->Content = __Local__96;
-	__Local__94.Add(__Local__95);
-	auto __Local__97 = NewObject<UVerticalBoxSlot>(__Local__93, TEXT("VerticalBoxSlot_1"), (EObjectFlags)0x00280008);
-	__Local__97->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__97->Parent = __Local__93;
-	auto __Local__98 = NewObject<UInputKeySelector>(__Local__1, TEXT("RIGHTKeySelector"), (EObjectFlags)0x00280008);
-	__Local__98->Slot = __Local__97;
-	__Local__97->Content = __Local__98;
-	__Local__94.Add(__Local__97);
-	auto __Local__99 = NewObject<UVerticalBoxSlot>(__Local__93, TEXT("VerticalBoxSlot_2"), (EObjectFlags)0x00280008);
-	__Local__99->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__99->Parent = __Local__93;
-	auto __Local__100 = NewObject<UInputKeySelector>(__Local__1, TEXT("LEFTKeySelector"), (EObjectFlags)0x00280008);
-	__Local__100->Slot = __Local__99;
-	__Local__99->Content = __Local__100;
-	__Local__94.Add(__Local__99);
-	auto __Local__101 = NewObject<UVerticalBoxSlot>(__Local__93, TEXT("VerticalBoxSlot_3"), (EObjectFlags)0x00280008);
-	__Local__101->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__101->Parent = __Local__93;
-	auto __Local__102 = NewObject<UInputKeySelector>(__Local__1, TEXT("BACKKeySelector"), (EObjectFlags)0x00280008);
-	__Local__102->Slot = __Local__101;
-	__Local__101->Content = __Local__102;
-	__Local__94.Add(__Local__101);
-	auto __Local__103 = NewObject<UVerticalBoxSlot>(__Local__93, TEXT("VerticalBoxSlot_5"), (EObjectFlags)0x00280008);
-	__Local__103->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__103->Parent = __Local__93;
-	auto __Local__104 = NewObject<UInputKeySelector>(__Local__1, TEXT("MOUS_RKeySelector"), (EObjectFlags)0x00280008);
-	__Local__104->Slot = __Local__103;
-	__Local__103->Content = __Local__104;
-	__Local__94.Add(__Local__103);
-	auto __Local__105 = NewObject<UVerticalBoxSlot>(__Local__93, TEXT("VerticalBoxSlot_4"), (EObjectFlags)0x00280008);
-	__Local__105->Size.SizeRule = ESlateSizeRule::Type::Fill;
-	__Local__105->Parent = __Local__93;
-	auto __Local__106 = NewObject<UInputKeySelector>(__Local__1, TEXT("MOUSE_LKeySelector"), (EObjectFlags)0x00280008);
-	__Local__106->Slot = __Local__105;
-	__Local__105->Content = __Local__106;
-	__Local__94.Add(__Local__105);
-	__Local__93->Slot = __Local__92;
-	__Local__92->Content = __Local__93;
-	__Local__74.Add(__Local__92);
+	auto __Local__73 = NewObject<UVerticalBox>(__Local__1, TEXT("Controloption"), (EObjectFlags)0x00280008);
 	__Local__73->Slot = __Local__72;
 	__Local__72->Content = __Local__73;
 	__Local__14.Add(__Local__72);
-	auto __Local__107 = NewObject<UVerticalBoxSlot>(__Local__13, TEXT("VerticalBoxSlot_23"), (EObjectFlags)0x00280008);
-	__Local__107->Parent = __Local__13;
-	auto __Local__108 = NewObject<USpacer>(__Local__1, TEXT("Spacer_6"), (EObjectFlags)0x00280008);
-	__Local__108->Size = FVector2D(0.000000, 29.005453);
-	__Local__108->Slot = __Local__107;
-	__Local__107->Content = __Local__108;
-	__Local__14.Add(__Local__107);
-	auto __Local__109 = NewObject<UVerticalBoxSlot>(__Local__13, TEXT("VerticalBoxSlot_16"), (EObjectFlags)0x00280008);
-	__Local__109->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__109->Parent = __Local__13;
-	auto __Local__110 = NewObject<UHorizontalBox>(__Local__1, TEXT("HorizontalBox_745"), (EObjectFlags)0x00280008);
-	auto& __Local__111 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__110), UPanelWidget::__PPO__Slots() )));
-	__Local__111 = TArray<UPanelSlot*> ();
-	__Local__111.Reserve(3);
-	auto __Local__112 = NewObject<UHorizontalBoxSlot>(__Local__110, TEXT("HorizontalBoxSlot_0"), (EObjectFlags)0x00280008);
-	__Local__112->Parent = __Local__110;
-	auto __Local__113 = NewObject<UButton>(__Local__1, TEXT("Button_apply"), (EObjectFlags)0x00280008);
-	auto& __Local__114 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__113), UPanelWidget::__PPO__Slots() )));
-	__Local__114 = TArray<UPanelSlot*> ();
-	__Local__114.Reserve(1);
-	auto __Local__115 = NewObject<UButtonSlot>(__Local__113, TEXT("ButtonSlot_0"), (EObjectFlags)0x00280008);
-	__Local__115->Padding.Left = 0.000000f;
-	__Local__115->Padding.Top = 0.000000f;
-	__Local__115->Padding.Right = 0.000000f;
-	__Local__115->Padding.Bottom = 0.000000f;
-	__Local__115->VerticalAlignment = EVerticalAlignment::VAlign_Fill;
-	__Local__115->Parent = __Local__113;
-	auto __Local__116 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_1179"), (EObjectFlags)0x00280008);
-	__Local__116->Text = FTextStringHelper::CreateFromBuffer(
+	auto __Local__74 = NewObject<UVerticalBoxSlot>(__Local__13, TEXT("VerticalBoxSlot_23"), (EObjectFlags)0x00280008);
+	__Local__74->Parent = __Local__13;
+	auto __Local__75 = NewObject<USpacer>(__Local__1, TEXT("Spacer_6"), (EObjectFlags)0x00280008);
+	__Local__75->Size = FVector2D(0.000000, 29.005453);
+	__Local__75->Slot = __Local__74;
+	__Local__74->Content = __Local__75;
+	__Local__14.Add(__Local__74);
+	auto __Local__76 = NewObject<UVerticalBoxSlot>(__Local__13, TEXT("VerticalBoxSlot_16"), (EObjectFlags)0x00280008);
+	__Local__76->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
+	__Local__76->Parent = __Local__13;
+	auto __Local__77 = NewObject<UHorizontalBox>(__Local__1, TEXT("HorizontalBox_745"), (EObjectFlags)0x00280008);
+	auto& __Local__78 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__77), UPanelWidget::__PPO__Slots() )));
+	__Local__78 = TArray<UPanelSlot*> ();
+	__Local__78.Reserve(3);
+	auto __Local__79 = NewObject<UHorizontalBoxSlot>(__Local__77, TEXT("HorizontalBoxSlot_0"), (EObjectFlags)0x00280008);
+	__Local__79->Parent = __Local__77;
+	auto __Local__80 = NewObject<UButton>(__Local__1, TEXT("Button_apply"), (EObjectFlags)0x00280008);
+	auto& __Local__81 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__80), UPanelWidget::__PPO__Slots() )));
+	__Local__81 = TArray<UPanelSlot*> ();
+	__Local__81.Reserve(1);
+	auto __Local__82 = NewObject<UButtonSlot>(__Local__80, TEXT("ButtonSlot_0"), (EObjectFlags)0x00280008);
+	__Local__82->Padding.Left = 0.000000f;
+	__Local__82->Padding.Top = 0.000000f;
+	__Local__82->Padding.Right = 0.000000f;
+	__Local__82->Padding.Bottom = 0.000000f;
+	__Local__82->VerticalAlignment = EVerticalAlignment::VAlign_Fill;
+	__Local__82->Parent = __Local__80;
+	auto __Local__83 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_1179"), (EObjectFlags)0x00280008);
+	__Local__83->Text = FTextStringHelper::CreateFromBuffer(
 TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"40DBE8E340A60C2A855168B5F8483C19\", \"    APPLY    \")")	);
-	auto& __Local__117 = (*(AccessPrivateProperty<FLinearColor >(&(__Local__116->ColorAndOpacity), FSlateColor::__PPO__SpecifiedColor() )));
-	__Local__117 = FLinearColor(0.000000, 0.000000, 0.000000, 1.000000);
-	__Local__116->Slot = __Local__115;
-	__Local__115->Content = __Local__116;
-	__Local__114.Add(__Local__115);
-	__Local__113->Slot = __Local__112;
-	__Local__112->Content = __Local__113;
-	__Local__111.Add(__Local__112);
-	auto __Local__118 = NewObject<UHorizontalBoxSlot>(__Local__110, TEXT("HorizontalBoxSlot_2"), (EObjectFlags)0x00280008);
-	__Local__118->Parent = __Local__110;
-	auto __Local__119 = NewObject<USpacer>(__Local__1, TEXT("Spacer_5"), (EObjectFlags)0x00280008);
-	__Local__119->Size = FVector2D(100.000000, 0.000000);
-	__Local__119->Slot = __Local__118;
-	__Local__118->Content = __Local__119;
-	__Local__111.Add(__Local__118);
-	auto __Local__120 = NewObject<UHorizontalBoxSlot>(__Local__110, TEXT("HorizontalBoxSlot_1"), (EObjectFlags)0x00280008);
-	__Local__120->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
-	__Local__120->Parent = __Local__110;
-	auto __Local__121 = NewObject<UButton>(__Local__1, TEXT("Button_undo"), (EObjectFlags)0x00280008);
-	auto& __Local__122 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__121), UPanelWidget::__PPO__Slots() )));
-	__Local__122 = TArray<UPanelSlot*> ();
-	__Local__122.Reserve(1);
-	auto __Local__123 = NewObject<UButtonSlot>(__Local__121, TEXT("ButtonSlot_0"), (EObjectFlags)0x00280008);
-	__Local__123->Parent = __Local__121;
-	auto __Local__124 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_1240"), (EObjectFlags)0x00280008);
-	__Local__124->Text = FTextStringHelper::CreateFromBuffer(
+	auto& __Local__84 = (*(AccessPrivateProperty<FLinearColor >(&(__Local__83->ColorAndOpacity), FSlateColor::__PPO__SpecifiedColor() )));
+	__Local__84 = FLinearColor(0.000000, 0.000000, 0.000000, 1.000000);
+	__Local__83->Slot = __Local__82;
+	__Local__82->Content = __Local__83;
+	__Local__81.Add(__Local__82);
+	__Local__80->Slot = __Local__79;
+	__Local__79->Content = __Local__80;
+	__Local__78.Add(__Local__79);
+	auto __Local__85 = NewObject<UHorizontalBoxSlot>(__Local__77, TEXT("HorizontalBoxSlot_2"), (EObjectFlags)0x00280008);
+	__Local__85->Parent = __Local__77;
+	auto __Local__86 = NewObject<USpacer>(__Local__1, TEXT("Spacer_5"), (EObjectFlags)0x00280008);
+	__Local__86->Size = FVector2D(100.000000, 0.000000);
+	__Local__86->Slot = __Local__85;
+	__Local__85->Content = __Local__86;
+	__Local__78.Add(__Local__85);
+	auto __Local__87 = NewObject<UHorizontalBoxSlot>(__Local__77, TEXT("HorizontalBoxSlot_1"), (EObjectFlags)0x00280008);
+	__Local__87->HorizontalAlignment = EHorizontalAlignment::HAlign_Center;
+	__Local__87->Parent = __Local__77;
+	auto __Local__88 = NewObject<UButton>(__Local__1, TEXT("Button_undo"), (EObjectFlags)0x00280008);
+	auto& __Local__89 = (*(AccessPrivateProperty<TArray<UPanelSlot*> >((__Local__88), UPanelWidget::__PPO__Slots() )));
+	__Local__89 = TArray<UPanelSlot*> ();
+	__Local__89.Reserve(1);
+	auto __Local__90 = NewObject<UButtonSlot>(__Local__88, TEXT("ButtonSlot_0"), (EObjectFlags)0x00280008);
+	__Local__90->Parent = __Local__88;
+	auto __Local__91 = NewObject<UTextBlock>(__Local__1, TEXT("TextBlock_1240"), (EObjectFlags)0x00280008);
+	__Local__91->Text = FTextStringHelper::CreateFromBuffer(
 TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"9A1316A740A849D6C1E484BF49A7C752\", \"UNDO\")")	);
-	auto& __Local__125 = (*(AccessPrivateProperty<FLinearColor >(&(__Local__124->ColorAndOpacity), FSlateColor::__PPO__SpecifiedColor() )));
-	__Local__125 = FLinearColor(0.000000, 0.000000, 0.000000, 1.000000);
-	__Local__124->Slot = __Local__123;
-	__Local__123->Content = __Local__124;
-	__Local__122.Add(__Local__123);
-	__Local__121->Slot = __Local__120;
-	__Local__120->Content = __Local__121;
-	__Local__111.Add(__Local__120);
-	__Local__110->Slot = __Local__109;
-	__Local__109->Content = __Local__110;
-	__Local__14.Add(__Local__109);
+	auto& __Local__92 = (*(AccessPrivateProperty<FLinearColor >(&(__Local__91->ColorAndOpacity), FSlateColor::__PPO__SpecifiedColor() )));
+	__Local__92 = FLinearColor(0.000000, 0.000000, 0.000000, 1.000000);
+	__Local__91->Slot = __Local__90;
+	__Local__90->Content = __Local__91;
+	__Local__89.Add(__Local__90);
+	__Local__88->Slot = __Local__87;
+	__Local__87->Content = __Local__88;
+	__Local__78.Add(__Local__87);
+	__Local__77->Slot = __Local__76;
+	__Local__76->Content = __Local__77;
+	__Local__14.Add(__Local__76);
 	__Local__13->Slot = __Local__12;
 	__Local__12->Content = __Local__13;
 	__Local__9.Add(__Local__12);
@@ -1063,76 +925,76 @@ TEXT("NSLOCTEXT(\"[4A135A9348785CB0C5D9D0ABE80EEE11]\", \"9A1316A740A849D6C1E484
 PRAGMA_ENABLE_OPTIMIZATION
 void Uwdg_optionmenu_C__pf3053510930::GetSlotNames(TArray<FName>& SlotNames) const
 {
-	TArray<FName>  __Local__126;
-	SlotNames.Append(__Local__126);
+	TArray<FName>  __Local__93;
+	SlotNames.Append(__Local__93);
 }
 void Uwdg_optionmenu_C__pf3053510930::InitializeNativeClassData()
 {
-	TArray<UWidgetAnimation*>  __Local__127;
-	TArray<FDelegateRuntimeBinding>  __Local__128;
-	__Local__128.AddUninitialized(6);
-	FDelegateRuntimeBinding::StaticStruct()->InitializeStruct(__Local__128.GetData(), 6);
-	auto& __Local__129 = __Local__128[0];
-	__Local__129.ObjectName = FString(TEXT("TextBlock_8"));
-	__Local__129.PropertyName = FName(TEXT("Text"));
-	__Local__129.FunctionName = FName(TEXT("GetText_0"));
-	auto& __Local__130 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__129.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
-	__Local__130 = TArray<FPropertyPathSegment> ();
-	__Local__130.AddUninitialized(1);
-	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__130.GetData(), 1);
-	auto& __Local__131 = __Local__130[0];
-	__Local__131.Name = FName(TEXT("GetText_0"));
-	auto& __Local__132 = __Local__128[1];
-	__Local__132.ObjectName = FString(TEXT("TextBlock_616"));
-	__Local__132.PropertyName = FName(TEXT("Text"));
-	__Local__132.FunctionName = FName(TEXT("GetText_1"));
-	auto& __Local__133 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__132.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
-	__Local__133 = TArray<FPropertyPathSegment> ();
-	__Local__133.AddUninitialized(1);
-	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__133.GetData(), 1);
-	auto& __Local__134 = __Local__133[0];
-	__Local__134.Name = FName(TEXT("GetText_1"));
-	auto& __Local__135 = __Local__128[2];
-	__Local__135.ObjectName = FString(TEXT("TextBlock_1"));
-	__Local__135.PropertyName = FName(TEXT("Text"));
-	__Local__135.FunctionName = FName(TEXT("GetText_2"));
-	auto& __Local__136 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__135.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
-	__Local__136 = TArray<FPropertyPathSegment> ();
-	__Local__136.AddUninitialized(1);
-	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__136.GetData(), 1);
-	auto& __Local__137 = __Local__136[0];
-	__Local__137.Name = FName(TEXT("GetText_2"));
-	auto& __Local__138 = __Local__128[3];
-	__Local__138.ObjectName = FString(TEXT("Slider_matser"));
-	__Local__138.PropertyName = FName(TEXT("Value"));
-	auto& __Local__139 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__138.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
-	__Local__139 = TArray<FPropertyPathSegment> ();
-	__Local__139.AddUninitialized(1);
-	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__139.GetData(), 1);
-	auto& __Local__140 = __Local__139[0];
-	__Local__140.Name = FName(TEXT("mastervl"));
-	__Local__138.Kind = EBindingKind::Property;
-	auto& __Local__141 = __Local__128[4];
-	__Local__141.ObjectName = FString(TEXT("Slider_bgm"));
-	__Local__141.PropertyName = FName(TEXT("Value"));
-	auto& __Local__142 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__141.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
-	__Local__142 = TArray<FPropertyPathSegment> ();
-	__Local__142.AddUninitialized(1);
-	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__142.GetData(), 1);
-	auto& __Local__143 = __Local__142[0];
-	__Local__143.Name = FName(TEXT("bgmvl"));
-	__Local__141.Kind = EBindingKind::Property;
-	auto& __Local__144 = __Local__128[5];
-	__Local__144.ObjectName = FString(TEXT("Slider_sfx"));
-	__Local__144.PropertyName = FName(TEXT("Value"));
-	auto& __Local__145 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__144.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
-	__Local__145 = TArray<FPropertyPathSegment> ();
-	__Local__145.AddUninitialized(1);
-	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__145.GetData(), 1);
-	auto& __Local__146 = __Local__145[0];
-	__Local__146.Name = FName(TEXT("sfxvl"));
-	__Local__144.Kind = EBindingKind::Property;
-	UWidgetBlueprintGeneratedClass::InitializeWidgetStatic(this, GetClass(), CastChecked<UWidgetTree>(CastChecked<UDynamicClass>(Uwdg_optionmenu_C__pf3053510930::StaticClass())->MiscConvertedSubobjects[0]), __Local__127, __Local__128);
+	TArray<UWidgetAnimation*>  __Local__94;
+	TArray<FDelegateRuntimeBinding>  __Local__95;
+	__Local__95.AddUninitialized(6);
+	FDelegateRuntimeBinding::StaticStruct()->InitializeStruct(__Local__95.GetData(), 6);
+	auto& __Local__96 = __Local__95[0];
+	__Local__96.ObjectName = FString(TEXT("TextBlock_8"));
+	__Local__96.PropertyName = FName(TEXT("Text"));
+	__Local__96.FunctionName = FName(TEXT("GetText_0"));
+	auto& __Local__97 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__96.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
+	__Local__97 = TArray<FPropertyPathSegment> ();
+	__Local__97.AddUninitialized(1);
+	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__97.GetData(), 1);
+	auto& __Local__98 = __Local__97[0];
+	__Local__98.Name = FName(TEXT("GetText_0"));
+	auto& __Local__99 = __Local__95[1];
+	__Local__99.ObjectName = FString(TEXT("TextBlock_616"));
+	__Local__99.PropertyName = FName(TEXT("Text"));
+	__Local__99.FunctionName = FName(TEXT("GetText_1"));
+	auto& __Local__100 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__99.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
+	__Local__100 = TArray<FPropertyPathSegment> ();
+	__Local__100.AddUninitialized(1);
+	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__100.GetData(), 1);
+	auto& __Local__101 = __Local__100[0];
+	__Local__101.Name = FName(TEXT("GetText_1"));
+	auto& __Local__102 = __Local__95[2];
+	__Local__102.ObjectName = FString(TEXT("TextBlock_1"));
+	__Local__102.PropertyName = FName(TEXT("Text"));
+	__Local__102.FunctionName = FName(TEXT("GetText_2"));
+	auto& __Local__103 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__102.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
+	__Local__103 = TArray<FPropertyPathSegment> ();
+	__Local__103.AddUninitialized(1);
+	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__103.GetData(), 1);
+	auto& __Local__104 = __Local__103[0];
+	__Local__104.Name = FName(TEXT("GetText_2"));
+	auto& __Local__105 = __Local__95[3];
+	__Local__105.ObjectName = FString(TEXT("Slider_matser"));
+	__Local__105.PropertyName = FName(TEXT("Value"));
+	auto& __Local__106 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__105.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
+	__Local__106 = TArray<FPropertyPathSegment> ();
+	__Local__106.AddUninitialized(1);
+	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__106.GetData(), 1);
+	auto& __Local__107 = __Local__106[0];
+	__Local__107.Name = FName(TEXT("mastervl"));
+	__Local__105.Kind = EBindingKind::Property;
+	auto& __Local__108 = __Local__95[4];
+	__Local__108.ObjectName = FString(TEXT("Slider_bgm"));
+	__Local__108.PropertyName = FName(TEXT("Value"));
+	auto& __Local__109 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__108.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
+	__Local__109 = TArray<FPropertyPathSegment> ();
+	__Local__109.AddUninitialized(1);
+	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__109.GetData(), 1);
+	auto& __Local__110 = __Local__109[0];
+	__Local__110.Name = FName(TEXT("bgmvl"));
+	__Local__108.Kind = EBindingKind::Property;
+	auto& __Local__111 = __Local__95[5];
+	__Local__111.ObjectName = FString(TEXT("Slider_sfx"));
+	__Local__111.PropertyName = FName(TEXT("Value"));
+	auto& __Local__112 = (*(AccessPrivateProperty<TArray<FPropertyPathSegment> >(&(__Local__111.SourcePath), FCachedPropertyPath::__PPO__Segments() )));
+	__Local__112 = TArray<FPropertyPathSegment> ();
+	__Local__112.AddUninitialized(1);
+	FPropertyPathSegment::StaticStruct()->InitializeStruct(__Local__112.GetData(), 1);
+	auto& __Local__113 = __Local__112[0];
+	__Local__113.Name = FName(TEXT("sfxvl"));
+	__Local__111.Kind = EBindingKind::Property;
+	UWidgetBlueprintGeneratedClass::InitializeWidgetStatic(this, GetClass(), CastChecked<UWidgetTree>(CastChecked<UDynamicClass>(Uwdg_optionmenu_C__pf3053510930::StaticClass())->MiscConvertedSubobjects[0]), __Local__94, __Local__95);
 }
 void Uwdg_optionmenu_C__pf3053510930::PreSave(const class ITargetPlatform* TargetPlatform)
 {
@@ -1222,8 +1084,8 @@ void Uwdg_optionmenu_C__pf3053510930::bpf__ExecuteUbergraph_wdg_optionmenu__pf_6
 }
 void Uwdg_optionmenu_C__pf3053510930::bpf__BndEvt__wdg_optionmenu_ComboBoxString_528_K2Node_ComponentBoundEvent_5_OnSelectionChangedEvent__DelegateSignature__pf(const FString& bpp__SelectedItem__pf__const, ESelectInfo::Type bpp__SelectionType__pf)
 {
-	typedef FString  T__Local__147;
-	T__Local__147& bpp__SelectedItem__pf = *const_cast<T__Local__147 *>(&bpp__SelectedItem__pf__const);
+	typedef FString  T__Local__114;
+	T__Local__114& bpp__SelectedItem__pf = *const_cast<T__Local__114 *>(&bpp__SelectedItem__pf__const);
 	b0l__K2Node_ComponentBoundEvent_SelectedItem__pf = bpp__SelectedItem__pf;
 	b0l__K2Node_ComponentBoundEvent_SelectionType__pf = bpp__SelectionType__pf;
 	bpf__ExecuteUbergraph_wdg_optionmenu__pf_0(20);
@@ -1318,12 +1180,12 @@ void Uwdg_optionmenu_C__pf3053510930::__StaticDependencies_DirectlyUsedAssets(TA
 {
 	const FCompactBlueprintDependencyData LocCompactBlueprintDependencyData[] =
 	{
-		{170, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundMix /Game/blueprints/others/Sounds/Master_Mix.Master_Mix 
-		{171, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundClass /Game/blueprints/others/Sounds/Sounds_MASTER.Sounds_MASTER 
-		{172, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundMix /Game/blueprints/others/Sounds/BGM_Mix.BGM_Mix 
-		{173, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundClass /Game/blueprints/others/Sounds/BGM.BGM 
-		{174, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundMix /Game/blueprints/others/Sounds/SFX_Mix.SFX_Mix 
-		{175, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundClass /Game/blueprints/others/Sounds/SFX.SFX 
+		{176, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundMix /Game/blueprints/others/Sounds/Master_Mix.Master_Mix 
+		{177, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundClass /Game/blueprints/others/Sounds/Sounds_MASTER.Sounds_MASTER 
+		{178, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundMix /Game/blueprints/others/Sounds/BGM_Mix.BGM_Mix 
+		{179, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundClass /Game/blueprints/others/Sounds/BGM.BGM 
+		{180, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundMix /Game/blueprints/others/Sounds/SFX_Mix.SFX_Mix 
+		{181, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  SoundClass /Game/blueprints/others/Sounds/SFX.SFX 
 	};
 	for(const FCompactBlueprintDependencyData& CompactData : LocCompactBlueprintDependencyData)
 	{
@@ -1337,20 +1199,19 @@ void Uwdg_optionmenu_C__pf3053510930::__StaticDependenciesAssets(TArray<FBluepri
 	__StaticDependencies_DirectlyUsedAssets(AssetsToLoad);
 	const FCompactBlueprintDependencyData LocCompactBlueprintDependencyData[] =
 	{
-		{56, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
-		{176, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Enum /Script/SlateCore.ESelectInfo 
+		{55, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
+		{182, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Enum /Script/SlateCore.ESelectInfo 
 		{7, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetSystemLibrary 
 		{14, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.GameplayStatics 
-		{177, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Slider 
-		{178, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.ComboBoxString 
+		{183, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Slider 
+		{184, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.ComboBoxString 
 		{12, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetStringLibrary 
-		{28, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.UserWidget 
-		{89, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetTextLibrary 
+		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.UserWidget 
+		{57, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetTextLibrary 
 		{15, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.PointerToUberGraphFrame 
-		{179, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.InputKeySelector 
-		{88, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Button 
-		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Image 
-		{37, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.TextBlock 
+		{89, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Button 
+		{58, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Image 
+		{22, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.TextBlock 
 	};
 	for(const FCompactBlueprintDependencyData& CompactData : LocCompactBlueprintDependencyData)
 	{

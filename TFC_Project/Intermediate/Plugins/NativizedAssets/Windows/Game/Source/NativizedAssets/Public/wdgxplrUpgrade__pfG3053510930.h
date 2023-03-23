@@ -57,8 +57,6 @@ public:
 	void bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_8(int32 bpp__EntryPoint__pf);
 	void bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_9(int32 bpp__EntryPoint__pf);
 	void bpf__ExecuteUbergraph_wdgxplrUpgrade__pfG_10(int32 bpp__EntryPoint__pf);
-	UFUNCTION(BlueprintCosmetic, meta=(Category="User Interface", Comment="/**\t * Called after the underlying slate widget is constructed.  Depending on how the slate object is used\t * this event may be called multiple times due to adding and removing from the hierarchy.\t * If you need a true called-once-when-created event, use OnInitialized.\t */", Keywords="Begin Play", ToolTip="Called after the underlying slate widget is constructed.  Depending on how the slate object is usedthis event may be called multiple times due to adding and removing from the hierarchy.If you need a true called-once-when-created event, use OnInitialized.", CppFromBpEvent, OverrideNativeName="Construct"))
-	virtual void bpf__Construct__pf();
 	UFUNCTION(meta=(OverrideNativeName="BndEvt__wdg-plrUpgrade_Button_RF_3_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature"))
 	virtual void bpf__BndEvt__wdgxplrUpgrade_Button_RF_3_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature__pfG();
 	UFUNCTION(meta=(OverrideNativeName="BndEvt__wdg-plrUpgrade_Button_RF_2_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature"))
@@ -79,6 +77,8 @@ public:
 	virtual void bpf__BndEvt__wdgxplrUpgrade_Button_140_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature__pfG();
 	UFUNCTION(meta=(OverrideNativeName="BndEvt__wdg-plrUpgrade_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"))
 	virtual void bpf__BndEvt__wdgxplrUpgrade_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature__pfG();
+	UFUNCTION(BlueprintCosmetic, meta=(Category="User Interface", Comment="/**\t * Called after the underlying slate widget is constructed.  Depending on how the slate object is used\t * this event may be called multiple times due to adding and removing from the hierarchy.\t * If you need a true called-once-when-created event, use OnInitialized.\t */", Keywords="Begin Play", ToolTip="Called after the underlying slate widget is constructed.  Depending on how the slate object is usedthis event may be called multiple times due to adding and removing from the hierarchy.If you need a true called-once-when-created event, use OnInitialized.", CppFromBpEvent, OverrideNativeName="Construct"))
+	virtual void bpf__Construct__pf();
 	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="updateUpgrd"))
 	virtual void bpf__updateUpgrd__pf();
 	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="Upgrade Suit"))
@@ -89,6 +89,8 @@ public:
 	virtual void bpf__Upgradexrifle__pfT(UButton* bpp__NewParam__pf, int32 bpp__NewParam1__pf);
 	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="payCost"))
 	virtual void bpf__payCost__pf(int32 bpp__NewParam__pf);
+	UFUNCTION(BlueprintCallable, BlueprintPure, meta=(Category, OverrideNativeName="GetCell"))
+	virtual FText  bpf__GetCell__pf();
 public:
 	virtual void GetSlotNames(TArray<FName>& SlotNames) const override;
 	virtual void PreSave(const class ITargetPlatform* TargetPlatform) override;

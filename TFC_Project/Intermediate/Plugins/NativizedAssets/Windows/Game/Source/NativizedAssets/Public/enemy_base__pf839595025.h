@@ -48,6 +48,8 @@ public:
 	F__OAISimpleDelegate__DelegateSignature__SC_0 b1l__K2Node_CreateDelegate_OutputDelegate_1__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="___byte_Variable"))
 	TEnumAsByte<EPathFollowingResult::Type> b1l_____byte_Variable__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_CustomEvent_time"))
+	float b1l__K2Node_CustomEvent_time__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_CreateMoveToProxyObject_ReturnValue"))
 	UAIAsyncTaskBlueprintProxy* b1l__CallFunc_CreateMoveToProxyObject_ReturnValue__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_IsValid_ReturnValue"))
@@ -62,12 +64,11 @@ public:
 	void bpf__ExecuteUbergraph_enemy_base__pf_0(int32 bpp__EntryPoint__pf);
 	UFUNCTION(meta=(OverrideNativeName="ExecuteUbergraph_enemy_base_1"))
 	void bpf__ExecuteUbergraph_enemy_base__pf_1(int32 bpp__EntryPoint__pf);
-	UFUNCTION(meta=(OverrideNativeName="ExecuteUbergraph_enemy_base_2"))
 	void bpf__ExecuteUbergraph_enemy_base__pf_2(int32 bpp__EntryPoint__pf);
-	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="Stop"))
-	virtual void bpf__Stop__pf();
 	UFUNCTION(meta=(Comment="/** Event called every frame, if ticking is enabled */", DisplayName="Tick", ToolTip="Event called every frame, if ticking is enabled", CppFromBpEvent, OverrideNativeName="ReceiveTick"))
 	virtual void bpf__ReceiveTick__pf(float bpp__DeltaSeconds__pf);
+	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="Stop"))
+	virtual void bpf__Stop__pf(float bpp__time__pf);
 	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="MoveToTarget"))
 	virtual void bpf__MoveToTarget__pf();
 	UFUNCTION(BlueprintCallable, meta=(Category, OverrideNativeName="OnSuccess_59FAFF6A43C194E18E3711B31C93DBDF"))
