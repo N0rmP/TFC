@@ -7,6 +7,7 @@ class USphereComponent;
 class UModule_C__pf2556257598;
 class UClass;
 class Aenemy_base_C__pf839595025;
+class USlowEffect_C__pf2071825271;
 class UPrimitiveComponent;
 class AActor;
 #include "Tower__pf711247040.generated.h"
@@ -55,6 +56,8 @@ public:
 	bool bpv__Jammed__pf;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Jam Timer", Category="Default", MultiLine="true", OverrideNativeName="JamTimer"))
 	float bpv__JamTimer__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Slow Eff", Category="Default", MultiLine="true", OverrideNativeName="SlowEff"))
+	UClass* bpv__SlowEff__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="___bool_Variable"))
 	bool b0l_____bool_Variable__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="___int_Array_Index_Variable"))
@@ -75,20 +78,18 @@ public:
 	bool b0l__K2Node_DynamicCast_bSuccess__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_CustomEvent_ModuleIndex"))
 	int32 b0l__K2Node_CustomEvent_ModuleIndex__pf;
-	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="___int_Loop_Counter_Variable"))
-	int32 b0l_____int_Loop_Counter_Variable__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_GetOverlappingActors_OverlappingActors"))
 	TArray<AActor*> b0l__CallFunc_GetOverlappingActors_OverlappingActors__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_Array_Get_Item"))
 	AActor* b0l__CallFunc_Array_Get_Item__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_Array_Get_Item_1"))
+	UClass* b0l__CallFunc_Array_Get_Item_1__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_AsEnemy_Base_1"))
 	Aenemy_base_C__pf839595025* b0l__K2Node_DynamicCast_AsEnemy_Base_1__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_bSuccess_1"))
 	bool b0l__K2Node_DynamicCast_bSuccess_1__pf;
-	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_Array_Get_Item_1"))
-	UClass* b0l__CallFunc_Array_Get_Item_1__pf;
-	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="CallFunc_K2_GetComponentsByClass_ReturnValue"))
-	TArray<UModule_C__pf2556257598*> b0l__CallFunc_K2_GetComponentsByClass_ReturnValue__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="___int_Loop_Counter_Variable"))
+	int32 b0l_____int_Loop_Counter_Variable__pf;
 	ATower_C__pf711247040(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 	virtual void PostLoadSubobjects(FObjectInstancingGraph* OuterInstanceGraph) override;
 	static void __CustomDynamicClassInitialization(UDynamicClass* InDynamicClass);

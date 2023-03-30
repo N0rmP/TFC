@@ -3,7 +3,6 @@
 #include "Runtime/UMG/Public/UMG.h"
 #include "Runtime/SlateCore/Public/Types/SlateEnums.h"
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
-class UInputKeySelector;
 class UButton;
 class UComboBoxString;
 class UImage;
@@ -15,28 +14,14 @@ class Uwdg_optionmenu_C__pf3053510930 : public UUserWidget
 {
 public:
 	GENERATED_BODY()
-	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="BACKKeySelector", Category="wdg_optionmenu", OverrideNativeName="BACKKeySelector"))
-	UInputKeySelector* bpv__BACKKeySelector__pf;
 	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="Button_apply", Category="wdg_optionmenu", OverrideNativeName="Button_apply"))
 	UButton* bpv__Button_apply__pf;
 	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="Button_undo", Category="wdg_optionmenu", OverrideNativeName="Button_undo"))
 	UButton* bpv__Button_undo__pf;
 	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="ComboBoxString_528", Category="wdg_optionmenu", OverrideNativeName="ComboBoxString_528"))
 	UComboBoxString* bpv__ComboBoxString_528__pf;
-	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="FORWARDKeySelector", Category="wdg_optionmenu", OverrideNativeName="FORWARDKeySelector"))
-	UInputKeySelector* bpv__FORWARDKeySelector__pf;
 	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="Image_39", Category="wdg_optionmenu", OverrideNativeName="Image_39"))
 	UImage* bpv__Image_39__pf;
-	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="Image_235", Category="wdg_optionmenu", OverrideNativeName="Image_235"))
-	UImage* bpv__Image_235__pf;
-	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="LEFTKeySelector", Category="wdg_optionmenu", OverrideNativeName="LEFTKeySelector"))
-	UInputKeySelector* bpv__LEFTKeySelector__pf;
-	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="MOUS_RKeySelector", Category="wdg_optionmenu", OverrideNativeName="MOUS_RKeySelector"))
-	UInputKeySelector* bpv__MOUS_RKeySelector__pf;
-	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="MOUSE_LKeySelector", Category="wdg_optionmenu", OverrideNativeName="MOUSE_LKeySelector"))
-	UInputKeySelector* bpv__MOUSE_LKeySelector__pf;
-	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="RIGHTKeySelector", Category="wdg_optionmenu", OverrideNativeName="RIGHTKeySelector"))
-	UInputKeySelector* bpv__RIGHTKeySelector__pf;
 	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="Slider_bgm", Category="wdg_optionmenu", OverrideNativeName="Slider_bgm"))
 	USlider* bpv__Slider_bgm__pf;
 	UPROPERTY(BlueprintReadWrite, Export, meta=(DisplayName="Slider_matser", Category="wdg_optionmenu", OverrideNativeName="Slider_matser"))

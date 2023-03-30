@@ -11,9 +11,10 @@
 #include "Runtime/UMG/Public/Components/MultiLineEditableTextBox.h"
 #include "Runtime/UMG/Public/Components/ButtonSlot.h"
 #include "Runtime/Engine/Classes/Engine/ComponentDelegateBinding.h"
-#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+#include "Runtime/Engine/Classes/Kismet/KismetStringLibrary.h"
 #include "Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h"
 #include "Runtime/CoreUObject/Public/UObject/NoExportTypes.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Runtime/Engine/Classes/Engine/World.h"
 #include "Runtime/Engine/Classes/GameFramework/WorldSettings.h"
 #include "Runtime/Engine/Classes/GameFramework/Info.h"
@@ -495,7 +496,7 @@
 #include "Runtime/Engine/Classes/GameFramework/SaveGame.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h"
 #include "Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h"
-#include "Runtime/Engine/Classes/Kismet/KismetStringLibrary.h"
+#include "Runtime/Engine/Classes/Kismet/KismetMathLibrary.h"
 #include "Runtime/UMG/Public/Components/ContentWidget.h"
 #include "Runtime/SlateCore/Public/Styling/SlateWidgetStyle.h"
 #include "Runtime/SlateCore/Public/Sound/SlateSound.h"
@@ -531,6 +532,7 @@ Uwdg_stageInfo_C__pf3053510930::Uwdg_stageInfo_C__pf3053510930(const FObjectInit
 	bpv__stagename__pf = FString(TEXT(""));
 	bpv__NewVar_0__pf = FString(TEXT("STAGE "));
 	bpv__isinfoshowed__pf = false;
+	bpv__temptargetStagename__pf = FString(TEXT(""));
 	bHasScriptImplementedTick = false;
 	bHasScriptImplementedPaint = false;
 }
@@ -699,35 +701,43 @@ void Uwdg_stageInfo_C__pf3053510930::PreSave(const class ITargetPlatform* Target
 }
 void Uwdg_stageInfo_C__pf3053510930::bpf__ExecuteUbergraph_wdg_stageInfo__pf_0(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 4);
+	check(bpp__EntryPoint__pf == 1);
 	// optimized KCST_UnconditionalGoto
-	UGameplayStatics::OpenLevel(this, FName(TEXT("stage_1")), true, FString(TEXT("")));
+	SetVisibility(ESlateVisibility::Hidden);
+	bpv__isinfoshowed__pf = false;
 	return; // KCST_GotoReturn
 }
 void Uwdg_stageInfo_C__pf3053510930::bpf__ExecuteUbergraph_wdg_stageInfo__pf_1(int32 bpp__EntryPoint__pf)
 {
-	check(bpp__EntryPoint__pf == 2);
+	FName bpfv__CallFunc_Conv_StringToName_ReturnValue__pf{};
+	check(bpp__EntryPoint__pf == 5);
 	// optimized KCST_UnconditionalGoto
-	SetVisibility(ESlateVisibility::Hidden);
-	// optimized KCST_UnconditionalGoto
-	bpv__isinfoshowed__pf = false;
+	bpfv__CallFunc_Conv_StringToName_ReturnValue__pf = UKismetStringLibrary::Conv_StringToName(bpv__temptargetStagename__pf);
+	UGameplayStatics::OpenLevel(this, bpfv__CallFunc_Conv_StringToName_ReturnValue__pf, true, FString(TEXT("")));
 	return; // KCST_GotoReturn
 }
 void Uwdg_stageInfo_C__pf3053510930::bpf__BndEvt__wdg_stageInfo_open_stage_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature__pf()
 {
-	bpf__ExecuteUbergraph_wdg_stageInfo__pf_0(4);
+	bpf__ExecuteUbergraph_wdg_stageInfo__pf_1(5);
 }
 void Uwdg_stageInfo_C__pf3053510930::bpf__BndEvt__Button_undo_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature__pf()
 {
-	bpf__ExecuteUbergraph_wdg_stageInfo__pf_1(2);
+	bpf__ExecuteUbergraph_wdg_stageInfo__pf_0(1);
 }
 void Uwdg_stageInfo_C__pf3053510930::bpf__SetStagename__pf(int32 bpp__NewParam__pf)
 {
+	int32 bpfv__CallFunc_Add_IntInt_ReturnValue__pf{};
 	FString bpfv__CallFunc_Conv_IntToString_ReturnValue__pf{};
 	FString bpfv__CallFunc_Concat_StrStr_ReturnValue__pf{};
-	bpfv__CallFunc_Conv_IntToString_ReturnValue__pf = UKismetStringLibrary::Conv_IntToString(bpp__NewParam__pf);
+	FString bpfv__CallFunc_Concat_StrStr_ReturnValue_1__pf{};
+	bpfv__CallFunc_Add_IntInt_ReturnValue__pf = UKismetMathLibrary::Add_IntInt(bpp__NewParam__pf, 1);
+	bpfv__CallFunc_Conv_IntToString_ReturnValue__pf = UKismetStringLibrary::Conv_IntToString(bpfv__CallFunc_Add_IntInt_ReturnValue__pf);
 	bpfv__CallFunc_Concat_StrStr_ReturnValue__pf = UKismetStringLibrary::Concat_StrStr(bpv__NewVar_0__pf, bpfv__CallFunc_Conv_IntToString_ReturnValue__pf);
 	bpv__stagename__pf = bpfv__CallFunc_Concat_StrStr_ReturnValue__pf;
+	bpfv__CallFunc_Add_IntInt_ReturnValue__pf = UKismetMathLibrary::Add_IntInt(bpp__NewParam__pf, 1);
+	bpfv__CallFunc_Conv_IntToString_ReturnValue__pf = UKismetStringLibrary::Conv_IntToString(bpfv__CallFunc_Add_IntInt_ReturnValue__pf);
+	bpfv__CallFunc_Concat_StrStr_ReturnValue_1__pf = UKismetStringLibrary::Concat_StrStr(FString(TEXT("stage_")), bpfv__CallFunc_Conv_IntToString_ReturnValue__pf);
+	bpv__temptargetStagename__pf = bpfv__CallFunc_Concat_StrStr_ReturnValue_1__pf;
 }
 PRAGMA_DISABLE_OPTIMIZATION
 void Uwdg_stageInfo_C__pf3053510930::__StaticDependencies_DirectlyUsedAssets(TArray<FBlueprintDependencyData>& AssetsToLoad)
@@ -740,15 +750,16 @@ void Uwdg_stageInfo_C__pf3053510930::__StaticDependenciesAssets(TArray<FBlueprin
 	__StaticDependencies_DirectlyUsedAssets(AssetsToLoad);
 	const FCompactBlueprintDependencyData LocCompactBlueprintDependencyData[] =
 	{
-		{56, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
-		{14, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.GameplayStatics 
-		{28, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.UserWidget 
+		{55, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Font /Engine/EngineFonts/Roboto.Roboto 
 		{12, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetStringLibrary 
+		{14, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.GameplayStatics 
+		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.UserWidget 
+		{4, FBlueprintDependencyType(false, true, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/Engine.KismetMathLibrary 
 		{15, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  ScriptStruct /Script/Engine.PointerToUberGraphFrame 
-		{88, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Button 
-		{36, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Image 
+		{89, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Button 
+		{58, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.Image 
 		{90, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.MultiLineEditableTextBox 
-		{37, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.TextBlock 
+		{22, FBlueprintDependencyType(true, false, false, false), FBlueprintDependencyType(false, false, false, false)},  //  Class /Script/UMG.TextBlock 
 	};
 	for(const FCompactBlueprintDependencyData& CompactData : LocCompactBlueprintDependencyData)
 	{

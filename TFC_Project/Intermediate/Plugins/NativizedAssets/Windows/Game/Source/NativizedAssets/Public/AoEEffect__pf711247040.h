@@ -6,7 +6,8 @@
 class UCapsuleComponent;
 class UParticleSystemComponent;
 class USceneComponent;
-class AtestEnemy2_C__pf4098986762;
+class Aenemy_base_C__pf839595025;
+class AAoETower_C__pf711247040;
 class UPrimitiveComponent;
 class AActor;
 #include "AoEEffect__pf711247040.generated.h"
@@ -26,7 +27,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Lifetime", Category="Default", MultiLine="true", OverrideNativeName="lifetime"))
 	float bpv__lifetime__pf;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Already Hit", Category="Default", MultiLine="true", OverrideNativeName="AlreadyHit"))
-	TArray<AtestEnemy2_C__pf4098986762*> bpv__AlreadyHit__pf;
+	TArray<Aenemy_base_C__pf839595025*> bpv__AlreadyHit__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Tower", Category="Default", MultiLine="true", OverrideNativeName="Tower"))
+	AAoETower_C__pf711247040* bpv__Tower__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_ComponentBoundEvent_HitComponent"))
 	UPrimitiveComponent* b0l__K2Node_ComponentBoundEvent_HitComponent__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_ComponentBoundEvent_OtherActor"))
@@ -37,8 +40,8 @@ public:
 	FVector b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_ComponentBoundEvent_Hit"))
 	FHitResult b0l__K2Node_ComponentBoundEvent_Hit__pf;
-	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_AsTest_Enemy_2"))
-	AtestEnemy2_C__pf4098986762* b0l__K2Node_DynamicCast_AsTest_Enemy_2__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_AsEnemy_Base"))
+	Aenemy_base_C__pf839595025* b0l__K2Node_DynamicCast_AsEnemy_Base__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_bSuccess"))
 	bool b0l__K2Node_DynamicCast_bSuccess__pf;
 	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_Event_DeltaSeconds"))

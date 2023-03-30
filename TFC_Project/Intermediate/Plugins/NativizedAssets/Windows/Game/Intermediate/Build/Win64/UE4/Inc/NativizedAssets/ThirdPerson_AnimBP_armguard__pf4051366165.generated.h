@@ -1,0 +1,131 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FPoseLink;
+#ifdef NATIVIZEDASSETS_ThirdPerson_AnimBP_armguard__pf4051366165_generated_h
+#error "ThirdPerson_AnimBP_armguard__pf4051366165.generated.h already included, missing '#pragma once' in ThirdPerson_AnimBP_armguard__pf4051366165.h"
+#endif
+#define NATIVIZEDASSETS_ThirdPerson_AnimBP_armguard__pf4051366165_generated_h
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_SPARSE_DATA
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__AnimGraph__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_armguard_AnimGraphNode_BlendSpacePlayer_63CD7D1E41D0AE3D5239AA8A93754678__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_armguard_AnimGraphNode_BlendSpacePlayer_B070F20348F5268F9B6405A8F20C5E37__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_armguard_AnimGraphNode_TransitionResult_CC3612DA4BF3588F6AFBE2AD573AE329__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintUpdateAnimation__pf);
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__AnimGraph__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_armguard_AnimGraphNode_BlendSpacePlayer_63CD7D1E41D0AE3D5239AA8A93754678__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_armguard_AnimGraphNode_BlendSpacePlayer_B070F20348F5268F9B6405A8F20C5E37__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_armguard_AnimGraphNode_TransitionResult_CC3612DA4BF3588F6AFBE2AD573AE329__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintUpdateAnimation__pf);
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_EVENT_PARMS \
+	struct ThirdPerson_AnimBP_armguard_C__pf4051366165_eventbpf__BlueprintUpdateAnimation__pf_Parms \
+	{ \
+		float bpp__DeltaTimeX__pf; \
+	};
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_CALLBACK_WRAPPERS \
+	void eventbpf__BlueprintUpdateAnimation__pf(float bpp__DeltaTimeX__pf); \
+
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUThirdPerson_AnimBP_armguard_C__pf4051366165(); \
+	friend struct Z_Construct_UClass_UThirdPerson_AnimBP_armguard_C__pf4051366165_Statics; \
+public: \
+	DECLARE_CLASS(UThirdPerson_AnimBP_armguard_C__pf4051366165, UAnimInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Game/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard"), NO_API) \
+	DECLARE_SERIALIZER(UThirdPerson_AnimBP_armguard_C__pf4051366165) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_INCLASS \
+private: \
+	static void StaticRegisterNativesUThirdPerson_AnimBP_armguard_C__pf4051366165(); \
+	friend struct Z_Construct_UClass_UThirdPerson_AnimBP_armguard_C__pf4051366165_Statics; \
+public: \
+	DECLARE_CLASS(UThirdPerson_AnimBP_armguard_C__pf4051366165, UAnimInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Game/resouerce/Mannequin/Animations/ThirdPerson_AnimBP_armguard"), NO_API) \
+	DECLARE_SERIALIZER(UThirdPerson_AnimBP_armguard_C__pf4051366165) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UThirdPerson_AnimBP_armguard_C__pf4051366165(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UThirdPerson_AnimBP_armguard_C__pf4051366165) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UThirdPerson_AnimBP_armguard_C__pf4051366165); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UThirdPerson_AnimBP_armguard_C__pf4051366165); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UThirdPerson_AnimBP_armguard_C__pf4051366165(UThirdPerson_AnimBP_armguard_C__pf4051366165&&); \
+	NO_API UThirdPerson_AnimBP_armguard_C__pf4051366165(const UThirdPerson_AnimBP_armguard_C__pf4051366165&); \
+public:
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UThirdPerson_AnimBP_armguard_C__pf4051366165(UThirdPerson_AnimBP_armguard_C__pf4051366165&&); \
+	NO_API UThirdPerson_AnimBP_armguard_C__pf4051366165(const UThirdPerson_AnimBP_armguard_C__pf4051366165&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UThirdPerson_AnimBP_armguard_C__pf4051366165); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UThirdPerson_AnimBP_armguard_C__pf4051366165); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UThirdPerson_AnimBP_armguard_C__pf4051366165)
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_PRIVATE_PROPERTY_OFFSET
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_13_PROLOG \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_EVENT_PARMS
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_PRIVATE_PROPERTY_OFFSET \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_SPARSE_DATA \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_RPC_WRAPPERS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_CALLBACK_WRAPPERS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_INCLASS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_PRIVATE_PROPERTY_OFFSET \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_SPARSE_DATA \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_CALLBACK_WRAPPERS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_INCLASS_NO_PURE_DECLS \
+	TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h_17_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class UThirdPerson_AnimBP_armguard_C__pf4051366165>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID TFC_Project_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ThirdPerson_AnimBP_armguard__pf4051366165_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
