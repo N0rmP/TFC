@@ -1,9 +1,0 @@
-C:\Users\c4607\OneDrive\Desktop\TFC_home\TFC\TFC_Project\Intermediate\Build\Win64\UE4\Development\TFC_Project\Definitions.TFC_Project.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\c4607\OneDrive\Desktop\TFC_home\TFC\TFC_Project\Source\TFC_Project/TFC_ProjectGameModeBase.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameModeBase.generated.h
-C:\Users\c4607\OneDrive\Desktop\TFC_home\TFC\TFC_Project\Intermediate\Build\Win64\UE4\Inc\TFC_Project\TFC_ProjectGameModeBase.generated.h
