@@ -4,9 +4,11 @@
 
 ####################
 
-#*/Build
+*/Build
 
 */Binaries
+
+*/Config
 
 */DerivedDataCache
 
@@ -20,11 +22,7 @@
 
 ###########
 
-*/Content/AssetFolderName1
-
-*/Content/AssetFolderName2
-
-*/Content/AssetFolderName3
+*/Content/Assets
 
 ##################
 
